@@ -90,6 +90,8 @@ export default class GameScene extends Phaser.Scene {
 
     // Iniciar música de menú inmediatamente
     this.menuBgm.play();
+    this.currentLevel = 1;
+    this.updateLevelUI();
 
     // Actualización de idioma
     this.updateDualUI(
@@ -260,7 +262,7 @@ export default class GameScene extends Phaser.Scene {
       Phaser.Utils.Array.Shuffle(this.phrasesData);
     }
 
-    // 2. GESTIÓN DE LA FRASE ACTUAL: Si nextPhraseData es null (por cambio de nivel), genera una nueva
+    // 2. GESTIÓN DE LA FRASE ACTUAL
     if (!this.nextPhraseData) {
       this.nextPhraseData = this.getRandomPhrase();
     }
@@ -276,7 +278,9 @@ export default class GameScene extends Phaser.Scene {
     const container = this.add.container(centerX, -150);
 
     const isMobile = this.scale.width < 1024;
-    const boxWidth = this.scale.width * (isMobile ? 0.9 : 0.85);
+
+    // Ajuste de ancho: En móvil usamos el 95% para dar más espacio a la letra
+    const boxWidth = this.scale.width * (isMobile ? 0.95 : 0.85);
     const boxHeight = this.currentBoxHeight;
 
     const rect = this.add.graphics();
@@ -289,16 +293,24 @@ export default class GameScene extends Phaser.Scene {
     rect.strokeRoundedRect(-boxWidth / 2, -boxHeight / 2, boxWidth, boxHeight, 12);
 
     const displayValue = currentData[this.sourceLang] || currentData.en;
+
+    // AJUSTE DE LETRA: Aumentamos a 42px solo en móvil, PC se mantiene en 36px
+    const baseFontSize = isMobile ? 42 : 36;
+
     const text = this.add
       .text(0, 0, displayValue, {
         fontFamily: "Arial Black",
-        fontSize: `${36 * this.scaleFactor}px`,
+        fontSize: `${baseFontSize * this.scaleFactor}px`,
         color: "#ffffff",
+        // Sombra para mejorar contraste en pantallas pequeñas
+        shadow: { blur: 2, color: "#000000", fill: true, offsetX: 2, offsetY: 2 },
       })
       .setOrigin(0.5);
 
-    if (text.width > boxWidth * 0.9) {
-      text.setScale((boxWidth * 0.9) / text.width);
+    // ESCALADO DINÁMICO: En móvil permitimos que use casi todo el ancho del cuadro
+    const maxTextWidth = boxWidth * (isMobile ? 0.95 : 0.9);
+    if (text.width > maxTextWidth) {
+      text.setScale(maxTextWidth / text.width);
     }
 
     container.add([rect, text]);
@@ -444,7 +456,13 @@ export default class GameScene extends Phaser.Scene {
 
       if (calculatedLevel > this.currentLevel) {
         this.currentLevel = calculatedLevel;
-        this.nextPhraseData = null; // Forzamos carga de nuevo nivel
+        this.nextPhraseData = null;
+
+        // LLAMADA CRÍTICA: Actualiza los textos de nivel en la pantalla
+        this.updateLevelUI();
+
+        // Filtrar frases para el nuevo nivel
+        this.phrasesData = this.allPhrases.filter((p) => p.nivel === this.currentLevel);
 
         const msgs = ["¡Excelente!", "Siguiente Nivel", "Cargando frases...", "¡Vas muy bien!"];
         const msg = msgs[Math.floor(Math.random() * msgs.length)];
@@ -454,6 +472,7 @@ export default class GameScene extends Phaser.Scene {
 
         this.showLevelTransition();
       } else {
+        // AGREGAR ESTO: Si no subió de nivel, lanzar la siguiente frase tras un breve delay
         if (!this.activePhrase && !this.isPaused) {
           this.time.delayedCall(300, () => this.spawnPhrase());
         }
@@ -510,14 +529,12 @@ export default class GameScene extends Phaser.Scene {
     if (!container || !display) return;
 
     container.innerHTML = "";
-    // Forzamos h-full y flex-col para controlar el crecimiento
-    container.className = "w-full flex flex-col overflow-hidden h-full max-h-[35vh]";
+    // Eliminamos justify-between y usamos flex-col directo
+    container.className = "w-full flex flex-col h-full overflow-hidden p-1";
 
     let currentInput = display.innerText;
-    let isScrolling = false;
-    let startY = 0;
 
-    // --- LÓGICA DE CARACTERES ---
+    // --- 1. LÓGICA DE CARACTERES ---
     let allChars = [];
     if (this.targetLang === "jp") {
       if (this.jpPage === undefined) this.jpPage = 1;
@@ -528,14 +545,13 @@ export default class GameScene extends Phaser.Scene {
       };
       allChars = levels[this.jpPage].split("");
 
-      // Tabs de niveles (más compactos)
       const levelTabs = document.createElement("div");
       levelTabs.className =
         "flex justify-around bg-slate-950/50 p-1 mb-1 rounded-lg border border-slate-800 shrink-0";
       [1, 2, 3].forEach((num) => {
         const tab = document.createElement("button");
         tab.innerText = `Niv ${num}`;
-        tab.className = `px-2 py-1 text-[9px] font-black rounded-md ${this.jpPage === num ? "bg-sky-500 text-white" : "text-slate-500"}`;
+        tab.className = `px-2 py-0.5 text-[9px] font-black rounded-md ${this.jpPage === num ? "bg-sky-500 text-white" : "text-slate-500"}`;
         tab.onclick = () => {
           this.jpPage = num;
           this.setupVirtualKeyboard();
@@ -544,116 +560,93 @@ export default class GameScene extends Phaser.Scene {
       });
       container.appendChild(levelTabs);
     } else {
-      allChars = "QWERTYUIOPASDFGHJKLZXCVBNM".split("");
+      allChars = "QWERTYUIOPASDFGHJKLZXCVBNMÑ".split("");
     }
 
-    // 1. ÁREA DE LETRAS (Grid con scroll interno)
+    // --- 2. ÁREA DE LETRAS (Grid) ---
     const keysGrid = document.createElement("div");
-    // Reducimos h-9 para ganar espacio
-    keysGrid.className = "grid gap-1 flex-1 overflow-y-auto custom-scrollbar p-1";
+    // min-h-0 es clave para que el grid no crezca más de lo que permite el padre
+    keysGrid.className = "grid gap-1 flex-1 min-h-0 overflow-hidden";
     keysGrid.style.display = "grid";
-    keysGrid.style.gridTemplateColumns =
-      this.targetLang === "jp" ? "repeat(5, 1fr)" : "repeat(6, 1fr)";
+
+    // Usamos 9 columnas para inglés para que sea más bajo y quepa mejor
+    const cols = this.targetLang === "jp" ? 5 : 9;
+    keysGrid.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+    keysGrid.style.gridAutoRows = "1fr";
 
     allChars.forEach((char) => {
       const key = document.createElement("button");
       key.innerText = char;
       key.className =
-        "h-9 bg-slate-800 text-white font-black rounded-lg border-b-2 border-slate-950 active:translate-y-[1px] active:border-b-0 text-sm flex items-center justify-center";
+        "bg-slate-800 text-white font-black rounded-md border-b-2 border-slate-950 active:translate-y-[1px] active:border-b-0 text-[10px] flex items-center justify-center";
 
-      key.addEventListener(
-        "touchstart",
-        (e) => {
-          startY = e.touches[0].pageY;
-          isScrolling = false;
-        },
-        { passive: true },
-      );
-      key.addEventListener(
-        "touchmove",
-        (e) => {
-          if (Math.abs(e.touches[0].pageY - startY) > 10) isScrolling = true;
-        },
-        { passive: true },
-      );
       key.addEventListener("touchend", (e) => {
-        if (!isScrolling) {
-          e.preventDefault();
-          currentInput += char;
-          display.innerText = currentInput;
-          key.classList.add("bg-slate-700");
-          setTimeout(() => key.classList.remove("bg-slate-700"), 100);
-        }
+        e.preventDefault();
+        currentInput += char;
+        display.innerText = currentInput;
+        key.classList.add("bg-slate-700");
+        setTimeout(() => key.classList.remove("bg-slate-700"), 100);
       });
       keysGrid.appendChild(key);
     });
+    container.appendChild(keysGrid);
 
-    // 2. FILA DE CONTROLES (Aquí incluimos el ESPACIO)
+    // --- 3. ACCIONES Y LLAMADA ---
+    const onEnter = (val) => {
+      if (val.trim() !== "") {
+        this.checkTranslation(val.trim());
+        display.innerText = "";
+        currentInput = "";
+      }
+    };
+    const onDelete = () => {
+      currentInput = currentInput.slice(0, -1);
+      display.innerText = currentInput;
+    };
+    const onSpace = () => {
+      currentInput += " ";
+      display.innerText = currentInput;
+    };
+
+    this.addKeyboardControls(container, display, onEnter, onDelete, onSpace);
+  }
+
+  addKeyboardControls(container, display, onEnter, onDelete, onSpace) {
     const ctrlRow = document.createElement("div");
-    ctrlRow.className =
-      "flex gap-1.5 w-full p-1.5 bg-slate-900 border-t border-slate-700 mt-auto shrink-0";
+    // Reducimos mt-1 y pt-1 para ganar espacio vertical
+    ctrlRow.className = "flex gap-1 w-full mt-1 pt-1 border-t border-slate-700/30 shrink-0 h-10";
 
     // Botón BORRAR
     const delBtn = document.createElement("button");
     delBtn.innerHTML = "⌫";
     delBtn.className =
-      "flex-1 h-10 bg-slate-700 text-red-400 rounded-lg border-b-2 border-slate-950 font-bold flex items-center justify-center";
-    delBtn.onclick = () => {
-      currentInput = currentInput.slice(0, -1);
-      display.innerText = currentInput;
+      "flex-1 bg-slate-700 text-red-400 rounded-lg border-b-2 border-slate-950 font-bold text-lg active:translate-y-[1px] flex items-center justify-center";
+    delBtn.onclick = (e) => {
+      e.preventDefault();
+      onDelete();
     };
 
-    // Botón ESPACIO (Nuevo)
+    // Botón ESPACIO
     const spaceBtn = document.createElement("button");
-    spaceBtn.innerText = "ESPACIO";
+    spaceBtn.innerText = "___";
     spaceBtn.className =
-      "flex-[2] h-10 bg-slate-800 text-slate-300 rounded-lg border-b-2 border-slate-950 font-black text-[10px] flex items-center justify-center uppercase tracking-widest";
-    spaceBtn.onclick = () => {
-      currentInput += " ";
-      display.innerText = currentInput;
+      "flex-[1.5] bg-slate-800 text-slate-400 rounded-lg border-b-2 border-slate-950 font-black text-[9px] flex items-center justify-center";
+    spaceBtn.onclick = (e) => {
+      e.preventDefault();
+      onSpace();
     };
 
     // Botón ENVIAR
     const enterBtn = document.createElement("button");
-    enterBtn.innerText = "ENVIAR";
+    enterBtn.innerText = "OK";
     enterBtn.className =
-      "flex-[1.5] h-10 bg-sky-600 text-white rounded-lg border-b-2 border-sky-800 font-black text-[10px] flex items-center justify-center";
-    enterBtn.onclick = () => {
-      if (display.innerText.trim() !== "") {
-        this.checkTranslation(display.innerText.trim());
-        currentInput = "";
-        display.innerText = "";
-      }
+      "flex-[2] bg-sky-600 text-white rounded-lg border-b-2 border-sky-800 font-black text-[10px] flex items-center justify-center";
+    enterBtn.onclick = (e) => {
+      e.preventDefault();
+      onEnter(display.innerText);
     };
 
     ctrlRow.append(delBtn, spaceBtn, enterBtn);
-    container.append(keysGrid, ctrlRow);
-  }
-
-  addKeyboardControls(container, display, onEnter, onDelete) {
-    const ctrlRow = document.createElement("div");
-    // Esta fila ocupa todo el ancho inferior
-    ctrlRow.className = "col-span-full flex gap-2 w-full mt-1 pt-1 border-t border-slate-700/30";
-
-    const delBtn = document.createElement("button");
-    delBtn.innerHTML = "⌫";
-    delBtn.className =
-      "flex-1 h-11 bg-slate-700 text-red-400 rounded-xl border-b-2 border-slate-950 font-bold text-xl active:translate-y-[1px]";
-    delBtn.addEventListener("touchstart", (e) => {
-      e.preventDefault();
-      onDelete();
-    });
-
-    const enterBtn = document.createElement("button");
-    enterBtn.innerText = "ENVIAR";
-    enterBtn.className =
-      "flex-[3] h-11 bg-sky-600 text-white rounded-xl border-b-2 border-sky-800 font-black text-sm active:translate-y-[1px]";
-    enterBtn.addEventListener("touchstart", (e) => {
-      e.preventDefault();
-      onEnter(display.innerText);
-    });
-
-    ctrlRow.append(delBtn, enterBtn);
     container.appendChild(ctrlRow);
   }
 
@@ -871,17 +864,19 @@ export default class GameScene extends Phaser.Scene {
   }
 
   updateLevelUI() {
-    // Actualiza el texto en PC (level-display) y Móvil (level-display-m)
+    // 1. Usar tu función genérica para actualizar el texto
     this.updateDualUI("level-display", this.currentLevel);
 
-    // Feedback visual: Pequeña animación de escala y color para resaltar el cambio
+    // 2. Aplicar animaciones de Tailwind
     const lvPC = document.getElementById("level-display");
     const lvMob = document.getElementById("level-display-m");
 
     [lvPC, lvMob].forEach((el) => {
       if (el) {
+        // Aseguramos que el texto cambie incluso si updateDualUI falló
+        el.innerText = this.currentLevel;
+
         el.classList.add("scale-125", "text-yellow-400", "transition-all", "duration-300");
-        // Quitamos el efecto después de 500ms
         setTimeout(() => {
           el.classList.remove("scale-125", "text-yellow-400");
         }, 500);
@@ -1059,6 +1054,7 @@ export default class GameScene extends Phaser.Scene {
     const loaderContainer = this.add.container(0, 0).setDepth(1000);
 
     // 1. ELIMINADO: Ya no creamos el rectángulo 'bg' para que sea totalmente transparente
+    const bg = this.add.rectangle(0, 0, width, height, 0x0f172a, 1).setOrigin(0);
 
     // 2. Barra de progreso estética
     const barWidth = 300;
@@ -1083,7 +1079,7 @@ export default class GameScene extends Phaser.Scene {
       .setOrigin(0.5);
 
     // Solo añadimos los elementos visibles de la barra y el texto
-    loaderContainer.add([progressBg, progressBar, loadingText]);
+    loaderContainer.add([bg, progressBg, progressBar, loadingText]);
 
     // Simulación de carga
     this.tweens.add({
