@@ -1,0 +1,2502 @@
+[
+  {
+    "id": 1,
+    "nivel": 1,
+    "tags": ["cortesia"],
+    "en": "How are you? (jau ar iu?)",
+    "jp": "お元気ですか (Ogenki desu ka)",
+    "es": "¿Cómo estás?",
+    "fr": "Comment ça va ? (koman sa va?)",
+    "it": "Come stai? (kome stai?)"
+  },
+  {
+    "id": 2,
+    "nivel": 1,
+    "tags": ["cortesia"],
+    "en": "I am fine (ai am fain)",
+    "jp": "元気です (Genki desu)",
+    "es": "Estoy bien",
+    "fr": "Je vais bien (zhe ve bian)",
+    "it": "Sto bene (sto bene)"
+  },
+  {
+    "id": 3,
+    "nivel": 1,
+    "tags": ["cortesia"],
+    "en": "Thank you very much (zenkiu veri mach)",
+    "jp": "ありがとうございます (Arigatou gozaimasu)",
+    "es": "Muchas gracias",
+    "fr": "Merci beaucoup (mersi boku)",
+    "it": "Grazie mille (gratzie mille)"
+  },
+  {
+    "id": 4,
+    "nivel": 1,
+    "tags": ["cortesia"],
+    "en": "You are welcome (iu ar uelcom)",
+    "jp": "どういたしまして (Douitashimashite)",
+    "es": "De nada",
+    "fr": "De rien (de rian)",
+    "it": "Prego (prego)"
+  },
+  {
+    "id": 5,
+    "nivel": 1,
+    "tags": ["cortesia"],
+    "en": "Excuse me (eksius mi)",
+    "jp": "すみません (Sumimasen)",
+    "es": "Disculpe",
+    "fr": "Excusez-moi (eksiuze mua)",
+    "it": "Scusi (skuzi)"
+  },
+  {
+    "id": 6,
+    "nivel": 2,
+    "tags": ["presentacion"],
+    "en": "What is your name? (uhat is ior neim?)",
+    "jp": "お名前は何ですか (Onamae wa nan desu ka)",
+    "es": "¿Cómo te llamas?",
+    "fr": "Comment vous appelez-vous ? (koman vuz-aple vu?)",
+    "it": "Come ti chiami? (kome ti kiami?)"
+  },
+  {
+    "id": 7,
+    "nivel": 2,
+    "tags": ["presentacion"],
+    "en": "My name is... (mai neim is...)",
+    "jp": "私の名前は...です (Watashi no namae wa... desu)",
+    "es": "Mi nombre es...",
+    "fr": "Je m'appelle... (zhe mapel...)",
+    "it": "Mi chiamo... (mi kiamo...)"
+  },
+  {
+    "id": 8,
+    "nivel": 2,
+    "tags": ["presentacion"],
+    "en": "Nice to meet you (nais tu miit iu)",
+    "jp": "はじめまして (Hajimemashite)",
+    "es": "Mucho gusto",
+    "fr": "Enchanté (onshante)",
+    "it": "Piacere di conoscerti (piachere di konosherti)"
+  },
+  {
+    "id": 9,
+    "nivel": 2,
+    "tags": ["presentacion"],
+    "en": "Where are you from? (uer ar iu fram?)",
+    "jp": "出身はどこですか (Shoushin wa doko desu ka)",
+    "es": "¿De dónde eres?",
+    "fr": "D'où venez-vous ? (du vene vu?)",
+    "it": "Di dove sei? (di dove sei?)"
+  },
+  {
+    "id": 10,
+    "nivel": 2,
+    "tags": ["presentacion"],
+    "en": "I am from... (ai am fram...)",
+    "jp": "私は...出身です (Watashi wa... shoushin desu)",
+    "es": "Soy de...",
+    "fr": "Je viens de... (zhe vian de...)",
+    "it": "Vengo da... (vengo da...)"
+  },
+  {
+    "id": 11,
+    "nivel": 3,
+    "tags": ["necesidades"],
+    "en": "I am hungry (ai am jangri)",
+    "jp": "お腹が空いています (Onaka ga suite imasu)",
+    "es": "Tengo hambre",
+    "fr": "J'ai faim (zhe fan)",
+    "it": "Ho fame (o fame)"
+  },
+  {
+    "id": 12,
+    "nivel": 3,
+    "tags": ["necesidades"],
+    "en": "I am thirsty (ai am zersti)",
+    "jp": "喉が渇いています (Nodo ga kawaite imasu)",
+    "es": "Tengo sed",
+    "fr": "J'ai soif (zhe suaf)",
+    "it": "Ho sete (o sete)"
+  },
+  {
+    "id": 13,
+    "nivel": 3,
+    "tags": ["necesidades"],
+    "en": "I need help (ai niid jelp)",
+    "jp": "助けが必要です (Tasuke ga hitsuyou desu)",
+    "es": "Necesito ayuda",
+    "fr": "J'ai besoin d'aide (zhe bezuan ded)",
+    "it": "Ho bisogno di aiuto (o bizonio di aiuro)"
+  },
+  {
+    "id": 14,
+    "nivel": 3,
+    "tags": ["necesidades"],
+    "en": "Where is the bathroom? (uer is de bazrum?)",
+    "jp": "トイレはどこですか (Toire wa doko desu ka)",
+    "es": "¿Dónde está el baño?",
+    "fr": "Où sont les toilettes ? (u son le tualet?)",
+    "it": "Dov'è il bagno? (dove il banio?)"
+  },
+  {
+    "id": 15,
+    "nivel": 3,
+    "tags": ["necesidades"],
+    "en": "I don't understand (ai dont anderstand)",
+    "jp": "わかりません (Wakarimasen)",
+    "es": "No entiendo",
+    "fr": "Je ne comprends pas (zhe ne kompran pa)",
+    "it": "Non capisco (non kapisko)"
+  },
+  {
+    "id": 16,
+    "nivel": 4,
+    "tags": ["compras"],
+    "en": "How much is this? (jau mach is dis?)",
+    "jp": "これはいくらですか (Kore wa ikura desu ka)",
+    "es": "¿Cuánto cuesta esto?",
+    "fr": "C'est combien ? (se kombian?)",
+    "it": "Quanto costa questo? (kuanto kosta kuesto?)"
+  },
+  {
+    "id": 17,
+    "nivel": 4,
+    "tags": ["compras"],
+    "en": "It is too expensive (it is tu ekspensiv)",
+    "jp": "高すぎます (Takasugimasu)",
+    "es": "Es demasiado caro",
+    "fr": "C'est trop cher (se tro sher)",
+    "it": "È troppo caro (e troppo karo)"
+  },
+  {
+    "id": 18,
+    "nivel": 4,
+    "tags": ["compras"],
+    "en": "Can I pay by card? (can ai pei bai card?)",
+    "jp": "カードで払えますか (Kaado de haraemasu ka)",
+    "es": "¿Puedo pagar con tarjeta?",
+    "fr": "Puis-je payer par carte ? (pui-zhe peie par kart?)",
+    "it": "Posso pagare con la carta? (posso pagare kon la karta?)"
+  },
+  {
+    "id": 19,
+    "nivel": 4,
+    "tags": ["compras"],
+    "en": "I would like to buy this (ai uold laik tu bai dis)",
+    "jp": "これを買いたいです (Kore wo kaitai desu)",
+    "es": "Me gustaría comprar esto",
+    "fr": "Je voudrais acheter ceci (zhe vudre ashte sesi)",
+    "it": "Vorrei comprare questo (vorrei komprare kuesto)"
+  },
+  {
+    "id": 20,
+    "nivel": 4,
+    "tags": ["compras"],
+    "en": "Do you have change? (du iu jav cheinch?)",
+    "jp": "お釣りはありますか (Otsuri wa arimasu ka)",
+    "es": "¿Tiene cambio?",
+    "fr": "Avez-vous de la monnaie ? (ave vu de la mone?)",
+    "it": "Ha il resto? (a il resto?)"
+  },
+  {
+    "id": 21,
+    "nivel": 5,
+    "tags": ["tiempo"],
+    "en": "What time is it? (uhat taim is it?)",
+    "jp": "今何時ですか (Ima nanji desu ka)",
+    "es": "¿Qué hora es?",
+    "fr": "Quelle heure est-il ? (kel er et-il?)",
+    "it": "Che ore sono? (ke ore sono?)"
+  },
+  {
+    "id": 22,
+    "nivel": 5,
+    "tags": ["tiempo"],
+    "en": "It is early (it is erli)",
+    "jp": "早いです (Hayai desu)",
+    "es": "Es temprano",
+    "fr": "Il est tôt (il e to)",
+    "it": "È presto (e presto)"
+  },
+  {
+    "id": 23,
+    "nivel": 5,
+    "tags": ["tiempo"],
+    "en": "It is late (it is leit)",
+    "jp": "遅いです (Osoi desu)",
+    "es": "Es tarde",
+    "fr": "Il est tard (il e tar)",
+    "it": "È tardi (e tardi)"
+  },
+  {
+    "id": 24,
+    "nivel": 5,
+    "tags": ["tiempo"],
+    "en": "At what time? (at uhat taim?)",
+    "jp": "何時に？ (Nanji ni?)",
+    "es": "¿A qué hora?",
+    "fr": "À quelle heure ? (a kel er?)",
+    "it": "A che ora? (a ke ora?)"
+  },
+  {
+    "id": 25,
+    "nivel": 5,
+    "tags": ["tiempo"],
+    "en": "I am in a hurry (ai am in a jarri)",
+    "jp": "急いでいます (Isoide imasu)",
+    "es": "Tengo prisa",
+    "fr": "Je suis pressé (zhe sui prese)",
+    "it": "Ho fretta (o fretta)"
+  },
+  {
+    "id": 26,
+    "nivel": 6,
+    "tags": ["restaurante"],
+    "en": "A table for two, please (a teibl for tu, pliiz)",
+    "jp": "二人用の席をお願いします (Futariyou no seki wo onegaishimasu)",
+    "es": "Una mesa para dos, por favor",
+    "fr": "Une table pour deux, s'il vous plaît (un tabl pur de, sil vu ple)",
+    "it": "Un tavolo per due, per favore (un tavolo per due, per favore)"
+  },
+  {
+    "id": 27,
+    "nivel": 6,
+    "tags": ["restaurante"],
+    "en": "The menu, please (de meniu, pliiz)",
+    "jp": "メニューをお願いします (Menyuu wo onegaishimasu)",
+    "es": "El menú, por favor",
+    "fr": "La carte, s'il vous plaît (la kart, sil vu ple)",
+    "it": "Il menu, per favore (il menu, per favore)"
+  },
+  {
+    "id": 28,
+    "nivel": 6,
+    "tags": ["restaurante"],
+    "en": "I am a vegetarian (ai am a veyeterian)",
+    "jp": "私は菜食主義者です (Watashi wa saishokushugisha desu)",
+    "es": "Soy vegetariano",
+    "fr": "Je suis végétarien (zhe sui vezheterian)",
+    "it": "Sono vegetariano (sono vejetariano)"
+  },
+  {
+    "id": 29,
+    "nivel": 6,
+    "tags": ["restaurante"],
+    "en": "It was delicious (it uas delishos)",
+    "jp": "美味しかったです (Oishikatta desu)",
+    "es": "Estuvo delicioso",
+    "fr": "C'était délicieux (sete delisie)",
+    "it": "Era delizioso (era delitsiozo)"
+  },
+  {
+    "id": 30,
+    "nivel": 6,
+    "tags": ["restaurante"],
+    "en": "The check, please (de chek, pliiz)",
+    "jp": "お勘定をお願いします (Okanjou wo onegaishimasu)",
+    "es": "La cuenta, por favor",
+    "fr": "L'addition, s'il vous plaît (ladision, sil vu ple)",
+    "it": "Il conto, per favore (il konto, per favore)"
+  },
+  {
+    "id": 31,
+    "nivel": 7,
+    "tags": ["direcciones"],
+    "en": "Go straight (gou streit)",
+    "jp": "真っ直ぐ行ってください (Massugu itte kudasai)",
+    "es": "Sigue recto",
+    "fr": "Allez tout droit (ale tu drua)",
+    "it": "Vai dritto (vai dritto)"
+  },
+  {
+    "id": 32,
+    "nivel": 7,
+    "tags": ["direcciones"],
+    "en": "Turn left (tern left)",
+    "jp": "左に曲がってください (Hidari ni magatte kudasai)",
+    "es": "Gira a la izquierda",
+    "fr": "Tournez à gauche (turne a gosh)",
+    "it": "Gira a sinistra (jira a sinistra)"
+  },
+  {
+    "id": 33,
+    "nivel": 7,
+    "tags": ["direcciones"],
+    "en": "Turn right (tern rait)",
+    "jp": "右に曲がってください (Migi ni magatte kudasai)",
+    "es": "Gira a la derecha",
+    "fr": "Tournez à droite (turne a druat)",
+    "it": "Gira a destra (jira a destra)"
+  },
+  {
+    "id": 34,
+    "nivel": 7,
+    "tags": ["direcciones"],
+    "en": "Is it far? (is it far?)",
+    "jp": "遠いですか (Tooi desu ka)",
+    "es": "¿Está lejos?",
+    "fr": "Est-ce loin ? (es luan?)",
+    "it": "È lontano? (e lontano?)"
+  },
+  {
+    "id": 35,
+    "nivel": 7,
+    "tags": ["direcciones"],
+    "en": "It is near here (it is niar jiar)",
+    "jp": "ここから近いです (Koko kara chikai desu)",
+    "es": "Está cerca de aquí",
+    "fr": "C'est près d'ici (se pre disi)",
+    "it": "È qui vicino (e kui vichino)"
+  },
+  {
+    "id": 36,
+    "nivel": 8,
+    "tags": ["transporte"],
+    "en": "Where is the train station? (uer is de trein steishon?)",
+    "jp": "駅はどこですか (Eki wa doko desu ka)",
+    "es": "¿Dónde está la estación de tren?",
+    "fr": "Où est la gare ? (u e la gar?)",
+    "it": "Dov'è la stazione ferroviaria? (dove la statzione feroviaria?)"
+  },
+  {
+    "id": 37,
+    "nivel": 8,
+    "tags": ["transporte"],
+    "en": "A ticket to..., please (a tiket tu..., pliiz)",
+    "jp": "...までの切符を一枚お願いします (...made no kippu wo ichimai onegaishimasu)",
+    "es": "Un boleto a..., por favor",
+    "fr": "Un billet pour..., s'il vous plaît (un biye pur..., sil vu ple)",
+    "it": "Un biglietto per..., per favore (un biietto per..., per favore)"
+  },
+  {
+    "id": 38,
+    "nivel": 8,
+    "tags": ["transporte"],
+    "en": "Is this seat taken? (is dis siit teiken?)",
+    "jp": "この席は空いていますか (Kono seki wa aite imasu ka)",
+    "es": "¿Está ocupado este asiento?",
+    "fr": "Cette place est-elle prise ? (set plas et-el priz?)",
+    "it": "È occupato questo posto? (e okkupato kuesto posto?)"
+  },
+  {
+    "id": 39,
+    "nivel": 8,
+    "tags": ["transporte"],
+    "en": "Stop here, please (stop jiar, pliiz)",
+    "jp": "ここで止まってください (Koko de tomatte kudasai)",
+    "es": "Pare aquí, por favor",
+    "fr": "Arrêtez-vous ici, s'il vous plaît (arete vu isi, sil vu ple)",
+    "it": "Si fermi qui, per favore (si fermi kui, per favore)"
+  },
+  {
+    "id": 40,
+    "nivel": 8,
+    "tags": ["transporte"],
+    "en": "What time does it leave? (uhat taim das it liiv?)",
+    "jp": "何時に出発しますか (Nanji ni shuppatsu shimasu ka)",
+    "es": "¿A qué hora sale?",
+    "fr": "À quelle heure part-il ? (a kel er part-il?)",
+    "it": "A che ora parte? (a ke ora parte?)"
+  },
+  {
+    "id": 41,
+    "nivel": 9,
+    "tags": ["salud"],
+    "en": "I feel sick (ai fiil sik)",
+    "jp": "気分が悪いです (Kibun ga warui desu)",
+    "es": "Me siento mal",
+    "fr": "Je me sens mal (zhe me san mal)",
+    "it": "Mi sento male (mi sento male)"
+  },
+  {
+    "id": 42,
+    "nivel": 9,
+    "tags": ["salud"],
+    "en": "I have a headache (ai jav a jed-eik)",
+    "jp": "頭が痛いです (Atama ga itai desu)",
+    "es": "Me dude la cabeza",
+    "fr": "J'ai mal à la tête (zhe mal a la tet)",
+    "it": "Ho mal di testa (o mal di testa)"
+  },
+  {
+    "id": 43,
+    "nivel": 9,
+    "tags": ["salud"],
+    "en": "Call a doctor (col a doctor)",
+    "jp": "医者を呼んでください (Isha wo yonde kudasai)",
+    "es": "Llame a un médico",
+    "fr": "Appelez un médecin (aple un medsan)",
+    "it": "Chiami un medico (kiami un mediko)"
+  },
+  {
+    "id": 44,
+    "nivel": 9,
+    "tags": ["salud"],
+    "en": "I am allergic to... (ai am alerjik tu...)",
+    "jp": "私は...アレルギーです (Watashi wa... arerugii desu)",
+    "es": "Soy alérgico a...",
+    "fr": "Je suis allergique à... (zhe sui alerzhik a...)",
+    "it": "Sono allergico a... (sono allerjiko a...)"
+  },
+  {
+    "id": 45,
+    "nivel": 9,
+    "tags": ["salud"],
+    "en": "Where is the pharmacy? (uer is de farmasi?)",
+    "jp": "薬局はどこですか (Yakkyoku wa doko desu ka)",
+    "es": "¿Dónde está la farmacia?",
+    "fr": "Où est la pharmacie ? (u e la farmasi?)",
+    "it": "Dov'è la farmacia? (dove la farmachia?)"
+  },
+  {
+    "id": 46,
+    "nivel": 10,
+    "tags": ["opiniones"],
+    "en": "I like it (ai laik it)",
+    "jp": "それが好きです (Sore ga suki desu)",
+    "es": "Me gusta",
+    "fr": "J'aime ça (zhem sa)",
+    "it": "Mi piace (mi piache)"
+  },
+  {
+    "id": 47,
+    "nivel": 10,
+    "tags": ["opiniones"],
+    "en": "I don't like it (ai dont laik it)",
+    "jp": "それは好きではありません (Sore wa suki dewa arimasen)",
+    "es": "No me gusta",
+    "fr": "Je n'aime pas ça (zhe nem pa sa)",
+    "it": "Non mi piace (non mi piache)"
+  },
+  {
+    "id": 48,
+    "nivel": 10,
+    "tags": ["opiniones"],
+    "en": "I think so (ai zink sou)",
+    "jp": "そう思います (Sou omoimasu)",
+    "es": "Creo que sí",
+    "fr": "Je pense que oui (zhe pans ke ui)",
+    "it": "Penso di sì (penso di si)"
+  },
+  {
+    "id": 49,
+    "nivel": 10,
+    "tags": ["opiniones"],
+    "en": "I don't think so (ai dont zink sou)",
+    "jp": "そうは思いません (Sou wa omoimasen)",
+    "es": "No lo creo",
+    "fr": "Je ne pense pas (zhe ne pans pa)",
+    "it": "Non credo (non kredo)"
+  },
+  {
+    "id": 50,
+    "nivel": 10,
+    "tags": ["opiniones"],
+    "en": "Are you sure? (ar iu shuar?)",
+    "jp": "本気ですか (Honki desu ka)",
+    "es": "¿Estás seguro?",
+    "fr": "Êtes-vous sûr ? (et vu syr?)",
+    "it": "Sei sicuro? (sei sikuro?)"
+  },
+  {
+    "id": 51,
+    "nivel": 11,
+    "tags": ["viajes"],
+    "en": "I need a hotel (ai niid a joutel)",
+    "jp": "ホテルが必要です (Hoteru ga hitsuyou desu)",
+    "es": "Necesito un hotel",
+    "fr": "J'ai besoin d'un hôtel (zhe bezuan dun otel)",
+    "it": "Ho bisogno di un hotel (o bizonio di un otel)"
+  },
+  {
+    "id": 52,
+    "nivel": 11,
+    "tags": ["viajes"],
+    "en": "Where is the airport? (uer is di erport?)",
+    "jp": "空港はどこですか (Kuukou wa doko desu ka)",
+    "es": "¿Dónde está el aeropuerto?",
+    "fr": "Où est l'aéroport ? (u e laeropor?)",
+    "it": "Dov'è l'aeroporto? (dove laeroporto?)"
+  },
+  {
+    "id": 53,
+    "nivel": 11,
+    "tags": ["viajes"],
+    "en": "I have a reservation (ai jav a reservation)",
+    "jp": "予約しています (Yoyaku shite imasu)",
+    "es": "Tengo una reservación",
+    "fr": "J'ai une réservation (zhe un rezervasion)",
+    "it": "Ho una prenotazione (o una prenotatzyone)"
+  },
+  {
+    "id": 54,
+    "nivel": 11,
+    "tags": ["viajes"],
+    "en": "Can you take a photo? (can iu teik a fouto?)",
+    "jp": "写真を撮ってくれますか (Shashin wo totte kuremasu ka)",
+    "es": "¿Puedes tomar una foto?",
+    "fr": "Pouvez-vous prendre une photo ? (puve vu prandr un foto?)",
+    "it": "Puoi fare una foto? (puoi fare una foto?)"
+  },
+  {
+    "id": 55,
+    "nivel": 11,
+    "tags": ["viajes"],
+    "en": "What is this place? (uhat is dis pleis?)",
+    "jp": "ここは何という場所ですか (Koko wa nan to iu basho desu ka)",
+    "es": "¿Qué lugar es este?",
+    "fr": "Quel est cet endroit ? (kel e set ondrua?)",
+    "it": "Che posto è questo? (ke posto e kuesto?)"
+  },
+  {
+    "id": 56,
+    "nivel": 12,
+    "tags": ["trabajo"],
+    "en": "I am a student (ai am a stiudent)",
+    "jp": "私は学生です (Watashi wa gakusei desu)",
+    "es": "Soy estudiante",
+    "fr": "Je suis étudiant (zhe sui etudian)",
+    "it": "Sono uno studente (sono uno studente)"
+  },
+  {
+    "id": 57,
+    "nivel": 12,
+    "tags": ["trabajo"],
+    "en": "What do you do? (uhat du iu du?)",
+    "jp": "お仕事は何ですか (Oshigoto wa nan desu ka)",
+    "es": "¿A qué te dedicas?",
+    "fr": "Que faites-vous ? (ke fet vu?)",
+    "it": "Che lavoro fai? (ke lavoro fai?)"
+  },
+  {
+    "id": 58,
+    "nivel": 12,
+    "tags": ["trabajo"],
+    "en": "I am looking for a job (ai am lukin for a iyob)",
+    "jp": "仕事を探しています (Shigoto wo sagashite imasu)",
+    "es": "Busco trabajo",
+    "fr": "Je cherche un travail (zhe shersh un travai)",
+    "it": "Cerco lavoro (cherko lavoro)"
+  },
+  {
+    "id": 59,
+    "nivel": 12,
+    "tags": ["trabajo"],
+    "en": "I am tired (ai am taiard)",
+    "jp": "疲れました (Tsukaremashita)",
+    "es": "Estoy cansado",
+    "fr": "Je suis fatigué (zhe sui fatigue)",
+    "it": "Sono stanco (sono stanko)"
+  },
+  {
+    "id": 60,
+    "nivel": 12,
+    "tags": ["trabajo"],
+    "en": "It is a lot of work (it is a lot of uork)",
+    "jp": "大変な仕事です (Taihen na shigoto desu)",
+    "es": "Es mucho trabajo",
+    "fr": "C'est beaucoup de travail (se boku de travai)",
+    "it": "È un sacco di lavoro (e un sakko di lavoro)"
+  },
+  {
+    "id": 61,
+    "nivel": 13,
+    "tags": ["sentimientos"],
+    "en": "I am happy (ai am japi)",
+    "jp": "私は幸せです (Watashi wa shiawase desu)",
+    "es": "Soy feliz",
+    "fr": "Je suis heureux (zhe sui ero)",
+    "it": "Sono felice (sono feliche)"
+  },
+  {
+    "id": 62,
+    "nivel": 13,
+    "tags": ["sentimientos"],
+    "en": "I am sad (ai am sad)",
+    "jp": "私は悲しいです (Watashi wa kanashii desu)",
+    "es": "Estoy triste",
+    "fr": "Je suis triste (zhe sui trist)",
+    "it": "Sono triste (sono triste)"
+  },
+  {
+    "id": 63,
+    "nivel": 13,
+    "tags": ["sentimientos"],
+    "en": "Don't worry (dount uorri)",
+    "jp": "心配しないでください (Shinpai shinaide kudasai)",
+    "es": "No te preocupes",
+    "fr": "Ne t'inquiète pas (ne tankiet pa)",
+    "it": "Non preoccuparti (non preokkuparti)"
+  },
+  {
+    "id": 64,
+    "nivel": 13,
+    "tags": ["sentimientos"],
+    "en": "I am angry (ai am angri)",
+    "jp": "怒っています (Okotte imasu)",
+    "es": "Estoy enojado",
+    "fr": "Je suis en colère (zhe sui an koler)",
+    "it": "Sono arrabbiato (sono arrabbiato)"
+  },
+  {
+    "id": 65,
+    "nivel": 13,
+    "tags": ["sentimientos"],
+    "en": "I love you (ai lav iu)",
+    "jp": "愛しています (Aishite imasu)",
+    "es": "Te amo",
+    "fr": "Je t'aime (zhe tem)",
+    "it": "Ti amo (ti amo)"
+  },
+  {
+    "id": 66,
+    "nivel": 14,
+    "tags": ["vida_diaria"],
+    "en": "I forgot my keys (ai forgot mai kiis)",
+    "jp": "鍵を忘れました (Kagi wo wasuremashita)",
+    "es": "Olvidé mis llaves",
+    "fr": "J'ai oublié mes clés (zhe ublie me kle)",
+    "it": "Ho dimenticato le chiavi (o dimentikato le kiavi)"
+  },
+  {
+    "id": 67,
+    "nivel": 14,
+    "tags": ["vida_diaria"],
+    "en": "I am going home (ai am goin jom)",
+    "jp": "家に帰ります (Ie ni kaerimasu)",
+    "es": "Voy a casa",
+    "fr": "Je rentre à la maison (zhe rontr a la mezon)",
+    "it": "Vado a casa (vado a kaza)"
+  },
+  {
+    "id": 68,
+    "nivel": 14,
+    "tags": ["vida_diaria"],
+    "en": "Wait for me (ueit for mi)",
+    "jp": "待ってください (Matte kudasai)",
+    "es": "Espérame",
+    "fr": "Attends-moi (aton mua)",
+    "it": "Aspettami (aspettami)"
+  },
+  {
+    "id": 69,
+    "nivel": 14,
+    "tags": ["vida_diaria"],
+    "en": "Let's go (lets gou)",
+    "jp": "行こう (Ikou)",
+    "es": "Vamos",
+    "fr": "On y va (on i va)",
+    "it": "Andiamo (andiamo)"
+  },
+  {
+    "id": 70,
+    "nivel": 14,
+    "tags": ["vida_diaria"],
+    "en": "I am ready (ai am redi)",
+    "jp": "準備ができました (Junbi ga dekimashita)",
+    "es": "Estoy listo",
+    "fr": "Je suis prêt (zhe sui pre)",
+    "it": "Sono pronto (sono pronto)"
+  },
+  {
+    "id": 71,
+    "nivel": 15,
+    "tags": ["social"],
+    "en": "You are right (iu ar rait)",
+    "jp": "あなたの言う通りです (Anata no iu toori desu)",
+    "es": "Tienes razón",
+    "fr": "Tu as raison (tu a rezon)",
+    "it": "Hai ragione (ai rajone)"
+  },
+  {
+    "id": 72,
+    "nivel": 15,
+    "tags": ["social"],
+    "en": "I disagree (ai disagrii)",
+    "jp": "反対です (Hantai desu)",
+    "es": "No estoy de acuerdo",
+    "fr": "Je ne suis pas d'accord (zhe ne sui pa dakor)",
+    "it": "Non sono d'accordo (non sono dakkordo)"
+  },
+  {
+    "id": 73,
+    "nivel": 15,
+    "tags": ["social"],
+    "en": "What happened? (uhat japend?)",
+    "jp": "何が起きましたか (Nani ga okimashita ka)",
+    "es": "¿Qué pasó?",
+    "fr": "Que s'est-il passé ? (ke set-il pase?)",
+    "it": "Cos'è successo? (koze suchesso?)"
+  },
+  {
+    "id": 74,
+    "nivel": 15,
+    "tags": ["social"],
+    "en": "It doesn't matter (it dasent mater)",
+    "jp": "構いません (Kamaimasen)",
+    "es": "No importa",
+    "fr": "Ça ne fait rien (sa ne fe rian)",
+    "it": "Non importa (non importa)"
+  },
+  {
+    "id": 75,
+    "nivel": 15,
+    "tags": ["social"],
+    "en": "I am joking (ai am ioukin)",
+    "jp": "冗談です (Joudan desu)",
+    "es": "Es una broma",
+    "fr": "Je plaisante (zhe plezant)",
+    "it": "Sto scherzando (sto skertzando)"
+  },
+  {
+    "id": 76,
+    "nivel": 16,
+    "tags": ["clima"],
+    "en": "It is raining (it is reining)",
+    "jp": "雨が降っています (Ame ga futte imasu)",
+    "es": "Está lloviendo",
+    "fr": "Il pleut (il ple)",
+    "it": "Piove (piove)"
+  },
+  {
+    "id": 77,
+    "nivel": 16,
+    "tags": ["clima"],
+    "en": "It is sunny (it is sani)",
+    "jp": "晴れています (Harete imasu)",
+    "es": "Está soleado",
+    "fr": "Il fait beau (il fe bo)",
+    "it": "C'è il sole (che il sole)"
+  },
+  {
+    "id": 78,
+    "nivel": 16,
+    "tags": ["clima"],
+    "en": "It is cold (it is could)",
+    "jp": "寒いです (Samui desu)",
+    "es": "Hace frío",
+    "fr": "Il fait froid (il fe frua)",
+    "it": "Fa freddo (fa freddo)"
+  },
+  {
+    "id": 79,
+    "nivel": 16,
+    "tags": ["clima"],
+    "en": "It is hot (it is jot)",
+    "jp": "暑いです (Atsui desu)",
+    "es": "Hace calor",
+    "fr": "Il fait chaud (il fe sho)",
+    "it": "Fa caldo (fa kaldo)"
+  },
+  {
+    "id": 80,
+    "nivel": 16,
+    "tags": ["clima"],
+    "en": "The weather is nice (de ueder is nais)",
+    "jp": "いい天気ですね (Ii tenki desu ne)",
+    "es": "Hace buen tiempo",
+    "fr": "Il fait bon (il fe bon)",
+    "it": "È bel tempo (e bel tempo)"
+  },
+  {
+    "id": 81,
+    "nivel": 17,
+    "tags": ["comida"],
+    "en": "I want coffee (ai uant cofi)",
+    "jp": "コーヒーがいたいです (Koohii ga mitai desu)",
+    "es": "Quiero café",
+    "fr": "Je veux un café (zhe ve un kafe)",
+    "it": "Voglio un caffè (volio un kaffe)"
+  },
+  {
+    "id": 82,
+    "nivel": 17,
+    "tags": ["comida"],
+    "en": "Without sugar, please (uidaut shugar, pliiz)",
+    "jp": "砂糖抜きでお願いします (Satounuki de onegaishimasu)",
+    "es": "Sin azúcar, por favor",
+    "fr": "Sans sucre, s'il vous plaît (son sykr, sil vu ple)",
+    "it": "Senza zucchero, per favore (sentza tzukero, per favore)"
+  },
+  {
+    "id": 83,
+    "nivel": 17,
+    "tags": ["comida"],
+    "en": "Is it spicy? (is it spaisi?)",
+    "jp": "辛いですか (Karai desu ka)",
+    "es": "¿Es picante?",
+    "fr": "Est-ce épicé ? (es epise?)",
+    "it": "È piccante? (e pikkante?)"
+  },
+  {
+    "id": 84,
+    "nivel": 17,
+    "tags": ["comida"],
+    "en": "I am full (ai am ful)",
+    "jp": "お腹がいっぱいです (Onaka ga ippai desu)",
+    "es": "Estoy lleno",
+    "fr": "J'ai bien mangé (zhe bian manzhe)",
+    "it": "Sono sazio (sono satzio)"
+  },
+  {
+    "id": 85,
+    "nivel": 17,
+    "tags": ["comida"],
+    "en": "Check the bill (chek de bil)",
+    "jp": "会計を確認してください (Kaikei wo kakunin shite kudasai)",
+    "es": "Revisa la cuenta",
+    "fr": "Vérifiez l'addition (verifie ladision)",
+    "it": "Controlla il conto (kontrolla il konto)"
+  },
+  {
+    "id": 86,
+    "nivel": 18,
+    "tags": ["preguntas"],
+    "en": "Why? (uai?)",
+    "jp": "なぜですか (Naze desu ka)",
+    "es": "¿Por qué?",
+    "fr": "Pourquoi ? (purkua?)",
+    "it": "Perché? (perke?)"
+  },
+  {
+    "id": 87,
+    "nivel": 18,
+    "tags": ["preguntas"],
+    "en": "When? (uen?)",
+    "jp": "いつですか (Itsu desu ka)",
+    "es": "¿Cuándo?",
+    "fr": "Quand ? (kon?)",
+    "it": "Quando? (kuando?)"
+  },
+  {
+    "id": 88,
+    "nivel": 18,
+    "tags": ["preguntas"],
+    "en": "Who? (ju?)",
+    "jp": "誰ですか (Dare desu ka)",
+    "es": "¿Quién?",
+    "fr": "Qui ? (ki?)",
+    "it": "Chi? (ki?)"
+  },
+  {
+    "id": 89,
+    "nivel": 18,
+    "tags": ["preguntas"],
+    "en": "How? (jau?)",
+    "jp": "どうやって？ (Dou yatte?)",
+    "es": "¿Cómo?",
+    "fr": "Comment ? (koman?)",
+    "it": "Come? (kome?)"
+  },
+  {
+    "id": 90,
+    "nivel": 18,
+    "tags": ["preguntas"],
+    "en": "Which one? (uich uan?)",
+    "jp": "どちらですか (Dochira desu ka)",
+    "es": "¿Cuál?",
+    "fr": "Lequel ? (lekel?)",
+    "it": "Quale? (kuale?)"
+  },
+  {
+    "id": 91,
+    "nivel": 19,
+    "tags": ["emergencias"],
+    "en": "Help! (jelp!)",
+    "jp": "助けて！ (Tasukete!)",
+    "es": "¡Ayuda!",
+    "fr": "Au secours ! (o sekur!)",
+    "it": "Aiuto! (aiuro!)"
+  },
+  {
+    "id": 92,
+    "nivel": 19,
+    "tags": ["emergencias"],
+    "en": "I lost my passport (ai lost mai pasport)",
+    "jp": "パスポートを紛失しました (Pasupooto wo funshitsu shimashita)",
+    "es": "Perdí mi pasaporte",
+    "fr": "J'ai perdu mon passeport (zhe perdu mon paspor)",
+    "it": "Ho perso il passaporto (o perso il passaporto)"
+  },
+  {
+    "id": 93,
+    "nivel": 19,
+    "tags": ["emergencias"],
+    "en": "I am lost (ai am lost)",
+    "jp": "道に迷いました (Michi ni mayoimashita)",
+    "es": "Estoy perdido",
+    "fr": "Je suis perdu (zhe sui perdu)",
+    "it": "Mi sono perso (mi sono perso)"
+  },
+  {
+    "id": 94,
+    "nivel": 19,
+    "tags": ["emergencias"],
+    "en": "It is an emergency (it is an emeriyensi)",
+    "jp": "緊急事態です (Kinkyuu jitai desu)",
+    "es": "Es una emergencia",
+    "fr": "Es une urgence (se un urzhans)",
+    "it": "È un'emergenza (e un emerjentza)"
+  },
+  {
+    "id": 95,
+    "nivel": 19,
+    "tags": ["emergencias"],
+    "en": "Where is the police? (uer is de polis?)",
+    "jp": "警察はどこですか (Keisatsu wa doko desu ka)",
+    "es": "¿Dónde está la policía?",
+    "fr": "Où est la police ? (u e la polis?)",
+    "it": "Dov'è la polizia? (dove la politzia?)"
+  },
+  {
+    "id": 96,
+    "nivel": 20,
+    "tags": ["saludos"],
+    "en": "Have a nice weekend (jav a nais uik-end)",
+    "jp": "良い週末を (Yoi shuumatsu wo)",
+    "es": "Buen fin de semana",
+    "fr": "Bon week-end (bon uik-end)",
+    "it": "Buon fine settimana (buon fine settimana)"
+  },
+  {
+    "id": 97,
+    "nivel": 20,
+    "tags": ["saludos"],
+    "en": "Good luck (gud lak)",
+    "jp": "幸運を (Koun wo)",
+    "es": "Buena suerte",
+    "fr": "Bonne chance (bon shans)",
+    "it": "Buona fortuna (buona fortuna)"
+  },
+  {
+    "id": 98,
+    "nivel": 20,
+    "tags": ["saludos"],
+    "en": "Congratulations! (congratuleishons!)",
+    "jp": "おめでとうございます (Omedetou gozaimasu)",
+    "es": "¡Felicidades!",
+    "fr": "Félicitations ! (felisitasion!)",
+    "it": "Congratulazioni! (kongratulatzioni!)"
+  },
+  {
+    "id": 99,
+    "nivel": 20,
+    "tags": ["saludos"],
+    "en": "See you tomorrow (sii iu tumorrou)",
+    "jp": "また明日 (Mata ashita)",
+    "es": "Hasta mañana",
+    "fr": "À demain (a deman)",
+    "it": "A domani (a domani)"
+  },
+  {
+    "id": 100,
+    "nivel": 20,
+    "tags": ["saludos"],
+    "en": "I'll be right back (ail bi rait bak)",
+    "jp": "すぐに戻ります (Sugu ni modorimasu)",
+    "es": "Ya vuelvo",
+    "fr": "Je reviens tout de suite (zhe revian tu de suit)",
+    "it": "Torno subito (torno subito)"
+  },
+  {
+    "id": 101,
+    "nivel": 21,
+    "tags": ["tecnologia"],
+    "en": "What is the Wi-Fi password? (uhat is de uaifai pasuord?)",
+    "jp": "Wi-Fiのパスワードは何ですか (Wi-Fi no pasuwaado wa nan desu ka)",
+    "es": "¿Cuál es la contraseña del Wi-Fi?",
+    "fr": "Quel est le mot de passe du Wi-Fi ? (kel e le mo de pas dy uaifai?)",
+    "it": "Qual è la password del Wi-Fi? (kual e la pasuord del uaifai?)"
+  },
+  {
+    "id": 102,
+    "nivel": 21,
+    "tags": ["tecnologia"],
+    "en": "The internet is slow (de internet is slou)",
+    "jp": "インターネットが遅いです (Intaanetto ga osoi desu)",
+    "es": "El internet está lento",
+    "fr": "L'internet est lent (linternet e lan)",
+    "it": "L'internet è lento (linternet e lento)"
+  },
+  {
+    "id": 103,
+    "nivel": 21,
+    "tags": ["tecnologia"],
+    "en": "Where can I charge my phone? (uer can ai chary mai foun?)",
+    "jp": "どこで携帯を充電できますか (Doko de keitai wo juuden dekimasu ka)",
+    "es": "¿Dónde puedo cargar mi teléfono?",
+    "fr": "Où puis-je charger mon téléphone ? (u pui-zhe sharzhe mon telefon?)",
+    "it": "Dove posso caricare il telefono? (dove posso karikare il telefono?)"
+  },
+  {
+    "id": 104,
+    "nivel": 21,
+    "tags": ["tecnologia"],
+    "en": "My computer is broken (mai compiuter is brouken)",
+    "jp": "パソコンが壊れています (Pasokon ga kowarete imasu)",
+    "es": "Mi computadora está rota",
+    "fr": "Mon ordinateur est cassé (mon ordinater e kase)",
+    "it": "Il mio computer è rotto (il mio compiuter e rotto)"
+  },
+  {
+    "id": 105,
+    "nivel": 21,
+    "tags": ["tecnologia"],
+    "en": "Send me an email (send mi an imeil)",
+    "jp": "メールを送ってください (Meeru wo okutte kudasai)",
+    "es": "Enviame un correo electrónico",
+    "fr": "Envoyez-moi un e-mail (anvuaye mua un imeil)",
+    "it": "Inviami una e-mail (inviami una imeil)"
+  },
+  {
+    "id": 106,
+    "nivel": 22,
+    "tags": ["ciudad"],
+    "en": "I want to visit a museum (ai uant tu visit a mium-siom)",
+    "jp": "美術館に行きたいです (Bijutsukan ni ikitai desu)",
+    "es": "Quiero visitar un museo",
+    "fr": "Je veux visiter un musée (zhe ve visite un muze)",
+    "it": "Voglio visitare un museo (volio visitare un muzeo)"
+  },
+  {
+    "id": 107,
+    "nivel": 22,
+    "tags": ["ciudad"],
+    "en": "Where is the park? (uer is de park?)",
+    "jp": "公園はどこですか (Kouen wa doko desu ka)",
+    "es": "¿Dónde está el parque?",
+    "fr": "Où est le parc ? (u e le park?)",
+    "it": "Dov'è il parco? (dove il parko?)"
+  },
+  {
+    "id": 108,
+    "nivel": 22,
+    "tags": ["ciudad"],
+    "en": "Is there a pharmacy nearby? (is der a farmasi niar-bai?)",
+    "jp": "近くに薬局はありますか (Chikaku ni yakkyoku wa arimasu ka)",
+    "es": "¿Hay una farmacia cerca?",
+    "fr": "Y a-t-il une pharmacie à proximité ? (i a t-il un farmasi a proksimite?)",
+    "it": "C'è una farmacia qui vicino? (che una farmachia kui vichino?)"
+  },
+  {
+    "id": 109,
+    "nivel": 22,
+    "tags": ["ciudad"],
+    "en": "I am looking for the bank (ai am lukin for de bank)",
+    "jp": "銀行を探しています (Ginkou wo sagashite imasu)",
+    "es": "Estoy buscando el banco",
+    "fr": "Je cherche la banque (zhe shersh la bank)",
+    "it": "Cerco la banca (cherko la banka)"
+  },
+  {
+    "id": 110,
+    "nivel": 22,
+    "tags": ["ciudad"],
+    "en": "It is a beautiful city (it is a biutiful siti)",
+    "jp": "美しい街です (Utsukushii machi desu)",
+    "es": "Es una ciudad hermosa",
+    "fr": "C'est une belle ville (se un bel vil)",
+    "it": "È una bella città (e una bella chitta)"
+  },
+  {
+    "id": 111,
+    "nivel": 23,
+    "tags": ["salud"],
+    "en": "I need medicine (ai niid medisin)",
+    "jp": "薬が必要です (Kusuri ga hitsuyou desu)",
+    "es": "Necesito medicina",
+    "fr": "J'ai besoin de médicaments (zhe bezuan de medikaman)",
+    "it": "Ho bisogno di medicine (o bizonio di medichine)"
+  },
+  {
+    "id": 112,
+    "nivel": 23,
+    "tags": ["salud"],
+    "en": "Does it hurt here? (das it jert jiar?)",
+    "jp": "ここが痛いですか (Koko ga itai desu ka)",
+    "es": "¿Duele aquí?",
+    "fr": "Ça fait mal ici ? (sa fe mal isi?)",
+    "it": "Fa male qui? (fa male kui?)"
+  },
+  {
+    "id": 113,
+    "nivel": 23,
+    "tags": ["salud"],
+    "en": "I have a fever (ai jav a fiv-er)",
+    "jp": "熱があります (Netsu ga arimasu)",
+    "es": "Tengo fiebre",
+    "fr": "J'ai de la fièvre (zhe de la fievr)",
+    "it": "Ho la febbre (o la febbre)"
+  },
+  {
+    "id": 114,
+    "nivel": 23,
+    "tags": ["salud"],
+    "en": "I am allergic to peanuts (ai am alerjik tu pinats)",
+    "jp": "ピーナッツアレルギーです (Piinattsu arerugii desu)",
+    "es": "Soy alérgico al maní",
+    "fr": "Je suis allergique aux arachides (zhe sui alerzhik oz-arashid)",
+    "it": "Sono allergico alle arachidi (sono allerjiko alle arakidi)"
+  },
+  {
+    "id": 115,
+    "nivel": 23,
+    "tags": ["salud"],
+    "en": "Take a deep breath (teik a diip brez)",
+    "jp": "深呼吸してください (Shinkokyuu shite kudasai)",
+    "es": "Respira profundo",
+    "fr": "Respirez profondément (respire profondeman)",
+    "it": "Fai un respiro profondo (fai un respiro profondo)"
+  },
+  {
+    "id": 116,
+    "nivel": 24,
+    "tags": ["hogar"],
+    "en": "I am cleaning the room (ai am clinin de rum)",
+    "jp": "部屋を掃除しています (Heya wo souji shite imasu)",
+    "es": "Estoy limpiando la habitación",
+    "fr": "Je nettoie la chambre (zhe netua la shambr)",
+    "it": "Sto pulendo la stanza (sto pulendo la stantza)"
+  },
+  {
+    "id": 117,
+    "nivel": 24,
+    "tags": ["hogar"],
+    "en": "Turn off the lights (tern of de laits)",
+    "jp": "電気を消してください (Denki wo keshite kudasai)",
+    "es": "Apaga las luces",
+    "fr": "Éteignez les lumières (etenie le lumier)",
+    "it": "Spegni le luci (speni le luchi)"
+  },
+  {
+    "id": 118,
+    "nivel": 24,
+    "tags": ["hogar"],
+    "en": "The door is locked (de dor is lokt)",
+    "jp": "ドアの鍵がかかっています (Doa no kagi ga kakatte imasu)",
+    "es": "La puerta está cerrada con llave",
+    "fr": "La porte est verrouillée (la port e veruie)",
+    "it": "La porta è chiusa a chiave (la porta e kiuza a kiave)"
+  },
+  {
+    "id": 119,
+    "nivel": 24,
+    "tags": ["hogar"],
+    "en": "Make the bed (meik de bed)",
+    "jp": "ベッドを整えてください (Beddo wo totonoete kudasai)",
+    "es": "Haz la cama",
+    "fr": "Fais le lit (fe le li)",
+    "it": "Rifai il letto (rifai il letto)"
+  },
+  {
+    "id": 120,
+    "nivel": 24,
+    "tags": ["hogar"],
+    "en": "I am washing the dishes (ai am uoshin de dishes)",
+    "jp": "皿を洗っています (Sara wo awatte imasu)",
+    "es": "Estoy lavando los platos",
+    "fr": "Je fais la vaisselle (zhe fe la vesel)",
+    "it": "Sto lavando i piatti (sto lavando i piatti)"
+  },
+  {
+    "id": 121,
+    "nivel": 25,
+    "tags": ["estudio"],
+    "en": "I have to study (ai jav tu stadi)",
+    "jp": "勉強しなければなりません (Benkyou shinakereba narimasen)",
+    "es": "Tengo que estudiar",
+    "fr": "Je dois étudier (zhe dua etudie)",
+    "it": "Devo studiare (devo studiare)"
+  },
+  {
+    "id": 122,
+    "nivel": 25,
+    "tags": ["estudio"],
+    "en": "Can you repeat that? (can iu ripiit dat?)",
+    "jp": "もう一度言っていただけますか (Mou ichido itte itadakemasu ka)",
+    "es": "¿Puedes repetir eso?",
+    "fr": "Pouvez-vous répéter ? (puve vu repete?)",
+    "it": "Puoi ripetere? (puoi ripetere?)"
+  },
+  {
+    "id": 123,
+    "nivel": 25,
+    "tags": ["estudio"],
+    "en": "What does this mean? (uhat das dis miin?)",
+    "jp": "これはどういう意味ですか (Kore wa douiu imi desu ka)",
+    "es": "¿Qué significa esto?",
+    "fr": "Qu'est-ce que ça veut dire ? (kes-ke sa ve dir?)",
+    "it": "Cosa significa questo? (koza sinifika kuesto?)"
+  },
+  {
+    "id": 124,
+    "nivel": 25,
+    "tags": ["estudio"],
+    "en": "I am learning a language (ai am lernin a lang-üich)",
+    "jp": "言語を学んでいます (Gengo wo manande imasu)",
+    "es": "Estoy aprendiendo un idioma",
+    "fr": "J'apprends une langue (japran un lang)",
+    "it": "Sto imparando una lingua (sto imparando una lingua)"
+  },
+  {
+    "id": 125,
+    "nivel": 25,
+    "tags": ["estudio"],
+    "en": "I have an exam (ai jav an eksam)",
+    "jp": "試験があります (Shiken ga arimasu)",
+    "es": "Tengo un examen",
+    "fr": "J'ai un examen (zhe un ekzaman)",
+    "it": "Ho un esame (o un ezame)"
+  },
+  {
+    "id": 126,
+    "nivel": 26,
+    "tags": ["tiempo"],
+    "en": "Spring is coming (sprin is camin)",
+    "jp": "春が来ます (Haru ga kimasu)",
+    "es": "La primavera se acerca",
+    "fr": "Le printemps arrive (le prontan ariv)",
+    "it": "La primavera sta arrivando (la primavera sta arrivando)"
+  },
+  {
+    "id": 127,
+    "nivel": 26,
+    "tags": ["tiempo"],
+    "en": "Summer is hot (samer is jot)",
+    "jp": "夏は暑いです (Natsu wa atsui desu)",
+    "es": "El verano es caluroso",
+    "fr": "L'été est chaud (lete e sho)",
+    "it": "L'estate è calda (lestate e kalda)"
+  },
+  {
+    "id": 128,
+    "nivel": 26,
+    "tags": ["tiempo"],
+    "en": "Autumn leaves (otom liivs)",
+    "jp": "秋の葉 (Aki no ha)",
+    "es": "Hojas de otoño",
+    "fr": "Feuilles d'automne (fe-i doton)",
+    "it": "Foglie d'autunno (folie dautunno)"
+  },
+  {
+    "id": 129,
+    "nivel": 26,
+    "tags": ["tiempo"],
+    "en": "Winter is cold (uinter is could)",
+    "jp": "冬は寒いです (Fuyu wa samui desu)",
+    "es": "El invierno es frío",
+    "fr": "L'hiver est froid (liver e frua)",
+    "it": "L'inverno è freddo (linverno e freddo)"
+  },
+  {
+    "id": 130,
+    "nivel": 26,
+    "tags": ["tiempo"],
+    "en": "Next week (nekst uiik)",
+    "jp": "来週 (Raishuu)",
+    "es": "La próxima semana",
+    "fr": "La semaine prochaine (la semen proshen)",
+    "it": "La prossima settimana (la prossima settimana)"
+  },
+  {
+    "id": 131,
+    "nivel": 27,
+    "tags": ["finanzas"],
+    "en": "Where is the ATM? (uer is di ei-ti-em?)",
+    "jp": "ATMはどこですか (ATM wa doko desu ka)",
+    "es": "¿Dónde está el cajero automático?",
+    "fr": "Où est le distributeur ? (u e le distribyter?)",
+    "it": "Dov'è il bancomat? (dove il bankomat?)"
+  },
+  {
+    "id": 132,
+    "nivel": 27,
+    "tags": ["finanzas"],
+    "en": "I lost my wallet (ai lost mai uolet)",
+    "jp": "財布をなくしました (Saifu wo nakushimashita)",
+    "es": "Perdí mi billetera",
+    "fr": "J'ai perdu mon portefeuille (zhe perdu mon portefe-i)",
+    "it": "Ho perso il portafoglio (o perso il portafolio)"
+  },
+  {
+    "id": 133,
+    "nivel": 27,
+    "tags": ["finanzas"],
+    "en": "Change money (cheinch mani)",
+    "jp": "両替する (Ryougae suru)",
+    "es": "Cambiar dinero",
+    "fr": "Changer de l'argent (shanzhe de larzhan)",
+    "it": "Cambiare soldi (kambiare soldi)"
+  },
+  {
+    "id": 134,
+    "nivel": 27,
+    "tags": ["finanzas"],
+    "en": "Is there a fee? (is der a fii?)",
+    "jp": "手数料はかかりますか (Tesuryou wa kakarimasu ka)",
+    "es": "¿Hay alguna comisión?",
+    "fr": "Y a-t-il des frais ? (i a t-il de fre?)",
+    "it": "C'è una commissione? (che una kommissyone?)"
+  },
+  {
+    "id": 135,
+    "nivel": 27,
+    "tags": ["finanzas"],
+    "en": "I want to open an account (ai uant tu oupen an akaunt)",
+    "jp": "口座を開設したいです (Kouza wo kaisetsu shitai desu)",
+    "es": "Quiero abrir una cuenta",
+    "fr": "Je veux ouvrir un compte (zhe ve uvrir un kont)",
+    "it": "Voglio aprire un conto (volio aprire un konto)"
+  },
+  {
+    "id": 136,
+    "nivel": 28,
+    "tags": ["sentimientos"],
+    "en": "I am bored (ai am bord)",
+    "jp": "退屈しています (Taikutsu shite imasu)",
+    "es": "Estoy aburrido",
+    "fr": "Je m'ennuie (zhe manui)",
+    "it": "Mi annoio (mi annoio)"
+  },
+  {
+    "id": 137,
+    "nivel": 28,
+    "tags": ["sentimientos"],
+    "en": "I am excited (ai am eksait-ed)",
+    "jp": "ワクワクしています (Wakuwaku shite imasu)",
+    "es": "Estoy emocionado",
+    "fr": "Je suis excité (zhe sui eksite)",
+    "it": "Sono entusiasta (sono entusiasta)"
+  },
+  {
+    "id": 138,
+    "nivel": 28,
+    "tags": ["sentimientos"],
+    "en": "I am nervous (ai am ner-vos)",
+    "jp": "緊張しています (Kinjou shite imasu)",
+    "es": "Estoy nervioso",
+    "fr": "Je suis nerveux (zhe sui nerve)",
+    "it": "Sono nervoso (sono nervoso)"
+  },
+  {
+    "id": 139,
+    "nivel": 28,
+    "tags": ["sentimientos"],
+    "en": "I am proud of you (ai am praud of iu)",
+    "jp": "あなたを誇りに思います (Anata wo hokori ni omoimasu)",
+    "es": "Estoy orgulloso de ti",
+    "fr": "Je suis fier de toi (zhe sui fier de tua)",
+    "it": "Sono orgoglioso di te (sono orvoliozo di te)"
+  },
+  {
+    "id": 140,
+    "nivel": 28,
+    "tags": ["sentimientos"],
+    "en": "Calm down (cam daun)",
+    "jp": "落ち着いて (Ochitsuite)",
+    "es": "Cálmate",
+    "fr": "Calme-toi (kalm tua)",
+    "it": "Calmati (kalmati)"
+  },
+  {
+    "id": 141,
+    "nivel": 29,
+    "tags": ["vida_diaria"],
+    "en": "Wake up (ueik ap)",
+    "jp": "起きて (Okite)",
+    "es": "Despierta",
+    "fr": "Réveille-toi (revei tua)",
+    "it": "Svegliati (sveliiati)"
+  },
+  {
+    "id": 142,
+    "nivel": 29,
+    "tags": ["vida_diaria"],
+    "en": "Go to sleep (gou tu sliip)",
+    "jp": "寝なさい (Nenasai)",
+    "es": "Ve a dormir",
+    "fr": "Va dormir (va dormir)",
+    "it": "Vai a dormire (vai a dormire)"
+  },
+  {
+    "id": 143,
+    "nivel": 29,
+    "tags": ["vida_diaria"],
+    "en": "Take a shower (teik a shauer)",
+    "jp": "シャワーを浴びる (Shawaa wo abiru)",
+    "es": "Toma una ducha",
+    "fr": "Prends une douche (pran un dush)",
+    "it": "Fai una doccia (fai una dochia)"
+  },
+  {
+    "id": 144,
+    "nivel": 29,
+    "tags": ["vida_diaria"],
+    "en": "Brush your teeth (brash ior tiiz)",
+    "jp": "歯を磨いてください (Ha wo migaite kudasai)",
+    "es": "Cepíllate los dientes",
+    "fr": "Brosse-toi les dents (bros tua le dan)",
+    "it": "Lavati i denti (lavati i denti)"
+  },
+  {
+    "id": 145,
+    "nivel": 29,
+    "tags": ["vida_diaria"],
+    "en": "Get dressed (guet drest)",
+    "jp": "着替えて (Kigaete)",
+    "es": "Vístete",
+    "fr": "Habille-toi (abi tua)",
+    "it": "Vestiti (vestiti)"
+  },
+  {
+    "id": 146,
+    "nivel": 30,
+    "tags": ["social"],
+    "en": "What do you think? (uhat du iu zink?)",
+    "jp": "どう思いますか (Dou omoimasu ka)",
+    "es": "¿Qué piensas?",
+    "fr": "Qu'en penses-tu ? (kan pans tu?)",
+    "it": "Cosa ne pensi? (koza ne pensi?)"
+  },
+  {
+    "id": 147,
+    "nivel": 30,
+    "tags": ["social"],
+    "en": "I don't care (ai dont ker)",
+    "jp": "気にしません (Kinishimasen)",
+    "es": "No me importa",
+    "fr": "Je m'en fiche (zhe man fish)",
+    "it": "Non mi interessa (non mi interessa)"
+  },
+  {
+    "id": 148,
+    "nivel": 30,
+    "tags": ["social"],
+    "en": "Believe me (biliiv mi)",
+    "jp": "私を信じて (Watashi wo shinjite)",
+    "es": "Créeme",
+    "fr": "Crois-moi (krua mua)",
+    "it": "Credimi (kredimi)"
+  },
+  {
+    "id": 149,
+    "nivel": 30,
+    "tags": ["social"],
+    "en": "It is a secret (it is a sicret)",
+    "jp": "秘密です (Himitsu desu)",
+    "es": "Es un secreto",
+    "fr": "C'est un secret (se un sekre)",
+    "it": "È un segreto (e un segreto)"
+  },
+  {
+    "id": 150,
+    "nivel": 30,
+    "tags": ["social"],
+    "en": "Keep in touch (kiip in tach)",
+    "jp": "連絡を取り合いましょう (Renraku wo toriaimashou)",
+    "es": "Mantente en contacto",
+    "fr": "Reste en contact (rest an kontakt)",
+    "it": "Rimaniamo in contatto (rimaniamo in kontatto)"
+  },
+  {
+    "id": 151,
+    "nivel": 31,
+    "tags": ["social"],
+    "en": "I am proud of you (ai am praud of iu)",
+    "jp": "あなたを誇りに思います (Anata wo hokori ni omoimasu)",
+    "es": "Estoy orgulloso de ti",
+    "fr": "Je suis fier de toi (zhe sui fier de tua)",
+    "it": "Sono orgoglioso di te (sono orvoliozo di te)"
+  },
+  {
+    "id": 152,
+    "nivel": 31,
+    "tags": ["social"],
+    "en": "Can you help me? (can iu jelp mi?)",
+    "jp": "手伝ってくれますか (Tetsudatte kuremasu ka)",
+    "es": "¿Me puedes ayudar?",
+    "fr": "Peux-tu m'aider ? (pe tu mede?)",
+    "it": "Puoi aiutarmi? (puoi aiutarmi?)"
+  },
+  {
+    "id": 153,
+    "nivel": 31,
+    "tags": ["social"],
+    "en": "I have a question (ai jav a kuestion)",
+    "jp": "質問があります (Shitsumon ga arimasu)",
+    "es": "Tengo una pregunta",
+    "fr": "J'ai une question (zhe un kuestion)",
+    "it": "Ho una domanda (o una domanda)"
+  },
+  {
+    "id": 154,
+    "nivel": 31,
+    "tags": ["social"],
+    "en": "What's new? (uats niu?)",
+    "jp": "最近どうですか (Saikin dou desu ka)",
+    "es": "¿Qué hay de nuevo?",
+    "fr": "Quoi de neuf ? (kua de nef?)",
+    "it": "Novità? (novita?)"
+  },
+  {
+    "id": 155,
+    "nivel": 31,
+    "tags": ["social"],
+    "en": "Never mind (never maind)",
+    "jp": "気にしないで (Kinishinaide)",
+    "es": "No importa / Olvídalo",
+    "fr": "Laisse tomber (les tombe)",
+    "it": "Non importa (non importa)"
+  },
+  {
+    "id": 156,
+    "nivel": 32,
+    "tags": ["restaurante"],
+    "en": "Is the tip included? (is de tip incluid-ed?)",
+    "jp": "チップは含まれていますか (Chippu wa fukumarete imasu ka)",
+    "es": "¿La propina está incluida?",
+    "fr": "Le service est-il compris ? (le servis et-il konpri?)",
+    "it": "Il servizio è incluso? (il servitsio e inkluzo?)"
+  },
+  {
+    "id": 157,
+    "nivel": 32,
+    "tags": ["restaurante"],
+    "en": "I'd like a glass of water (aid laik a glas of uater)",
+    "jp": "お水を一杯ください (Omizu wo ippai kudasai)",
+    "es": "Quisiera un vaso de agua",
+    "fr": "Je voudrais un verre d'eau (zhe vudre un ver do)",
+    "it": "Vorrei un bicchiere d'acqua (vorrei un bikiere dakkua)"
+  },
+  {
+    "id": 158,
+    "nivel": 32,
+    "tags": ["restaurante"],
+    "en": "I am allergic to nuts (ai am alerjik tu nats)",
+    "jp": "ナッツアレルギーです (Nattsu arerugii desu)",
+    "es": "Soy alérgico a las nueces",
+    "fr": "Je suis allergique aux noix (zhe sui alerzhik o nua)",
+    "it": "Sono allergico alle noci (sono allerjiko alle nochi)"
+  },
+  {
+    "id": 159,
+    "nivel": 32,
+    "tags": ["restaurante"],
+    "en": "It is delicious (it is delishos)",
+    "jp": "とても美味しいです (Totemo oishii desu)",
+    "es": "Está delicioso",
+    "fr": "C'est délicieux (se delisie)",
+    "it": "È delizioso (e delitsiozo)"
+  },
+  {
+    "id": 160,
+    "nivel": 32,
+    "tags": ["restaurante"],
+    "en": "Where is the kitchen? (uer is de kichen?)",
+    "jp": "台所はどこですか (Daidokoro wa doko desu ka)",
+    "es": "¿Dónde está la cocina?",
+    "fr": "Où est la cuisine ? (u e la kuizin?)",
+    "it": "Dov'è la cucina? (dove la kuchina?)"
+  },
+  {
+    "id": 161,
+    "nivel": 33,
+    "tags": ["transporte"],
+    "en": "Fasten your seatbelt (fasen ior siitbelt)",
+    "jp": "シートベルトを締めてください (Shiitoberuto wo shimete kudasai)",
+    "es": "Abróchese el cinturón",
+    "fr": "Attachez votre ceinture (atashe votre santyr)",
+    "it": "Allacci la cintura (allachi la chintura)"
+  },
+  {
+    "id": 162,
+    "nivel": 33,
+    "tags": ["transporte"],
+    "en": "The bus is full (de bas is ful)",
+    "jp": "バスが満員です (Basu ga man-in desu)",
+    "es": "El autobús está lleno",
+    "fr": "Le bus est plein (le bys e plan)",
+    "it": "L'autobus è pieno (lautobus e pieno)"
+  },
+  {
+    "id": 163,
+    "nivel": 33,
+    "tags": ["transporte"],
+    "en": "I missed the train (ai mist de trein)",
+    "jp": "電車に乗り遅れました (Densha ni noriokuremashita)",
+    "es": "Perdí el tren",
+    "fr": "J'ai raté le train (zhe rate le tran)",
+    "it": "Ho perso il treno (o perso il treno)"
+  },
+  {
+    "id": 164,
+    "nivel": 33,
+    "tags": ["transporte"],
+    "en": "Is this the right platform? (is dis de rait plat-form?)",
+    "jp": "このホームで合っていますか (Kono hoomu de atte imasu ka)",
+    "es": "¿Es este el andén correcto?",
+    "fr": "Est-ce le bon quai ? (es le bon ke?)",
+    "it": "È questo il binario giusto? (e kuesto il binario giusto?)"
+  },
+  {
+    "id": 165,
+    "nivel": 33,
+    "tags": ["transporte"],
+    "en": "How long does it take? (jau lon das it teik?)",
+    "jp": "どのくらい時間がかかりますか (Dono kurai jikan ga kakarimasu ka)",
+    "es": "¿Cuánto tiempo toma?",
+    "fr": "Combien de temps ça prend ? (kombian de tan sa pran?)",
+    "it": "Quanto tempo ci vuole? (kuanto tempo chi vuole?)"
+  },
+  {
+    "id": 166,
+    "nivel": 34,
+    "tags": ["hogar"],
+    "en": "I'm going to cook (aim goin tu cuk)",
+    "jp": "料理をします (Ryouri wo shimasu)",
+    "es": "Voy a cocinar",
+    "fr": "Je vais cuisiner (zhe ve kuizine)",
+    "it": "Vado a cucinare (vado a kuchinare)"
+  },
+  {
+    "id": 167,
+    "nivel": 34,
+    "tags": ["hogar"],
+    "en": "The floor is wet (de flor is uet)",
+    "jp": "床が濡れています (Yuka ga nurete imasu)",
+    "es": "El suelo está mojado",
+    "fr": "Le sol est mouillé (le sol e muie)",
+    "it": "Il pavimento è bagnato (il pavimento e baniato)"
+  },
+  {
+    "id": 168,
+    "nivel": 34,
+    "tags": ["hogar"],
+    "en": "I need a blanket (ai niid a blanket)",
+    "jp": "毛布が必要です (Moufu ga hitsuyou desu)",
+    "es": "Necesito una manta",
+    "fr": "J'ai besoin d'une couverture (zhe bezuan dun kuvertyr)",
+    "it": "Ho bisogno di una coperta (o bizonio di una koperta)"
+  },
+  {
+    "id": 169,
+    "nivel": 34,
+    "tags": ["hogar"],
+    "en": "Turn down the volume (tern daun de volium)",
+    "jp": "音量を下げてください (Onryou wo sagete kudasai)",
+    "es": "Baja el volumen",
+    "fr": "Baisse le volume (bes le volium)",
+    "it": "Abbassa il volume (abbassa il volume)"
+  },
+  {
+    "id": 170,
+    "nivel": 34,
+    "tags": ["hogar"],
+    "en": "The window is open (de uindou is oupen)",
+    "jp": "窓が開いています (Mado ga aite imasu)",
+    "es": "La ventana está abierta",
+    "fr": "La fenêtre est ouverte (la fenetr et-uvert)",
+    "it": "La finestra è aperta (la finestra e aperta)"
+  },
+  {
+    "id": 171,
+    "nivel": 35,
+    "tags": ["clima"],
+    "en": "It's windy (its uindi)",
+    "jp": "風が強いです (Kaze ga tsuyoi desu)",
+    "es": "Hace viento",
+    "fr": "Il y a du vent (i a dy van)",
+    "it": "Tira vento (tira vento)"
+  },
+  {
+    "id": 172,
+    "nivel": 35,
+    "tags": ["clima"],
+    "en": "It's foggy (its fogui)",
+    "jp": "霧が出ています (Kiri ga dete imasu)",
+    "es": "Hay niebla",
+    "fr": "Il y a du brouillard (i a dy bruiar)",
+    "it": "C'è nebbia (che nebbia)"
+  },
+  {
+    "id": 173,
+    "nivel": 35,
+    "tags": ["clima"],
+    "en": "It's snowing (its snouin)",
+    "jp": "雪が降っています (Yuki ga futte imasu)",
+    "es": "Está nevando",
+    "fr": "Il neige (il nezh)",
+    "it": "Nevica (nevika)"
+  },
+  {
+    "id": 174,
+    "nivel": 35,
+    "tags": ["clima"],
+    "en": "The sky is clear (de skai is cliar)",
+    "jp": "空が晴れています (Sora ga harete imasu)",
+    "es": "El cielo está despejado",
+    "fr": "Le ciel est dégagé (le siel e degazhe)",
+    "it": "Il cielo è sereno (il chielo e sereno)"
+  },
+  {
+    "id": 175,
+    "nivel": 35,
+    "tags": ["clima"],
+    "en": "A storm is coming (a storm is camin)",
+    "jp": "嵐が来ます (Arashi ga kimasu)",
+    "es": "Viene una tormenta",
+    "fr": "Une tempête arrive (un tampet ariv)",
+    "it": "Arriva un temporale (arriva un temporale)"
+  },
+  {
+    "id": 176,
+    "nivel": 36,
+    "tags": ["viajes"],
+    "en": "My luggage is lost (mai laguich is lost)",
+    "jp": "荷物を紛失しました (Nimotsu wo funshitsu shimashita)",
+    "es": "Mi equipaje se perdió",
+    "fr": "Mes bagages sont perdus (me bagazh son perdu)",
+    "it": "I miei bagagli sono smarriti (i miei bagalii sono smarriti)"
+  },
+  {
+    "id": 177,
+    "nivel": 36,
+    "tags": ["viajes"],
+    "en": "I need a map (ai niid a map)",
+    "jp": "地図が必要です (Chizu ga hitsuyou desu)",
+    "es": "Necesito un mapa",
+    "fr": "J'ai besoin d'une carte (zhe bezuan dun kart)",
+    "it": "Ho bisogno di una mappa (o bizonio di una mappa)"
+  },
+  {
+    "id": 178,
+    "nivel": 36,
+    "tags": ["viajes"],
+    "en": "Is it safe? (is it seif?)",
+    "jp": "安全ですか (Anzen desu ka)",
+    "es": "¿Es seguro?",
+    "fr": "Est-ce sûr ? (es syr?)",
+    "it": "È sicuro? (e sikuro?)"
+  },
+  {
+    "id": 179,
+    "nivel": 36,
+    "tags": ["viajes"],
+    "en": "Take me to this address (teik mi tu dis adres)",
+    "jp": "この住所までお願いします (Kono juusho made onegaishimasu)",
+    "es": "Lléveme a esta dirección",
+    "fr": "Emmenez-moi à cette adresse (amne-mua a set adres)",
+    "it": "Mi porti a questo indirizzo (mi porti a kuesto indirittzo)"
+  },
+  {
+    "id": 180,
+    "nivel": 36,
+    "tags": ["viajes"],
+    "en": "Where can I buy a souvenir? (uer can ai bai a suvenir?)",
+    "jp": "お土産はどこで買えますか (Omiyage wa doko de kaemasu ka)",
+    "es": "¿Dónde puedo comprar un recuerdo?",
+    "fr": "Où acheter un souvenir ? (u ashte un suvenir?)",
+    "it": "Dove posso comprare un souvenir? (dove posso komprare un suvenir?)"
+  },
+  {
+    "id": 181,
+    "nivel": 37,
+    "tags": ["salud"],
+    "en": "I need a dentist (ai niid a dentist)",
+    "jp": "歯医者が必要です (Haisha ga hitsuyou desu)",
+    "es": "Necesito un dentista",
+    "fr": "J'ai besoin d'un dentiste (zhe bezuan dun dantist)",
+    "it": "Ho bisogno di un dentista (o bizonio di un dentista)"
+  },
+  {
+    "id": 182,
+    "nivel": 37,
+    "tags": ["salud"],
+    "en": "My leg hurts (mai leg jerts)",
+    "jp": "足が痛いです (Ashi ga itai desu)",
+    "es": "Me duele la pierna",
+    "fr": "J'ai mal à la jambe (zhe mal a la zhamb)",
+    "it": "Mi fa male la gamba (mi fa male la gamba)"
+  },
+  {
+    "id": 183,
+    "nivel": 37,
+    "tags": ["salud"],
+    "en": "I have a cold (ai jav a could)",
+    "jp": "風邪をひいています (Kaze wo hiite imasu)",
+    "es": "Tengo un resfriado",
+    "fr": "Je suis enrhumé (zhe sui anryme)",
+    "it": "Ho il raffreddore (o il raffreddore)"
+  },
+  {
+    "id": 184,
+    "nivel": 37,
+    "tags": ["salud"],
+    "en": "Is it contagious? (is it conteichos?)",
+    "jp": "それは伝染しますか (Sore wa densen shimasu ka)",
+    "es": "¿Es contagioso?",
+    "fr": "Est-ce contagieux ? (es kontazhie?)",
+    "it": "È contagioso? (e kontajozo?)"
+  },
+  {
+    "id": 185,
+    "nivel": 37,
+    "tags": ["salud"],
+    "en": "I feel dizzy (ai fiil disi)",
+    "jp": "めまいがします (Memai ga shimasu)",
+    "es": "Me siento mareado",
+    "fr": "J'ai des vertiges (zhe de vertizh)",
+    "it": "Mi gira la testa (mi jira la testa)"
+  },
+  {
+    "id": 186,
+    "nivel": 38,
+    "tags": ["tecnologia"],
+    "en": "Download the app (daunloud di ap)",
+    "jp": "アプリをダウンロードして (Apuri wo daunroodo shite)",
+    "es": "Descarga la aplicación",
+    "fr": "Télécharge l'application (tele-sharzha laplikasion)",
+    "it": "Scarica l'applicazione (skarika lapplikatzyone)"
+  },
+  {
+    "id": 187,
+    "nivel": 38,
+    "tags": ["tecnologia"],
+    "en": "My screen is cracked (mai scriin is crakt)",
+    "jp": "画面が割れています (Gamen ga warete imasu)",
+    "es": "Mi pantalla está rota",
+    "fr": "Mon écran est brisé (mon ekran e brize)",
+    "it": "Il mio schermo è rotto (il mio skermo e rotto)"
+  },
+  {
+    "id": 188,
+    "nivel": 38,
+    "tags": ["tecnologia"],
+    "en": "I forgot my password (ai forgot mai pasuord)",
+    "jp": "パスワードを忘れました (Pasuwaado wo wasuremashita)",
+    "es": "Olvidé mi contraseña",
+    "fr": "J'ai oublié mon mot de passe (zhe ublie mon mo de pas)",
+    "it": "Ho dimenticato la password (o dimentikato la pasuord)"
+  },
+  {
+    "id": 189,
+    "nivel": 38,
+    "tags": ["tecnologia"],
+    "en": "The battery is low (de bateri is lou)",
+    "jp": "電池が少ないです (Denchi ga sukunai desu)",
+    "es": "La batería está baja",
+    "fr": "La batterie est faible (la bateri e febl)",
+    "it": "La batteria è scarica (la batteria e skarika)"
+  },
+  {
+    "id": 190,
+    "nivel": 38,
+    "tags": ["tecnologia"],
+    "en": "Turn it on (tern it on)",
+    "jp": "電源を入れて (Dengen wo irete)",
+    "es": "Enciéndelo",
+    "fr": "Allume-le (alym le)",
+    "it": "Accendilo (achchendilo)"
+  },
+  {
+    "id": 191,
+    "nivel": 39,
+    "tags": ["compras"],
+    "en": "Do you have a smaller size? (du iu jav a smoler sais?)",
+    "jp": "もっと小さいサイズはありますか (Motto chiisai saizu wa arimasu ka)",
+    "es": "¿Tiene una talla más pequeña?",
+    "fr": "Avez-vous une taille plus petite ? (ave vu un tai ply ptit?)",
+    "it": "Ha una taglia più piccola? (a una talia piu pikkola?)"
+  },
+  {
+    "id": 192,
+    "nivel": 39,
+    "tags": ["compras"],
+    "en": "I'll take it (ail teik it)",
+    "jp": "これにします (Kore ni shimasu)",
+    "es": "Me lo llevo",
+    "fr": "Je le prends (zhe le pran)",
+    "it": "Lo prendo (lo prendo)"
+  },
+  {
+    "id": 193,
+    "nivel": 39,
+    "tags": ["compras"],
+    "en": "Where is the dressing room? (uer is de dresin rum?)",
+    "jp": "試着室はどこですか (Shichakushitsu wa doko desu ka)",
+    "es": "¿Dónde está el probador?",
+    "fr": "Où est la cabine d'essayage ? (u e la kabin dese-iazh?)",
+    "it": "Dov'è il camerino? (dove il kamerino?)"
+  },
+  {
+    "id": 194,
+    "nivel": 39,
+    "tags": ["compras"],
+    "en": "Is it on sale? (is it on seil?)",
+    "jp": "セール中ですか (Seeru chuu desu ka)",
+    "es": "¿Está en oferta?",
+    "fr": "Est-ce en solde ? (es an sold?)",
+    "it": "È in offerta? (e in offerta?)"
+  },
+  {
+    "id": 195,
+    "nivel": 39,
+    "tags": ["compras"],
+    "en": "I'm just looking (aim iost lukin)",
+    "jp": "見ているだけです (Mite iru dake desu)",
+    "es": "Solo estoy mirando",
+    "fr": "Je regarde seulement (zhe regard selman)",
+    "it": "Sto solo guardando (sto solo guardando)"
+  },
+  {
+    "id": 196,
+    "nivel": 40,
+    "tags": ["tiempo"],
+    "en": "Yesterday was Sunday (iesterdei uas sandei)",
+    "jp": "昨日は日曜日でした (Kinou wa nichiyoubi deshita)",
+    "es": "Ayer fue domingo",
+    "fr": "Hier c'était dimanche (ier sete dimansh)",
+    "it": "Ieri era domenica (ieri era domenika)"
+  },
+  {
+    "id": 197,
+    "nivel": 40,
+    "tags": ["tiempo"],
+    "en": "Today is Monday (tudei is mandei)",
+    "jp": "今日は月曜日です (Kyou wa getsuyoubi desu)",
+    "es": "Hoy es lunes",
+    "fr": "Aujourd'hui c'est lundi (ozhurdui se landi)",
+    "it": "Oggi è lunedì (ojji e lunedi)"
+  },
+  {
+    "id": 198,
+    "nivel": 40,
+    "tags": ["tiempo"],
+    "en": "Tomorrow is Tuesday (tumorrou is tiusdei)",
+    "jp": "明日は火曜日です (Ashita wa kayoubi desu)",
+    "es": "Mañana es martes",
+    "fr": "Demain c'est mardi (deman se mardi)",
+    "it": "Domani è martedì (domani e martedi)"
+  },
+  {
+    "id": 199,
+    "nivel": 40,
+    "tags": ["tiempo"],
+    "en": "This month (dis monz)",
+    "jp": "今月 (Kongetsu)",
+    "es": "Este mes",
+    "fr": "Ce mois-ci (se mua si)",
+    "it": "Questo mese (kuesto meze)"
+  },
+  {
+    "id": 200,
+    "nivel": 40,
+    "tags": ["tiempo"],
+    "en": "Last year (last yiar)",
+    "jp": "昨年 (Sakunen)",
+    "es": "El año pasado",
+    "fr": "L'année dernière (lane dernier)",
+    "it": "L'anno scorso (lanno skorso)"
+  },
+  {
+    "id": 201,
+    "nivel": 41,
+    "tags": ["entretenimiento"],
+    "en": "I want to see a movie (ai uant tu sii a muvi)",
+    "jp": "映画を見たいです (Eiga wo mitai desu)",
+    "es": "Quiero ver una película",
+    "fr": "Je veux voir un film (zhe ve vuar un film)",
+    "it": "Voglio vedere un film (volio vedere un film)"
+  },
+  {
+    "id": 202,
+    "nivel": 41,
+    "tags": ["entretenimiento"],
+    "en": "Do you like music? (du iu laik miusik?)",
+    "jp": "音楽は好きですか (Ongaku wa suki desu ka)",
+    "es": "¿Te gusta la música?",
+    "fr": "Aimes-tu la musique ? (em tu la myzik?)",
+    "it": "Ti piace la musica? (ti piache la muzika?)"
+  },
+  {
+    "id": 203,
+    "nivel": 41,
+    "tags": ["entretenimiento"],
+    "en": "I play the guitar (ai plei de gitar)",
+    "jp": "ギターを弾きます (Gitaa wo hikimasu)",
+    "es": "Toco la guitarra",
+    "fr": "Je joue de la guitare (zhe zhu de la gitar)",
+    "it": "Suono la chitarra (suono la kitarra)"
+  },
+  {
+    "id": 204,
+    "nivel": 41,
+    "tags": ["entretenimiento"],
+    "en": "It is very funny (it is veri fani)",
+    "jp": "とても面白いです (Totemo omoshiroi desu)",
+    "es": "Es muy divertido",
+    "fr": "C'est très drôle (se tre drol)",
+    "it": "È molto divertente (e molto divertente)"
+  },
+  {
+    "id": 205,
+    "nivel": 41,
+    "tags": ["entretenimiento"],
+    "en": "What is your hobby? (uhat is ior jobi?)",
+    "jp": "趣味は何ですか (Shumi wa nan desu ka)",
+    "es": "¿Cuál es tu pasatiempo?",
+    "fr": "Quel est ton passe-temps ? (kel e ton pas-tan?)",
+    "it": "Qual è il tuo hobby? (kual e il tuo obbi?)"
+  },
+  {
+    "id": 206,
+    "nivel": 42,
+    "tags": ["naturaleza"],
+    "en": "Look at the stars (luk at de stars)",
+    "jp": "星を見て (Hoshi wo mite)",
+    "es": "Mira las estrellas",
+    "fr": "Regarde les étoiles (regard le-zetual)",
+    "it": "Guarda le stelle (guarda le stelle)"
+  },
+  {
+    "id": 207,
+    "nivel": 42,
+    "tags": ["naturaleza"],
+    "en": "The sea is calm (de sii is cam)",
+    "jp": "海は穏やかです (Umi wa odayaka desu)",
+    "es": "El mar está tranquilo",
+    "fr": "La mer est calme (la mer e kalm)",
+    "it": "Il mare è calmo (il mare e kalmo)"
+  },
+  {
+    "id": 208,
+    "nivel": 42,
+    "tags": ["naturaleza"],
+    "en": "I love animals (ai lav animals)",
+    "jp": "動物が大好きです (Doubutsu ga daisuki desu)",
+    "es": "Amo a los animales",
+    "fr": "J'adore les animaux (zhador le-zanimo)",
+    "it": "Amo gli animali (amo lii animali)"
+  },
+  {
+    "id": 209,
+    "nivel": 42,
+    "tags": ["naturaleza"],
+    "en": "It is a big tree (it is a big trii)",
+    "jp": "大きな木です (Ookina ki desu)",
+    "es": "Es un árbol grande",
+    "fr": "C'est un grand arbre (se un gran-arbr)",
+    "it": "È un grande albero (e un grande albero)"
+  },
+  {
+    "id": 210,
+    "nivel": 42,
+    "tags": ["naturaleza"],
+    "en": "The flowers are pretty (de flauers ar priti)",
+    "jp": "花が綺麗です (Hana ga kirei desu)",
+    "es": "Las flores son bonitas",
+    "fr": "Les fleurs sont jolies (le fler son zholi)",
+    "it": "I fiori sono belli (i fiori sono belli)"
+  },
+  {
+    "id": 211,
+    "nivel": 43,
+    "tags": ["direcciones_avanzadas"],
+    "en": "Cross the street (cros de striit)",
+    "jp": "道を渡ってください (Michi wo watatte kudasai)",
+    "es": "Cruza la calle",
+    "fr": "Traversez la rue (traverse la ry)",
+    "it": "Attraversa la strada (attraversa la strada)"
+  },
+  {
+    "id": 212,
+    "nivel": 43,
+    "tags": ["direcciones_avanzadas"],
+    "en": "It is behind the building (it is bijaind de bildin)",
+    "jp": "建物の後ろです (Tatemono no ushiro desu)",
+    "es": "Está detrás del edificio",
+    "fr": "C'est derrière l'immeuble (se derier limobl)",
+    "it": "È dietro l'edificio (e dietro ledificho)"
+  },
+  {
+    "id": 213,
+    "nivel": 43,
+    "tags": ["direcciones_avanzadas"],
+    "en": "On the corner (on de corner)",
+    "jp": "角にあります (Kado ni arimasu)",
+    "es": "En la esquina",
+    "fr": "Au coin (o kuan)",
+    "it": "All'angolo (allangolo)"
+  },
+  {
+    "id": 214,
+    "nivel": 43,
+    "tags": ["direcciones_avanzadas"],
+    "en": "Follow this path (folou dis paz)",
+    "jp": "この道についてきて (Kono michi ni tsuite kite)",
+    "es": "Sigue este camino",
+    "fr": "Suivez ce chemin (suive se sheman)",
+    "it": "Segui questo sentiero (segui kuesto sentiero)"
+  },
+  {
+    "id": 215,
+    "nivel": 43,
+    "tags": ["direcciones_avanzadas"],
+    "en": "Next to the station (nekst tu de steishon)",
+    "jp": "駅の隣です (Eki no tonari desu)",
+    "es": "Al lado de la estación",
+    "fr": "À côté de la gare (a kote de la gar)",
+    "it": "Accanto alla stazione (akkanto alla statzyone)"
+  },
+  {
+    "id": 216,
+    "nivel": 44,
+    "tags": ["trabajo_avanzado"],
+    "en": "I have a meeting (ai jav a miitin)",
+    "jp": "会議があります (Kaigi ga arimasu)",
+    "es": "Tengo una reunión",
+    "fr": "J'ai une réunion (zhe un reunion)",
+    "it": "Ho una riunione (o una riunione)"
+  },
+  {
+    "id": 217,
+    "nivel": 44,
+    "tags": ["trabajo_avanzado"],
+    "en": "Please sign here (pliiz sain jiar)",
+    "jp": "ここに署名してください (Koko ni shomei shite kudasai)",
+    "es": "Por favor firme aquí",
+    "fr": "Signez ici, s'il vous plaît (sinie isi sil vu ple)",
+    "it": "Firmi qui, per favore (firmi kui per favore)"
+  },
+  {
+    "id": 218,
+    "nivel": 44,
+    "tags": ["trabajo_avanzado"],
+    "en": "I am out of the office (ai am aut of di ofis)",
+    "jp": "外出中です (Gaishutsu chuu desu)",
+    "es": "Estoy fuera de la oficina",
+    "fr": "Je suis hors du bureau (zhe sui or dy biro)",
+    "it": "Sono fuori ufficio (sono fuori ufficho)"
+  },
+  {
+    "id": 219,
+    "nivel": 44,
+    "tags": ["trabajo_avanzado"],
+    "en": "Send the report (send de riport)",
+    "jp": "レポートを送って (Repooto wo okutte)",
+    "es": "Envía el reporte",
+    "fr": "Envoyez le rapport (anvuaye le rapor)",
+    "it": "Invia il rapporto (invia il rapporto)"
+  },
+  {
+    "id": 220,
+    "nivel": 44,
+    "tags": ["trabajo_avanzado"],
+    "en": "We need a solution (ui niid a solushon)",
+    "jp": "解決策が必要です (Kaiketsusaku ga hitsuyou desu)",
+    "es": "Necesitamos una solución",
+    "fr": "Il nous faut une solution (il nu fo un solusion)",
+    "it": "Serve una soluzione (serve una solutzyone)"
+  },
+  {
+    "id": 221,
+    "nivel": 45,
+    "tags": ["comunicacion"],
+    "en": "How do you spell that? (jau du iu spel dat?)",
+    "jp": "綴りは何ですか (Tsuzuri wa nan desu ka)",
+    "es": "¿Cómo se deletrea eso?",
+    "fr": "Comment ça s'épelle ? (koman sa sepel?)",
+    "it": "Come se scrive? (kome se skrive?)"
+  },
+  {
+    "id": 222,
+    "nivel": 45,
+    "tags": ["comunicacion"],
+    "en": "Speak more slowly (spiik mor slouli)",
+    "jp": "もっとゆっくり話して (Motto yukkuri hanashite)",
+    "es": "Habla más despacio",
+    "fr": "Parlez plus lentement (parle ply lanteman)",
+    "it": "Parla più lentamente (parla piu lentamente)"
+  },
+  {
+    "id": 223,
+    "nivel": 45,
+    "tags": ["comunicacion"],
+    "en": "I am listening (ai am lisnin)",
+    "jp": "聞いています (Kiite imasu)",
+    "es": "Estoy escuchando",
+    "fr": "J'écoute (zhekut)",
+    "it": "Sto ascoltando (sto askoltando)"
+  },
+  {
+    "id": 224,
+    "nivel": 45,
+    "tags": ["comunicacion"],
+    "en": "Can you hear me? (can iu jiar mi?)",
+    "jp": "聞こえますか (Kikoemasu ka)",
+    "es": "¿Me escuchas?",
+    "fr": "M'entendez-vous ? (mantande vu?)",
+    "it": "Mi senti? (mi senti?)"
+  },
+  {
+    "id": 225,
+    "nivel": 45,
+    "tags": ["comunicacion"],
+    "en": "Write it down (rait it daun)",
+    "jp": "書き留めてください (Kakitomete kudasai)",
+    "es": "Escríbelo",
+    "fr": "Note-le (not le)",
+    "it": "Scrivilo (skrivilo)"
+  },
+  {
+    "id": 226,
+    "nivel": 46,
+    "tags": ["viajes_final"],
+    "en": "I want to rent a car (ai uant tu rent a car)",
+    "jp": "車を借りたいです (Kuruma wo karitai desu)",
+    "es": "Quiero rentar un auto",
+    "fr": "Je veux louer une voiture (zhe ve lue un vuatyr)",
+    "it": "Voglio noleggiare un'auto (volio nolejjare un-auto)"
+  },
+  {
+    "id": 227,
+    "nivel": 46,
+    "tags": ["viajes_final"],
+    "en": "What is the exit number? (uhat is di eksit namber?)",
+    "jp": "出口番号は何番ですか (Deguchi bangou wa nanban desu ka)",
+    "es": "¿Cuál es el número de salida?",
+    "fr": "Quel est le numéro de sortie ? (kel e le nymero de sorti?)",
+    "it": "Qual è il numero dell'uscita? (kual e il numero dellushita?)"
+  },
+  {
+    "id": 228,
+    "nivel": 46,
+    "tags": ["viajes_final"],
+    "en": "The flight is delayed (de flait is dileid)",
+    "jp": "フライトが遅れています (Furaito ga okurete imasu)",
+    "es": "El vuelo está retrasado",
+    "fr": "Le vol est retardé (le vol e retarde)",
+    "it": "Il volo è in ritardo (il volo e in ritardo)"
+  },
+  {
+    "id": 229,
+    "nivel": 46,
+    "tags": ["viajes_final"],
+    "en": "Where is the gate? (uer is de gueit?)",
+    "jp": "ゲートはどこですか (Geeto wa doko desu ka)",
+    "es": "¿Dónde está la puerta de embarque?",
+    "fr": "Où est la porte ? (u e la port?)",
+    "it": "Dov'è il gate? (dove il gueit?)"
+  },
+  {
+    "id": 230,
+    "nivel": 46,
+    "tags": ["viajes_final"],
+    "en": "Enjoy your trip (enioi ior trip)",
+    "jp": "旅行を楽しんで (Ryokou wo tanoshinde)",
+    "es": "Disfruta tu viaje",
+    "fr": "Bon voyage (bon vuayazh)",
+    "it": "Buon viaggio (buon viajjo)"
+  },
+  {
+    "id": 231,
+    "nivel": 47,
+    "tags": ["cotidiano"],
+    "en": "I am lost (ai am lost)",
+    "jp": "迷子になりました (Maigo ni narimashita)",
+    "es": "Estoy perdido",
+    "fr": "Je suis perdu (zhe sui perdu)",
+    "it": "Mi sono perso (mi sono perso)"
+  },
+  {
+    "id": 232,
+    "nivel": 47,
+    "tags": ["cotidiano"],
+    "en": "Can I have a receipt? (can ai jav a risiit?)",
+    "jp": "領収書をいただけますか (Ryoushuusho wo itadakemasu ka)",
+    "es": "¿Me puede dar un recibo?",
+    "fr": "Puis-je avoir un reçu ? (pui-zhe avuar un resy?)",
+    "it": "Posso avere la ricevuta? (posso avere la richevuta?)"
+  },
+  {
+    "id": 233,
+    "nivel": 47,
+    "tags": ["cotidiano"],
+    "en": "Is it free? (is it frii?)",
+    "jp": "無料ですか (Muryou desu ka)",
+    "es": "¿Es gratis?",
+    "fr": "Est-ce gratuit ? (es gratui?)",
+    "it": "È gratis? (e gratis?)"
+  },
+  {
+    "id": 234,
+    "nivel": 47,
+    "tags": ["cotidiano"],
+    "en": "Of course (of cors)",
+    "jp": "もちろんです (Mochiron desu)",
+    "es": "Por supuesto",
+    "fr": "Bien sûr (bian syr)",
+    "it": "Certamente (chertamente)"
+  },
+  {
+    "id": 235,
+    "nivel": 47,
+    "tags": ["cotidiano"],
+    "en": "Maybe later (meibi leiter)",
+    "jp": "また後で (Mata ato de)",
+    "es": "Tal vez luego",
+    "fr": "Peut-être plus tard (pet-etr ply tar)",
+    "it": "Forse più tardi (forse piu tardi)"
+  },
+  {
+    "id": 236,
+    "nivel": 48,
+    "tags": ["sentimientos_final"],
+    "en": "I am surprised (ai am surpraisd)",
+    "jp": "驚いています (Odoroite imasu)",
+    "es": "Estoy sorprendido",
+    "fr": "Je suis surpris (zhe sui syrpri)",
+    "it": "Sono sorpreso (sono sorprezo)"
+  },
+  {
+    "id": 237,
+    "nivel": 48,
+    "tags": ["sentimientos_final"],
+    "en": "It is my fault (it is mai folt)",
+    "jp": "私のせいです (Watashi no sei desu)",
+    "es": "Es mi culpa",
+    "fr": "C'est ma faute (se ma fot)",
+    "it": "È colpa mia (e kolpa mia)"
+  },
+  {
+    "id": 238,
+    "nivel": 48,
+    "tags": ["sentimientos_final"],
+    "en": "I am so sorry (ai am sou sori)",
+    "jp": "本当にごめんなさい (Hontou ni gomennasai)",
+    "es": "Lo siento mucho",
+    "fr": "Je suis vraiment désolé (zhe sui vreman dezole)",
+    "it": "Mi dispiace tanto (mi dispiache tanto)"
+  },
+  {
+    "id": 239,
+    "nivel": 48,
+    "tags": ["sentimientos_final"],
+    "en": "I am confused (ai am confiuzd)",
+    "jp": "混乱しています (Konran shite imasu)",
+    "es": "Estoy confundido",
+    "fr": "Je suis confus (zhe sui konfy)",
+    "it": "Sono confuso (sono konfuzo)"
+  },
+  {
+    "id": 240,
+    "nivel": 48,
+    "tags": ["sentimientos_final"],
+    "en": "Don't be afraid (dount bi afreid)",
+    "jp": "怖がらないで (Kowagaranaide)",
+    "es": "No tengas miedo",
+    "fr": "N'aie pas peur (ne pa per)",
+    "it": "Non avere paura (non avere paura)"
+  },
+  {
+    "id": 241,
+    "nivel": 49,
+    "tags": ["adverbios"],
+    "en": "Always (olueis)",
+    "jp": "いつも (Itsumo)",
+    "es": "Siempre",
+    "fr": "Toujours (tuzhur)",
+    "it": "Sempre (sempre)"
+  },
+  {
+    "id": 242,
+    "nivel": 49,
+    "tags": ["adverbios"],
+    "en": "Never (never)",
+    "jp": "決して〜ない (Kesshite...nai)",
+    "es": "Nunca",
+    "fr": "Jamais (zhame)",
+    "it": "Mai (mai)"
+  },
+  {
+    "id": 243,
+    "nivel": 49,
+    "tags": ["adverbios"],
+    "en": "Sometimes (samtaims)",
+    "jp": "時々 (Tokidoki)",
+    "es": "A veces",
+    "fr": "Parfois (parfua)",
+    "it": "A volte (a volte)"
+  },
+  {
+    "id": 244,
+    "nivel": 49,
+    "tags": ["adverbios"],
+    "en": "Soon (suun)",
+    "jp": "すぐ (Sugu)",
+    "es": "Pronto",
+    "fr": "Bientôt (bianto)",
+    "it": "Presto (presto)"
+  },
+  {
+    "id": 245,
+    "nivel": 49,
+    "tags": ["adverbios"],
+    "en": "Already (olredi)",
+    "jp": "既に (Sude ni)",
+    "es": "Ya",
+    "fr": "Déjà (dezha)",
+    "it": "Già (ja)"
+  },
+  {
+    "id": 246,
+    "nivel": 50,
+    "tags": ["despedida_final"],
+    "en": "Take care (teik ker)",
+    "jp": "気をつけて (Ki wo tsukete)",
+    "es": "Cuídate",
+    "fr": "Prends soin de toi (pran suan de tua)",
+    "it": "Abbi cura di te (abbi kura di te)"
+  },
+  {
+    "id": 247,
+    "nivel": 50,
+    "tags": ["despedida_final"],
+    "en": "Good night (gud nait)",
+    "jp": "おやすみなさい (Oyasuminasai)",
+    "es": "Buenas noches",
+    "fr": "Bonne nuit (bon nui)",
+    "it": "Buonanotte (buonanotte)"
+  },
+  {
+    "id": 248,
+    "nivel": 50,
+    "tags": ["despedida_final"],
+    "en": "Have a nice day (jav a nais dei)",
+    "jp": "良い一日を (Yoi ichinichi wo)",
+    "es": "Que tengas un buen día",
+    "fr": "Bonne journée (bon zhurne)",
+    "it": "Buona giornata (buona jornata)"
+  },
+  {
+    "id": 249,
+    "nivel": 50,
+    "tags": ["despedida_final"],
+    "en": "I'm sorry (aim sori)",
+    "jp": "ごめんなさい (Gomennasai)",
+    "es": "Lo siento",
+    "fr": "Je suis désolé (zhe sui dezole)",
+    "it": "Mi dispiace (mi dispiache)"
+  },
+  {
+    "id": 250,
+    "nivel": 50,
+    "tags": ["despedida_final"],
+    "en": "Goodbye (gud-bai)",
+    "jp": "さようなら (Sayounara)",
+    "es": "Adiós",
+    "fr": "Au revoir (o revuar)",
+    "it": "Arrivederci (arrivederchi)"
+  }
+]

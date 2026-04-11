@@ -1,0 +1,2502 @@
+[
+  {
+    "id": 1,
+    "nivel": 1,
+    "tags": ["tecnico"],
+    "en": "The database connection failed (de deitabeis coneccion feild)",
+    "jp": "データベースの接続に失敗しました (Deetabeesu no setsuzoku ni shippai shimashita)",
+    "es": "La conexión a la base de datos falló",
+    "fr": "La connexion à la base de données a échoué (la conecsion a la bas de done a eshue)",
+    "it": "La connessione al database è fallita (la connesione al deitabeis e fallita)"
+  },
+  {
+    "id": 2,
+    "nivel": 1,
+    "tags": ["tecnico"],
+    "en": "Optimize the source code (optimals de sors coud)",
+    "jp": "ソースコードを最適化する (Soosu koodo wo saitekika suru)",
+    "es": "Optimizar el código fuente",
+    "fr": "Optimiser le code source (optimise le cod sors)",
+    "it": "Ottimizzare il codice sorgente (ottimit-tsare il codiche sorjente)"
+  },
+  {
+    "id": 3,
+    "nivel": 1,
+    "tags": ["modismo"],
+    "en": "It's a piece of cake (its a piis of keik)",
+    "jp": "朝飯前です (Asameshimae desu)",
+    "es": "Es pan comido",
+    "fr": "C'est du gâteau (se dy gato)",
+    "it": "È un gioco da ragazzi (e un gioco da ragat-tsi)"
+  },
+  {
+    "id": 4,
+    "nivel": 1,
+    "tags": ["tecnico"],
+    "en": "Deploy to production (deploi tu produccion)",
+    "jp": "本番環境にデプロイする (Honban kankyou ni depuroi suru)",
+    "es": "Desplegar a producción",
+    "fr": "Déployer en production (depluaie an produksion)",
+    "it": "Distribuire in produzione (distribuire in produt-tsione)"
+  },
+  {
+    "id": 5,
+    "nivel": 1,
+    "tags": ["negocios"],
+    "en": "Circle back later (sercol bac leiter)",
+    "jp": "後でまた検討しましょう (Ato de mata kentou shimashou)",
+    "es": "Volver a tratar el tema luego",
+    "fr": "Y revenir plus tard (i revenir ply tar)",
+    "it": "Ricontrollare più tardi (rikontrollare piu tardi)"
+  },
+  {
+    "id": 6,
+    "nivel": 2,
+    "tags": ["tecnico"],
+    "en": "Scalable architecture (skeilabol arkitectiur)",
+    "jp": "スケーラブルなアーキテクチャ (Skeeraburu na aakitekucha)",
+    "es": "Arquitectura escalable",
+    "fr": "Architecture évolutive (arkitektyr evolutiv)",
+    "it": "Architettura scalabile (arkitettura skalabile)"
+  },
+  {
+    "id": 7,
+    "nivel": 2,
+    "tags": ["negocios"],
+    "en": "Think outside the box (zink autsaid de boks)",
+    "jp": "既成概念にとらわれずに考える (Kiseigainen ni torawarezu ni kangaeru)",
+    "es": "Pensar fuera de la caja",
+    "fr": "Penser hors des sentiers battus (panse or de santie baty)",
+    "it": "Pensare fuori dagli schemi (pensare fuori dalli skemi)"
+  },
+  {
+    "id": 8,
+    "nivel": 2,
+    "tags": ["filosofia"],
+    "en": "Knowledge is power (noleich is pauer)",
+    "jp": "知識は力なり (Chishiki wa chikara nari)",
+    "es": "El conocimiento es poder",
+    "fr": "Le savoir est une arme (le savuar et-un arm)",
+    "it": "La conoscenza è potere (la konoshent-tsa e potere)"
+  },
+  {
+    "id": 9,
+    "nivel": 2,
+    "tags": ["tecnico"],
+    "en": "The API is down (di ei-pi-ai is daun)",
+    "jp": "APIがダウンしています (Eipiai ga daun shite imasu)",
+    "es": "La API está caída",
+    "fr": "L'API est en panne (lapi e an pan)",
+    "it": "L'API è fuori servizio (lapi e fuori servit-tsio)"
+  },
+  {
+    "id": 10,
+    "nivel": 2,
+    "tags": ["negocios"],
+    "en": "A win-win situation (a uin-uin situeishon)",
+    "jp": "ウィンウィンの状況 (Uinuin no joukyou)",
+    "es": "Una situación donde todos ganan",
+    "fr": "Une situation gagnant-gagnant (un situasion ganyan-ganyan)",
+    "it": "Una situazione vantaggiosa per tutti (una situat-tsione vantajioza per tutti)"
+  },
+  {
+    "id": 11,
+    "nivel": 3,
+    "tags": ["tecnico"],
+    "en": "Asymmetric encryption (eisimétric encripcion)",
+    "jp": "非対称暗号 (Hitaisyou angou)",
+    "es": "Cifrado asimétrico",
+    "fr": "Chiffrement asymétrique (shifreman asimetrik)",
+    "it": "Crittografia asimmetrica (krittografia asimmetrika)"
+  },
+  {
+    "id": 12,
+    "nivel": 3,
+    "tags": ["literatura"],
+    "en": "To be or not to be (tu bi or not tu bi)",
+    "jp": "生か死か、それが問題だ (Ika shika, sore ga mondai da)",
+    "es": "Ser o no ser",
+    "fr": "Être ou ne pas être (etr u ne pas etr)",
+    "it": "Essere o non essere (essere o non essere)"
+  },
+  {
+    "id": 13,
+    "nivel": 3,
+    "tags": ["tecnico"],
+    "en": "Refactor the module (rifactor de moudiul)",
+    "jp": "モジュールをリファクタリングする (Mojyuuru wo rifakutaringu suru)",
+    "es": "Refactorizar el módulo",
+    "fr": "Refactoriser le module (refaktorise le modyl)",
+    "it": "Rifattorizzare il modulo (rifattorit-tsare il modulo)"
+  },
+  {
+    "id": 14,
+    "nivel": 3,
+    "tags": ["negocios"],
+    "en": "Call it a day (col it a dei)",
+    "jp": "今日はここまでにしましょう (Kyou wa koko made ni shimashou)",
+    "es": "Dar por terminado el día",
+    "fr": "On s'arrête là pour aujourd'hui (on saret la pur ozhurdui)",
+    "it": "Per oggi può bastare (per ojji puo bastare)"
+  },
+  {
+    "id": 15,
+    "nivel": 3,
+    "tags": ["tecnico"],
+    "en": "Garbage collection (garbeich coleccion)",
+    "jp": "ガベージコレクション (Gabeeji korekushon)",
+    "es": "Recolección de basura",
+    "fr": "Ramasse-miettes (ramas-miet)",
+    "it": "Raccolta dei rifiuti (rakkoolta dei rifiu-ti)"
+  },
+  {
+    "id": 16,
+    "nivel": 4,
+    "tags": ["modismo"],
+    "en": "Under the weather (ander de ueder)",
+    "jp": "体調が悪い (Taichou ga warui)",
+    "es": "Sentirse un poco mal",
+    "fr": "Ne pas être dans son assiette (ne pas etr dan son asiet)",
+    "it": "Sentirsi poco bene (sentirsi poko bene)"
+  },
+  {
+    "id": 17,
+    "nivel": 4,
+    "tags": ["tecnico"],
+    "en": "Latency issues (leitensi ishus)",
+    "jp": "レイテンシの問題 (Reitenshi no mondai)",
+    "es": "Problemas de latencia",
+    "fr": "Problèmes de latence (problem de latans)",
+    "it": "Problemi di latenza (problemi di latent-tsa)"
+  },
+  {
+    "id": 18,
+    "nivel": 4,
+    "tags": ["tecnico"],
+    "en": "Object-oriented programming (obchect-orient-ed prougramin)",
+    "jp": "オブジェクト指向プログラミング (Obujekuto shikou puroguramingu)",
+    "es": "Programación orientada a objetos",
+    "fr": "Programmation orientée objet (programasion oriente obzhe)",
+    "it": "Programmazione orientata agli oggetti (programmat-tsione orientata alli ojjeti)"
+  },
+  {
+    "id": 19,
+    "nivel": 4,
+    "tags": ["negocios"],
+    "en": "The bottom line (de botom lain)",
+    "jp": "最終的な結果 (Saishuuteki na kekka)",
+    "es": "El resultado final / La conclusión",
+    "fr": "Le résultat final (le rezylta final)",
+    "it": "Il punto cruciale (il punto kruchiale)"
+  },
+  {
+    "id": 20,
+    "nivel": 4,
+    "tags": ["filosofia"],
+    "en": "The unexamined life (di un-eksamind laif)",
+    "jp": "吟味されない人生 (Ginmi sarenai jinsei)",
+    "es": "La vida no examinada",
+    "fr": "Une vie sans examen (un vi sans-ekzaman)",
+    "it": "Una vita senza ricerca (una vita sent-tsa rikerka)"
+  },
+  {
+    "id": 21,
+    "nivel": 5,
+    "tags": ["tecnico"],
+    "en": "End-to-end encryption (end tu end encripcion)",
+    "jp": "エンドツーエンド暗号化 (Endotsuuendo angouka)",
+    "es": "Cifrado de extremo a extremo",
+    "fr": "Chiffrement de bout en bout (shifreman de bu an bu)",
+    "it": "Crittografia end-to-end (krittografia end-tu-end)"
+  },
+  {
+    "id": 22,
+    "nivel": 5,
+    "tags": ["negocios"],
+    "en": "Touching base (tachin beis)",
+    "jp": "連絡を取る (Renraku wo toru)",
+    "es": "Ponerse en contacto",
+    "fr": "Prendre contact (prandr kontakt)",
+    "it": "Mettersi in contatto (mettersi in kontatto)"
+  },
+  {
+    "id": 23,
+    "nivel": 5,
+    "tags": ["tecnico"],
+    "en": "Query optimization (kueri optimais-eishon)",
+    "jp": "クエリの最適化 (Kueri no saitekika)",
+    "es": "Optimización de consultas",
+    "fr": "Optimisation de requête (optimizasion de reket)",
+    "it": "Ottimizzazione della query (ottimit-tsat-tsione della kueri)"
+  },
+  {
+    "id": 24,
+    "nivel": 5,
+    "tags": ["literatura"],
+    "en": "All that glitters is not gold (ol dat gliters is not gould)",
+    "jp": "輝くものすべてが金ではない (Kagayaku mono subete ga kin dewa nai)",
+    "es": "No todo lo que brilla es oro",
+    "fr": "Tout ce qui brille n'est pas or (tu se ki bri n'e pas or)",
+    "it": "Non è tutto oro quel che luccica (non e tutto oro kuel ke luchika)"
+  },
+  {
+    "id": 25,
+    "nivel": 5,
+    "tags": ["tecnico"],
+    "en": "Distributed systems (distritiuted sistems)",
+    "jp": "分散システム (Bunsan shisutemu)",
+    "es": "Sistemas distribuidos",
+    "fr": "Systèmes distribués (sistem distribye)",
+    "it": "Sistemi distribuiti (sistemi distribuiti)"
+  },
+  {
+    "id": 26,
+    "nivel": 6,
+    "tags": ["tecnico"],
+    "en": "Inheritance and polymorphism (injeritans and polimorfism)",
+    "jp": "継承と多態性 (Keishou to tataisei)",
+    "es": "Herencia y polimorfismo",
+    "fr": "Héritage et polymorphisme (eritezh e polimorfism)",
+    "it": "Eredità e polimorfismo (eredita e polimorfismo)"
+  },
+  {
+    "id": 27,
+    "nivel": 6,
+    "tags": ["negocios"],
+    "en": "Due diligence (diu dilichens)",
+    "jp": "デューデリジェンス (Dyuu derijensu)",
+    "es": "Diligencia debida / Auditoría",
+    "fr": "Diligence raisonnable (dilizhans rezonabl)",
+    "it": "Dovuta diligenza (dovuta dilijent-tsa)"
+  },
+  {
+    "id": 28,
+    "nivel": 6,
+    "tags": ["tecnico"],
+    "en": "State management (steit manachement)",
+    "jp": "状態管理 (Joutai kanri)",
+    "es": "Gestión de estado",
+    "fr": "Gestion d'état (zhestion deta)",
+    "it": "Gestione dello stato (jestione dello stato)"
+  },
+  {
+    "id": 29,
+    "nivel": 6,
+    "tags": ["filosofia"],
+    "en": "I think, therefore I am (ai zink derfor ai am)",
+    "jp": "我思う、故に我あり (Ware omou, yue ni ware ari)",
+    "es": "Pienso, luego existo",
+    "fr": "Je pense, donc je suis (zhe pans donk zhe sui)",
+    "it": "Penso, dunque sono (penso dun-kue sono)"
+  },
+  {
+    "id": 30,
+    "nivel": 6,
+    "tags": ["tecnico"],
+    "en": "Virtual DOM (virtiual dom)",
+    "jp": "仮想DOM (Kasou DOM)",
+    "es": "DOM virtual",
+    "fr": "DOM virtuel (dom virtyel)",
+    "it": "DOM virtuale (dom virtuale)"
+  },
+  {
+    "id": 31,
+    "nivel": 7,
+    "tags": ["tecnico"],
+    "en": "Full stack developer (ful stac developer)",
+    "jp": "フルスタックエンジニア (Furusutakku enjinia)",
+    "es": "Desarrollador de pila completa",
+    "fr": "Développeur full stack (developeur ful stak)",
+    "it": "Sviluppatore full stack (sviluppatore ful stak)"
+  },
+  {
+    "id": 32,
+    "nivel": 7,
+    "tags": ["negocios"],
+    "en": "Ballpark figure (bolpark figuier)",
+    "jp": "概算の数字 (Gaisan no suuji)",
+    "es": "Cifra aproximada",
+    "fr": "Estimation approximative (estimasion aproksimativ)",
+    "it": "Cifra approssimativa (chifra approssimativa)"
+  },
+  {
+    "id": 33,
+    "nivel": 7,
+    "tags": ["tecnico"],
+    "en": "Continuous integration (continius integréishon)",
+    "jp": "継続的インテグレーション (Keizokuteki integureeshon)",
+    "es": "Integración continua",
+    "fr": "Intégration continue (integrasion kontiny)",
+    "it": "Integrazione continua (integrat-tsione kontinua)"
+  },
+  {
+    "id": 34,
+    "nivel": 7,
+    "tags": ["modismo"],
+    "en": "Beat around the bush (biit araund de bush)",
+    "jp": "遠回しに言う (Toomawashi ni iu)",
+    "es": "Andarse con rodeos",
+    "fr": "Tourner autour du pot (turne otu dy po)",
+    "it": "Menare il can per l'aia (menare il kan per laia)"
+  },
+  {
+    "id": 35,
+    "nivel": 7,
+    "tags": ["tecnico"],
+    "en": "Cloud computing (claud compiutin)",
+    "jp": "クラウドコンピューティング (Kuraudo konpyuutingu)",
+    "es": "Computación en la nube",
+    "fr": "Informatique en nuage (informatik an nuazh)",
+    "it": "Cloud computing (klaud compiutin)"
+  },
+  {
+    "id": 36,
+    "nivel": 8,
+    "tags": ["tecnico"],
+    "en": "Artificial Intelligence (artifishal intelichens)",
+    "jp": "人工知能 (Jinkou chinou)",
+    "es": "Inteligencia Artificial",
+    "fr": "Intelligence artificielle (antelizhans artisifiel)",
+    "it": "Intelligenza artificiale (intellijent-tsa artifichiale)"
+  },
+  {
+    "id": 37,
+    "nivel": 8,
+    "tags": ["negocios"],
+    "en": "Game changer (gueim cheinch-er)",
+    "jp": "形勢を一変させるもの (Keisei wo ippen saseru mono)",
+    "es": "Algo que cambia las reglas del juego",
+    "fr": "Ce qui change la donne (se ki shanzh la don)",
+    "it": "Punto de svolta (punto de svolta)"
+  },
+  {
+    "id": 38,
+    "nivel": 8,
+    "tags": ["tecnico"],
+    "en": "Machine Learning (mashiin lernin)",
+    "jp": "機械学習 (Kikai gakushuu)",
+    "es": "Aprendizaje automático",
+    "fr": "Apprentissage automatique (aprantisazh otomatik)",
+    "it": "Apprendimento automatico (apprendimento au-tomatiko)"
+  },
+  {
+    "id": 39,
+    "nivel": 8,
+    "tags": ["filosofia"],
+    "en": "Carpe diem (carpe diem)",
+    "jp": "その日を摘め (Sono hi wo tsume)",
+    "es": "Aprovecha el día",
+    "fr": "Cueille le jour (kei le zhur)",
+    "it": "Cogli l'attimo (kolli lattimo)"
+  },
+  {
+    "id": 40,
+    "nivel": 8,
+    "tags": ["tecnico"],
+    "en": "Responsive design (responsiv desain)",
+    "jp": "レスポンシブデザイン (Resuponshibu dezain)",
+    "es": "Diseño adaptativo",
+    "fr": "Design adaptatif (disain adaptatif)",
+    "it": "Design responsivo (disain responsivo)"
+  },
+  {
+    "id": 41,
+    "nivel": 9,
+    "tags": ["tecnico"],
+    "en": "Big Data analysis (big deita analisis)",
+    "jp": "ビッグデータ分析 (Biggu deeta bunseki)",
+    "es": "Análisis de macrodatos",
+    "fr": "Analyse de données massives (analiz de done masiv)",
+    "it": "Analisi dei Big Data (analizi dei big deita)"
+  },
+  {
+    "id": 42,
+    "nivel": 9,
+    "tags": ["negocios"],
+    "en": "Scalability and ROI (skeilabiliti and ar-ou-ai)",
+    "jp": "拡張性と投資利益率 (Kakuchousei to toushi riekiritsu)",
+    "es": "Escalabilidad y retorno de inversión",
+    "fr": "Évolutivité et ROI (evolutivite e roi)",
+    "it": "Scalabilità e ROI (skalabilita e roi)"
+  },
+  {
+    "id": 43,
+    "nivel": 9,
+    "tags": ["tecnico"],
+    "en": "Neural networks (niural netuorks)",
+    "jp": "ニューラルネットワーク (Nyuuraru nettowaaku)",
+    "es": "Redes neuronales",
+    "fr": "Réseaux de neurones (rezo de neron)",
+    "it": "Reti neurali (reti neurali)"
+  },
+  {
+    "id": 44,
+    "nivel": 9,
+    "tags": ["literatura"],
+    "en": "The pen is mightier than the sword (de pen is maitier dan de sord)",
+    "jp": "ペンは剣よりも強し (Pen wa ken yori mo tsuyoshi)",
+    "es": "La pluma es más fuerte que la espada",
+    "fr": "La plume est plus forte que l'épée (la plym e ply fort ke lepe)",
+    "it": "Ne ferisce più la penna che la spada (ne ferishe piu la penna ke la spada)"
+  },
+  {
+    "id": 45,
+    "nivel": 9,
+    "tags": ["tecnico"],
+    "en": "Backend architecture (baquend arkitectiur)",
+    "jp": "バックエンド構成 (Bakkuendo kousei)",
+    "es": "Arquitectura de backend",
+    "fr": "Architecture backend (arkitektyr backend)",
+    "it": "Architettura di backend (arkitettura di backend)"
+  },
+  {
+    "id": 46,
+    "nivel": 10,
+    "tags": ["tecnico"],
+    "en": "Frontend framework (front-end freimuorc)",
+    "jp": "フロントエンドフレームワーク (Furontoendo fureemuwaku)",
+    "es": "Marco de trabajo de frontend",
+    "fr": "Framework frontend (fremuork frontend)",
+    "it": "Framework di frontend (fremuork di frontend)"
+  },
+  {
+    "id": 47,
+    "nivel": 10,
+    "tags": ["negocios"],
+    "en": "Actionable insights (akshionabol insaits)",
+    "jp": "実用的な洞察 (Jitsuyouteki na dousatsu)",
+    "es": "Información procesable",
+    "fr": "Informations exploitables (anformasions ekspluatabl)",
+    "it": "Informazioni fruibili (anformat-tsioni fruibili)"
+  },
+  {
+    "id": 48,
+    "nivel": 10,
+    "tags": ["tecnico"],
+    "en": "Agile methodology (aya-il metodolochi)",
+    "jp": "アジャイル手法 (Ajairu shuhou)",
+    "es": "Metodología ágil",
+    "fr": "Méthodologie agile (metodolozhi azhil)",
+    "it": "Metodologia agile (metodolojia azhile)"
+  },
+  {
+    "id": 49,
+    "nivel": 10,
+    "tags": ["modismo"],
+    "en": "Bite off more than you can chew (bait of mor dan iu can chu)",
+    "jp": "無理をする (Muri wo suru)",
+    "es": "Abarcar más de lo que se puede",
+    "fr": "Vouloir en faire trop (vuluar an fer tro)",
+    "it": "Fare il passo più lungo della gamba (fare il passo piu lungo della gamba)"
+  },
+  {
+    "id": 50,
+    "nivel": 10,
+    "tags": ["tecnico"],
+    "en": "User experience (iuser ekspiries)",
+    "jp": "ユーザーエクスペリエンス (Yuuzaa ekusuperiensu)",
+    "es": "Experiencia de usuario",
+    "fr": "Expérience utilisateur (eksperians ytilizater)",
+    "it": "Esperienza utente (esperient-tsa utente)"
+  },
+  {
+    "id": 51,
+    "nivel": 11,
+    "tags": ["tecnico"],
+    "en": "Microservices architecture (maicrosérvisis arkitectiur)",
+    "jp": "マイクロサービスアーキテクチャ (Maikurosaabisu aakitekucha)",
+    "es": "Arquitectura de microservicios",
+    "fr": "Architecture de microservices (arkitektyr de mikro-servis)",
+    "it": "Architettura a microservizi (arkitettura a mikro-servit-tsi)"
+  },
+  {
+    "id": 52,
+    "nivel": 11,
+    "tags": ["negocios"],
+    "en": "Streamline the process (striimlain de prouses)",
+    "jp": "プロセスを効率化する (Purosesu wo kouritsuka suru)",
+    "es": "Optimizar/Agilizar el proceso",
+    "fr": "Rationaliser le processus (rasionalise le prosesys)",
+    "it": "Semplificare il processo (semplifikare il pro-ches-so)"
+  },
+  {
+    "id": 53,
+    "nivel": 11,
+    "tags": ["tecnico"],
+    "en": "Continuous deployment (continius deplouiment)",
+    "jp": "継続的デプロイ (Keizokuteki depuroi)",
+    "es": "Despliegue continuo",
+    "fr": "Déploiement continu (depluaman kontiny)",
+    "it": "Distribuzione continua (distribut-tsione kontinua)"
+  },
+  {
+    "id": 54,
+    "nivel": 11,
+    "tags": ["filosofia"],
+    "en": "The soul of wit (de soul of uit)",
+    "jp": "機知の神髄 (Kichi no shinzui)",
+    "es": "La esencia de la agudeza",
+    "fr": "L'essence de l'esprit (lesans de lespri)",
+    "it": "L'essenza dello spirito (lessent-tsa dello spirito)"
+  },
+  {
+    "id": 55,
+    "nivel": 11,
+    "tags": ["tecnico"],
+    "en": "Load balancing (loud balansin)",
+    "jp": "負荷分散 (Fuka bunsan)",
+    "es": "Balanceo de carga",
+    "fr": "Équilibrage de charge (ekilibrazh de sharzh)",
+    "it": "Bilanciamento del carico (bilanchamento del kariko)"
+  },
+  {
+    "id": 56,
+    "nivel": 12,
+    "tags": ["tecnico"],
+    "en": "Relational database (rileishonal deitabeis)",
+    "jp": "関係データベース (Kankei deetabeesu)",
+    "es": "Base de datos relacional",
+    "fr": "Base de données relationnelle (bas de done relasionel)",
+    "it": "Database relazionale (deitabeis relat-tsionale)"
+  },
+  {
+    "id": 57,
+    "nivel": 12,
+    "tags": ["negocios"],
+    "en": "Core competency (cor compétensi)",
+    "jp": "核となる能力 (Kaku to naru nouryoku)",
+    "es": "Competencia principal",
+    "fr": "Compétence clé (konpetans kle)",
+    "it": "Competenza principale (konpetent-tsa princhipale)"
+  },
+  {
+    "id": 58,
+    "nivel": 12,
+    "tags": ["tecnico"],
+    "en": "Dependency injection (dipendensi inyeccion)",
+    "jp": "依存性の注入 (Izonsei no chuunyuu)",
+    "es": "Inyección de dependencias",
+    "fr": "Injection de dépendances (anzheksion de depandans)",
+    "it": "Iniezione di dipendenza (iniet-tsione di dipendent-tsa)"
+  },
+  {
+    "id": 59,
+    "nivel": 12,
+    "tags": ["modismo"],
+    "en": "Costs an arm and a leg (costs an arm and a leg)",
+    "jp": "非常に高価だ (Hijou ni kouka da)",
+    "es": "Cuesta un ojo de la cara",
+    "fr": "Ça coûte les yeux de la tête (sa kut le-zie de la tet)",
+    "it": "Costa un occhio della testa (kosta un okkio della testa)"
+  },
+  {
+    "id": 60,
+    "nivel": 12,
+    "tags": ["tecnico"],
+    "en": "Regression testing (rigreshon testin)",
+    "jp": "回帰テスト (Kaiki tesuto)",
+    "es": "Pruebas de regresión",
+    "fr": "Tests de régression (test de regresion)",
+    "it": "Test di regressione (test di regressione)"
+  },
+  {
+    "id": 61,
+    "nivel": 13,
+    "tags": ["tecnico"],
+    "en": "Asynchronous programming (eisinkronos prougramin)",
+    "jp": "非同期プログラミング (Hidouki puroguramingu)",
+    "es": "Programación asíncrona",
+    "fr": "Programmation asynchrone (programasion asankron)",
+    "it": "Programmazione asincrona (programmat-tsione asinkrona)"
+  },
+  {
+    "id": 62,
+    "nivel": 13,
+    "tags": ["negocios"],
+    "en": "Best practices (best pracktisis)",
+    "jp": "ベストプラクティス (Besuto purakutisu)",
+    "es": "Mejores prácticas",
+    "fr": "Bonnes pratiques (bon pratik)",
+    "it": "Buone pratiche (buone pratike)"
+  },
+  {
+    "id": 63,
+    "nivel": 13,
+    "tags": ["tecnico"],
+    "en": "Data mining (deita mainin)",
+    "jp": "データマイニング (Deeta mainingu)",
+    "es": "Minería de datos",
+    "fr": "Exploration de données (eksplorasion de done)",
+    "it": "Estrazione di dati (estrat-tsione di dati)"
+  },
+  {
+    "id": 64,
+    "nivel": 13,
+    "tags": ["literatura"],
+    "en": "A brave new world (a breiv niu uorld)",
+    "jp": "素晴らしき新世界 (Subarashiki shinsekai)",
+    "es": "Un mundo feliz",
+    "fr": "Le meilleur des mondes (le meier de mond)",
+    "it": "Il mondo nuovo (il mondo nuovo)"
+  },
+  {
+    "id": 65,
+    "nivel": 13,
+    "tags": ["tecnico"],
+    "en": "Version control system (vershon control sistem)",
+    "jp": "バージョン管理システム (Baajon kanri shisutemu)",
+    "es": "Sistema de control de versiones",
+    "fr": "Système de contrôle de version (sistem de kontrol de verson)",
+    "it": "Sistema di controllo versione (sistema di kontrollo versone)"
+  },
+  {
+    "id": 66,
+    "nivel": 14,
+    "tags": ["tecnico"],
+    "en": "Container orchestration (contéiner orquestreishon)",
+    "jp": "コンテナオーケストレーション (Kontena ookesutoreeshon)",
+    "es": "Orquestación de contenedores",
+    "fr": "Orchestration de conteneurs (orkestrasion de kontener)",
+    "it": "Orchestrazione di container (orkestrat-tsione di kontainer)"
+  },
+  {
+    "id": 67,
+    "nivel": 14,
+    "tags": ["negocios"],
+    "en": "Competitive advantage (compétitiv advantich)",
+    "jp": "競争優位性 (Kyousou yuuisei)",
+    "es": "Ventaja competitiva",
+    "fr": "Avantage concurrentiel (avantazh konkyransiel)",
+    "it": "Vantaggio competitivo (vantajio kompe-titivo)"
+  },
+  {
+    "id": 68,
+    "nivel": 14,
+    "tags": ["tecnico"],
+    "en": "Unit testing (iunit testin)",
+    "jp": "ユニットテスト (Yunitto tesuto)",
+    "es": "Pruebas unitarias",
+    "fr": "Tests unitaires (test yniter)",
+    "it": "Test unitari (test unitari)"
+  },
+  {
+    "id": 69,
+    "nivel": 14,
+    "tags": ["modismo"],
+    "en": "Cut to the chase (cat tu de cheis)",
+    "jp": "本題に入る (Hondai ni hairu)",
+    "es": "Ir al grano",
+    "fr": "Aller droit au but (ale drua o byt)",
+    "it": "Venire al sodo (venire al sodo)"
+  },
+  {
+    "id": 70,
+    "nivel": 14,
+    "tags": ["tecnico"],
+    "en": "Cross-platform development (cros-platform divélopment)",
+    "jp": "クロスプラットフォーム開発 (Kurosu purattofoomu kaihatsu)",
+    "es": "Desarrollo multiplataforma",
+    "fr": "Développement multiplateforme (depluaman mylti-platform)",
+    "it": "Sviluppo multipiattaforma (sviluppo multipiattaforma)"
+  },
+  {
+    "id": 71,
+    "nivel": 15,
+    "tags": ["tecnico"],
+    "en": "Serverless computing (sérverles compiutin)",
+    "jp": "サーバーレスコンピューティング (Saabaaresu konpyuutingu)",
+    "es": "Computación sin servidor",
+    "fr": "Informatique sans serveur (informatik san server)",
+    "it": "Serverless computing (serverles kom-piu-tin)"
+  },
+  {
+    "id": 72,
+    "nivel": 15,
+    "tags": ["negocios"],
+    "en": "Thought leadership (zot lidership)",
+    "jp": "ソートリーダーシップ (Sooto riidaashippu)",
+    "es": "Liderazgo intelectual",
+    "fr": "Leadership d'opinion (lidership dopinion)",
+    "it": "Leadership di pensiero (lidership di pensier)"
+  },
+  {
+    "id": 73,
+    "nivel": 15,
+    "tags": ["tecnico"],
+    "en": "Data integrity (deita integriti)",
+    "jp": "データの整合性 (Deeta no seigousei)",
+    "es": "Integridad de datos",
+    "fr": "Intégrité des données (antegrite de done)",
+    "it": "Integrità dei dati (integrita dei dati)"
+  },
+  {
+    "id": 74,
+    "nivel": 15,
+    "tags": ["filosofia"],
+    "en": "Tabula rasa (tabula rasa)",
+    "jp": "白紙状態 (Hakushi joutai)",
+    "es": "Tabula rasa / Página en blanco",
+    "fr": "Table rase (tabl ras)",
+    "it": "Tabula rasa (tabula raza)"
+  },
+  {
+    "id": 75,
+    "nivel": 15,
+    "tags": ["tecnico"],
+    "en": "API rate limiting (ei-pi-ai reit limitin)",
+    "jp": "APIのレート制限 (Eipiai no reeto seigen)",
+    "es": "Limitación de tasa de API",
+    "fr": "Limitation du débit de l'API (limitasion dy debi de lapi)",
+    "it": "Limitazione della velocità API (limitat-tsione della velochita lapi)"
+  },
+  {
+    "id": 76,
+    "nivel": 16,
+    "tags": ["tecnico"],
+    "en": "Parallel processing (paralel prousesin)",
+    "jp": "並列処理 (Heiretsu shori)",
+    "es": "Procesamiento en paralelo",
+    "fr": "Traitement parallèle (tretman paralel)",
+    "it": "Elaborazione in parallelo (elaborat-tsione in parallelo)"
+  },
+  {
+    "id": 77,
+    "nivel": 16,
+    "tags": ["negocios"],
+    "en": "Market penetration (market penetréishon)",
+    "jp": "市場浸透 (Shijou shintou)",
+    "es": "Penetración de mercado",
+    "fr": "Pénétration du marché (penetrasion dy marshe)",
+    "it": "Penetrazione del mercato (penetrat-tsione del merkato)"
+  },
+  {
+    "id": 78,
+    "nivel": 16,
+    "tags": ["tecnico"],
+    "en": "Infrastructure as code (infrastrúctiur as coud)",
+    "jp": "コードとしてのインフラ構成 (Koodo to shite no infura kousei)",
+    "es": "Infraestructura como código",
+    "fr": "Infrastructure en tant que code (infrastryktyr an tan ke kod)",
+    "it": "Infrastruttura come codice (infrastruttura kome kodiche)"
+  },
+  {
+    "id": 79,
+    "nivel": 16,
+    "tags": ["modismo"],
+    "en": "Let the cat out of the bag (let de cat aut of de bag)",
+    "jp": "秘密を漏らす (Himitsu wo morasu)",
+    "es": "Revelar un secreto",
+    "fr": "Vendre la mèche (vandr la mesh)",
+    "it": "Sputare il rospo (sputare il rospo)"
+  },
+  {
+    "id": 80,
+    "nivel": 16,
+    "tags": ["tecnico"],
+    "en": "Object mapping (óbchect mapin)",
+    "jp": "オブジェクトマッピング (Obujekuto mappingu)",
+    "es": "Mapeo de objetos",
+    "fr": "Mappage d'objets (mapazh dobzhe)",
+    "it": "Mappatura degli oggetti (mappatura delli ojjeti)"
+  },
+  {
+    "id": 81,
+    "nivel": 17,
+    "tags": ["tecnico"],
+    "en": "Cloud-native application (claud-neitiv aplicquéishon)",
+    "jp": "クラウドネイティブアプリ (Kuraudoneitibu apuri)",
+    "es": "Aplicación nativa de la nube",
+    "fr": "Application cloud native (aplikasion klod neitiv)",
+    "it": "Applicazione cloud native (applikat-tsione klaud neitiv)"
+  },
+  {
+    "id": 82,
+    "nivel": 17,
+    "tags": ["negocios"],
+    "en": "Value proposition (valiu proposishon)",
+    "jp": "価値提案 (Kachi teian)",
+    "es": "Propuesta de valor",
+    "fr": "Proposition de valeur (propozision de valer)",
+    "it": "Proposta di valore (proposta di valore)"
+  },
+  {
+    "id": 83,
+    "nivel": 17,
+    "tags": ["tecnico"],
+    "en": "Real-time data streaming (riial-taim deita striimin)",
+    "jp": "リアルタイムデータストリーミング (Riarutaimu deeta sutoriimingu)",
+    "es": "Transmisión de datos en tiempo real",
+    "fr": "Flux de données en temps réel (fly de done an tan reel)",
+    "it": "Streaming di dati in tempo reale (striimin di dati in tempo reale)"
+  },
+  {
+    "id": 84,
+    "nivel": 17,
+    "tags": ["literatura"],
+    "en": "To sleep, perchance to dream (tu sliip perchans tu driim)",
+    "jp": "眠れば恐らく夢を見る (Nemureba osoraku yume wo miru)",
+    "es": "Dormir, tal vez soñar",
+    "fr": "Dormir, rêver peut-être (durmir rever pet-etr)",
+    "it": "Dormire, sognare forse (dormire soniare forse)"
+  },
+  {
+    "id": 85,
+    "nivel": 17,
+    "tags": ["tecnico"],
+    "en": "Software-defined networking (sóftuer-difaind netuorkin)",
+    "jp": "ソフトウェア定義ネットワーク (Sofutouea teigi nettowaaku)",
+    "es": "Redes definidas por software",
+    "fr": "Réseau défini par logiciel (rezo defini par lozhisiel)",
+    "it": "Rete definita dal software (rete definita dal softuer)"
+  },
+  {
+    "id": 86,
+    "nivel": 18,
+    "tags": ["tecnico"],
+    "en": "Test-driven development (test-driven divélopment)",
+    "jp": "テスト駆動開発 (Tesuto kudou kaihatsu)",
+    "es": "Desarrollo guiado por pruebas",
+    "fr": "Développement piloté par les tests (depluaman pilote par le test)",
+    "it": "Sviluppo guidato dai test (sviluppo guidato dai test)"
+  },
+  {
+    "id": 87,
+    "nivel": 18,
+    "tags": ["negocios"],
+    "en": "Blue-sky thinking (blu-skai zinkin)",
+    "jp": "自由な発想 (Jiyuu na hassou)",
+    "es": "Pensamiento creativo sin límites",
+    "fr": "Réflexion hors cadre (refleksion or kadr)",
+    "it": "Pensiero creativo (pensiero kreativo)"
+  },
+  {
+    "id": 88,
+    "nivel": 18,
+    "tags": ["tecnico"],
+    "en": "Micro-frontend (maicro-frontend)",
+    "jp": "マイクロフロントエンド (Maikurofurontoendo)",
+    "es": "Micro-frontend",
+    "fr": "Micro-frontend (mikro-frontend)",
+    "it": "Micro-frontend (mikro-frontend)"
+  },
+  {
+    "id": 89,
+    "nivel": 18,
+    "tags": ["filosofia"],
+    "en": "The Golden Mean (de goulden miin)",
+    "jp": "中庸 (Chuuyou)",
+    "es": "El justo medio",
+    "fr": "Le juste milieu (le zhyst milie)",
+    "it": "La via di mezzo (la via di mett-tsa)"
+  },
+  {
+    "id": 90,
+    "nivel": 18,
+    "tags": ["tecnico"],
+    "en": "Event-driven architecture (ivent-driven arkitectiur)",
+    "jp": "イベント駆動型アーキテクチャ (Ibento kudougata aakitekucha)",
+    "es": "Arquitectura orientada a eventos",
+    "fr": "Architecture pilotée par les événements (arkitektyr pilote par le-zevenman)",
+    "it": "Architettura orientata agli eventi (arkitettura orientata alli eventi)"
+  },
+  {
+    "id": 91,
+    "nivel": 19,
+    "tags": ["tecnico"],
+    "en": "DevOps practices (devops pracktisis)",
+    "jp": "DevOpsの実践 (DevOps no jissen)",
+    "es": "Prácticas de DevOps",
+    "fr": "Pratiques DevOps (pratik devops)",
+    "it": "Pratiche DevOps (pratike devops)"
+  },
+  {
+    "id": 92,
+    "nivel": 19,
+    "tags": ["negocios"],
+    "en": "Stakeholder engagement (steikjoulder engueichment)",
+    "jp": "関係者の関与 (Kankeisha no kanyo)",
+    "es": "Compromiso de las partes interesadas",
+    "fr": "Engagement des parties prenantes (angazhman de parti prenant)",
+    "it": "Coinvolgimento degli stakeholder (koinvoljimento delli steikjolder)"
+  },
+  {
+    "id": 93,
+    "nivel": 19,
+    "tags": ["tecnico"],
+    "en": "Scalable web services (skeilabol ueb sérvisis)",
+    "jp": "スケーラブルなウェブサービス (Skeeraburu na uebu saabisu)",
+    "es": "Servicios web escalables",
+    "fr": "Services web évolutifs (servis ueb evolutif)",
+    "it": "Servizi web scalabili (servit-tsi ueb skalabili)"
+  },
+  {
+    "id": 94,
+    "nivel": 19,
+    "tags": ["modismo"],
+    "en": "Piece of the pie (piis of de pai)",
+    "jp": "利益の分け前 (Rieki no wakemae)",
+    "es": "Parte del pastel / cuota",
+    "fr": "Une part du gâteau (un par dy gato)",
+    "it": "Una fetta della torta (una fetta della torta)"
+  },
+  {
+    "id": 95,
+    "nivel": 19,
+    "tags": ["tecnico"],
+    "en": "Code of conduct (coud of candact)",
+    "jp": "行動規範 (Koudou kihan)",
+    "es": "Código de conducta",
+    "fr": "Code de conduite (kod de konduit)",
+    "it": "Codice di condotta (kodiche di kondotta)"
+  },
+  {
+    "id": 96,
+    "nivel": 20,
+    "tags": ["tecnico"],
+    "en": "Full-cycle development (ful-saicol divélopment)",
+    "jp": "フルサイクル開発 (Furusaikuru kaihatsu)",
+    "es": "Desarrollo de ciclo completo",
+    "fr": "Développement cycle complet (depluaman sikl konple)",
+    "it": "Sviluppo a ciclo completo (sviluppo a chiklo kompleto)"
+  },
+  {
+    "id": 97,
+    "nivel": 20,
+    "tags": ["negocios"],
+    "en": "Operational excellence (operéishonal ékselens)",
+    "jp": "オペレーショナルエクセレンス (Opereeshoonaru ekuserensu)",
+    "es": "Excelencia operativa",
+    "fr": "Excellence opérationnelle (eksclans operasionel)",
+    "it": "Eccellenza operativa (ech-chellent-tsa operativa)"
+  },
+  {
+    "id": 98,
+    "nivel": 20,
+    "tags": ["tecnico"],
+    "en": "High availability cluster (jai aveilabiliti claster)",
+    "jp": "高可用性クラスタ (Koukayousei kurasuta)",
+    "es": "Clúster de alta disponibilidad",
+    "fr": "Grappe à haute disponibilité (grap a ot disponibilite)",
+    "it": "Cluster ad alta disponibilità (klaster ad alta disponibilita)"
+  },
+  {
+    "id": 99,
+    "nivel": 20,
+    "tags": ["filosofia"],
+    "en": "The death of the author (de dez of di ozor)",
+    "jp": "作者の死 (Sakusha no shi)",
+    "es": "La muerte del autor",
+    "fr": "La mort de l'auteur (la mor de loter)",
+    "it": "La morte dell'autore (la morte dellautore)"
+  },
+  {
+    "id": 100,
+    "nivel": 20,
+    "tags": ["tecnico"],
+    "en": "Technical debt (técnical det)",
+    "jp": "技術的負債 (Gijutsuteki fusai)",
+    "es": "Deuda técnica",
+    "fr": "Dette technique (det teknik)",
+    "it": "Debito tecnico (debito tekniko)"
+  },
+  {
+    "id": 101,
+    "nivel": 21,
+    "tags": ["tecnico"],
+    "en": "Asymmetric key cryptography (eisimétric kii criptógrafi)",
+    "jp": "非対称鍵暗号 (Hitaisyou kagi angou)",
+    "es": "Criptografía de clave asimétrica",
+    "fr": "Cryptographie à clé asymétrique (kriptografi a kle asimetrik)",
+    "it": "Crittografia a chiave asimmetrica (krittografia a kiave asimmetrika)"
+  },
+  {
+    "id": 102,
+    "nivel": 21,
+    "tags": ["negocios"],
+    "en": "Paradigm shift (páradaim shift)",
+    "jp": "パラダイムシフト (Paradaimu shifuto)",
+    "es": "Cambio de paradigma",
+    "fr": "Changement de paradigme (shanzhman de paradig-m)",
+    "it": "Cambio di paradigma (kambio di paradigma)"
+  },
+  {
+    "id": 103,
+    "nivel": 21,
+    "tags": ["tecnico"],
+    "en": "Fault-tolerant system (folt-tólerant sistem)",
+    "jp": "フォールトトレラントシステム (Fooruto toreranto shisutemu)",
+    "es": "Sistema tolerante a fallos",
+    "fr": "Système tolérant aux pannes (sistem toleran o pan)",
+    "it": "Sistema tollerante ai guasti (sistema tollerante ai guasti)"
+  },
+  {
+    "id": 104,
+    "nivel": 21,
+    "tags": ["literatura"],
+    "en": "The winter of our discontent (de uinter of auar dis-content)",
+    "jp": "不満の冬 (Fuman no fuyu)",
+    "es": "El invierno de nuestro descontento",
+    "fr": "L'hiver de notre mécontentement (liver de notr mekontantman)",
+    "it": "L'inverno del nostro scontento (linverno del nostro skontento)"
+  },
+  {
+    "id": 105,
+    "nivel": 21,
+    "tags": ["tecnico"],
+    "en": "Garbage collection algorithms (gárbeich coleccion álgorid-ms)",
+    "jp": "ガベージコレクションアルゴリズム (Gabeeji korekushon arugorizumu)",
+    "es": "Algoritmos de recolección de basura",
+    "fr": "Algorithmes de ramasse-miettes (algoritm de ramas-miet)",
+    "it": "Algoritmi di garbage collection (algoritmi di garbeich coleccion)"
+  },
+  {
+    "id": 106,
+    "nivel": 22,
+    "tags": ["tecnico"],
+    "en": "Strongly typed language (stron-li taipt lángüich)",
+    "jp": "静的型付け言語 (Seiteki katadzuke gengo)",
+    "es": "Lenguaje fuertemente tipado",
+    "fr": "Langage fortement typé (langazh fortman tipe)",
+    "it": "Linguaggio fortemente tipizzato (linguaje fortamente tipit-tsato)"
+  },
+  {
+    "id": 107,
+    "nivel": 22,
+    "tags": ["negocios"],
+    "en": "Low-hanging fruit (lou-jan-in frut)",
+    "jp": "簡単に達成できる目標 (Kantan ni tassei dekiru mokuhyou)",
+    "es": "Objetivo fácil de alcanzar",
+    "fr": "Objectif facilement realizable (obzhektif fasilman realizabl)",
+    "it": "Frutto a portata di mano (frutto a portata di mano)"
+  },
+  {
+    "id": 108,
+    "nivel": 22,
+    "tags": ["tecnico"],
+    "en": "Heap and stack memory (jiip and stac mémori)",
+    "jp": "ヒープとスタックメモリ (Hiipu to sutakku memori)",
+    "es": "Memoria de montón y pila",
+    "fr": "Mémoire tas et pile (memuar ta e pil)",
+    "it": "Memoria heap e stack (memoria jiip e stac)"
+  },
+  {
+    "id": 109,
+    "nivel": 22,
+    "tags": ["modismo"],
+    "en": "Barking up the wrong tree (barkin ap de ron trii)",
+    "jp": "見当違いをする (Kentouchigai wo suru)",
+    "es": "Estar equivocado de camino / rastro",
+    "fr": "Faire fausse route (fer fos rut)",
+    "it": "Cercare nel posto sbagliato (cherkare nel posto sbaliato)"
+  },
+  {
+    "id": 110,
+    "nivel": 22,
+    "tags": ["tecnico"],
+    "en": "Atomic operations (atómic operéishons)",
+    "jp": "アトミック操作 (Atomikku sousa)",
+    "es": "Operaciones atómicas",
+    "fr": "Opérations atomiques (operasion atomik)",
+    "it": "Operazioni atomiche (operat-tsioni atomike)"
+  },
+  {
+    "id": 111,
+    "nivel": 23,
+    "tags": ["tecnico"],
+    "en": "Event loop execution (ivent luup ekse-kiushon)",
+    "jp": "イベントループの実行 (Ibento ruupu no jikkou)",
+    "es": "Ejecución del bucle de eventos",
+    "fr": "Exécution de la boucle d'événements (ekzekusion de la bucl devenman)",
+    "it": "Esecuzione dell'event loop (esekut-tsione dell-event luup)"
+  },
+  {
+    "id": 112,
+    "nivel": 23,
+    "tags": ["filosofia"],
+    "en": "Eternal recurrence (itérnal ri-cárrens)",
+    "jp": "永劫回帰 (Eigou kaiki)",
+    "es": "Eterno retorno",
+    "fr": "Éternel retour (eternel retur)",
+    "it": "Eterno ritorno (eterno ritorno)"
+  },
+  {
+    "id": 113,
+    "nivel": 23,
+    "tags": ["tecnico"],
+    "en": "Thread-safe implementation (zred-seif imple-mentéishon)",
+    "jp": "スレッドセーフな実装 (Sureddoseefu na jissou)",
+    "es": "Implementación segura para hilos",
+    "fr": "Implémentation thread-safe (anplementasion tred-sef)",
+    "it": "Implementazione thread-safe (anplementat-tsione tred-sef)"
+  },
+  {
+    "id": 114,
+    "nivel": 23,
+    "tags": ["negocios"],
+    "en": "Burn rate (bérn reit)",
+    "jp": "資金燃焼率 (Shikin nenshouritsu)",
+    "es": "Velocidad de consumo de capital",
+    "fr": "Vitesse de consommation des fonds (vites de konsomasion de fon)",
+    "it": "Velocità di combustione dei fondi (velochita di kombustione dei fondi)"
+  },
+  {
+    "id": 115,
+    "nivel": 23,
+    "tags": ["tecnico"],
+    "en": "Memory leak detection (mémori liic ditéccion)",
+    "jp": "メモリリークの検出 (Memori riiku no kenshutsu)",
+    "es": "Detección de fugas de memoria",
+    "fr": "Détection de fuite de mémoire (deteksion de fuit de memuar)",
+    "it": "Rilevamento di perdite di memoria (rilevamento di perdite di memoria)"
+  },
+  {
+    "id": 116,
+    "nivel": 24,
+    "tags": ["tecnico"],
+    "en": "Server-side rendering (sérver-said rénderin)",
+    "jp": "サーバーサイドレンダリング (Saabaasaido rendaringu)",
+    "es": "Renderizado del lado del servidor",
+    "fr": "Rendu côté serveur (randy kote server)",
+    "it": "Rendering lato server (rendering lato server)"
+  },
+  {
+    "id": 117,
+    "nivel": 24,
+    "tags": ["negocios"],
+    "en": "First-mover advantage (férst-muver advantich)",
+    "jp": "先駆者利益 (Senkusha rieki)",
+    "es": "Ventaja del primer movimiento",
+    "fr": "Avantage du premier arrivant (avantazh dy prame arivan)",
+    "it": "Vantaggio competitivo del pioniere (vantajio kompe-titivo del pioniere)"
+  },
+  {
+    "id": 118,
+    "nivel": 24,
+    "tags": ["tecnico"],
+    "en": "Client-side routing (cláient-said rutiin)",
+    "jp": "クライアントサイドのルーティング (Kuraiantosaido no ruutingu)",
+    "es": "Enrutamiento del lado del cliente",
+    "fr": "Routage côté client (rutazh kote klian)",
+    "it": "Routing lato client (rutiin lato klaient)"
+  },
+  {
+    "id": 119,
+    "nivel": 24,
+    "tags": ["modismo"],
+    "en": "Burn the midnight oil (bérn de mídnait o-il)",
+    "jp": "夜なべをする (Yonabe wo suru)",
+    "es": "Trabajar hasta muy tarde",
+    "fr": "Travailler tard dans la nuit (travaye tar dan la nui)",
+    "it": "Fare le ore piccole (fare le ore pikkole)"
+  },
+  {
+    "id": 120,
+    "nivel": 24,
+    "tags": ["tecnico"],
+    "en": "Data persistence layer (deita persístens léier)",
+    "jp": "データ永続化層 (Deeta eizokukaso)",
+    "es": "Capa de persistencia de datos",
+    "fr": "Couche de persistance des données (kush de persistans de done)",
+    "it": "Strato di persistenza dei dati (strato di persistentsa dei dati)"
+  },
+  {
+    "id": 121,
+    "nivel": 25,
+    "tags": ["tecnico"],
+    "en": "Functional programming (fáncshonal prougramin)",
+    "jp": "関数型プログラミング (Kansugata puroguramingu)",
+    "es": "Programación funcional",
+    "fr": "Programmation fonctionnelle (programasion fonksionel)",
+    "it": "Programmazione funzionale (programmat-tsione fun-tsionale)"
+  },
+  {
+    "id": 122,
+    "nivel": 25,
+    "tags": ["literatura"],
+    "en": "Pride and prejudice (praid and prée-chudis)",
+    "jp": "傲慢と偏見 (Gouman to henken)",
+    "es": "Orgullo y prejuicio",
+    "fr": "Orgueil et préjugés (orgei e preyuzhe)",
+    "it": "Orgoglio e pregiudizio (orgolio e preyudit-tsio)"
+  },
+  {
+    "id": 123,
+    "nivel": 25,
+    "tags": ["tecnico"],
+    "en": "High-order functions (jai-órder fáncshons)",
+    "jp": "高階関数 (Koukai kansu)",
+    "es": "Funciones de orden superior",
+    "fr": "Fonctions d'ordre supérieur (fonksion dordr syperier)",
+    "it": "Funzioni di ordine superiore (fun-tsioni di ordine superiore)"
+  },
+  {
+    "id": 124,
+    "nivel": 25,
+    "tags": ["negocios"],
+    "en": "Market disruptive (market dis-ráptiv)",
+    "jp": "市場を破壊する (Shijou wo hakai suru)",
+    "es": "Disruptivo en el mercado",
+    "fr": "Perturbateur du marché (pertirbater dy marshe)",
+    "it": "Disruptive per il mercato (disraptiv per il merkato)"
+  },
+  {
+    "id": 125,
+    "nivel": 25,
+    "tags": ["tecnico"],
+    "en": "Immutable state (imiú-tabol steit)",
+    "jp": "不変の状態 (Fuhen no joutai)",
+    "es": "Estado inmutable",
+    "fr": "État immuable (eta imyabl)",
+    "it": "Stato immutabile (stato immutabile)"
+  },
+  {
+    "id": 126,
+    "nivel": 26,
+    "tags": ["tecnico"],
+    "en": "Message broker system (més-ich bróuker sistem)",
+    "jp": "メッセージブローカーシステム (Messeeji burookaa shisutemu)",
+    "es": "Sistema de intermediario de mensajes",
+    "fr": "Système de courtier de messages (sistem de kurtie de mesazh)",
+    "it": "Sistema broker di messaggi (sistema broker di messajji)"
+  },
+  {
+    "id": 127,
+    "nivel": 26,
+    "tags": ["negocios"],
+    "en": "Capital expenditure (cápital ekspénditiur)",
+    "jp": "資本支出 (Shihon shishutsu)",
+    "es": "Gasto de capital",
+    "fr": "Dépenses d'investissement (depans danvestisman)",
+    "it": "Spese in conto capitale (spese in konto kapitale)"
+  },
+  {
+    "id": 128,
+    "nivel": 26,
+    "tags": ["tecnico"],
+    "en": "Pub-sub pattern (pab-sab pátern)",
+    "jp": "パブサブパターン (Pabusabu pataan)",
+    "es": "Patrón publicador-suscriptor",
+    "fr": "Modèle publication-abonnement (model publikasion-abonman)",
+    "it": "Modello publish-subscribe (modello pablis-sabskraib)"
+  },
+  {
+    "id": 129,
+    "nivel": 26,
+    "tags": ["filosofia"],
+    "en": "The categorical imperative (de catégorical impérativ)",
+    "jp": "定言命法 (Teigen meihou)",
+    "es": "El imperativo categórico",
+    "fr": "L'impératif catégorique (lamperatif kategorik)",
+    "it": "L'imperativo categorico (lamperativo kategoriko)"
+  },
+  {
+    "id": 130,
+    "nivel": 26,
+    "tags": ["tecnico"],
+    "en": "Event sourcing architecture (ivent sór-sin arkitectiur)",
+    "jp": "イベントソーシングアーキテクチャ (Ibento sooshingu aakitekucha)",
+    "es": "Arquitectura de origen de eventos",
+    "fr": "Architecture d'approvisionnement d'événements (arkitektyr daprovision-man devenman)",
+    "it": "Architettura event sourcing (arkitettura event sorsin)"
+  },
+  {
+    "id": 131,
+    "nivel": 27,
+    "tags": ["tecnico"],
+    "en": "Graph database schema (graf deitabeis esquí-ma)",
+    "jp": "グラフデータベーススキーマ (Gurafu deetabeesu sukiima)",
+    "es": "Esquema de base de datos de grafos",
+    "fr": "Schéma de base de données orientée graphe (shema de bas de done oriente graf)",
+    "it": "Schema di database a grafi (skema di deitabeis a grafi)"
+  },
+  {
+    "id": 132,
+    "nivel": 27,
+    "tags": ["negocios"],
+    "en": "Key performance indicators (kii perfórmans índiqueitors)",
+    "jp": "重要業績評価指標 (Juuyou gyouseki hyouka shihyou)",
+    "es": "Indicadores clave de rendimiento",
+    "fr": "Indicateurs clés de performance (andikater kle de performans)",
+    "it": "Indicatori chiave di prestazione (andikatori kiave di prestat-tsione)"
+  },
+  {
+    "id": 133,
+    "nivel": 27,
+    "tags": ["tecnico"],
+    "en": "Relational algebra (rileishonal álichebra)",
+    "jp": "関係代数 (Kankei daisuu)",
+    "es": "Álgebra relacional",
+    "fr": "Algèbre relationnelle (alzhébr relasionel)",
+    "it": "Algebra relazionale (aljebra relat-tsionale)"
+  },
+  {
+    "id": 134,
+    "nivel": 27,
+    "tags": ["modismo"],
+    "en": "Once in a blue moon (uans in a blu muun)",
+    "jp": "滅多にないこと (Metta ni nai koto)",
+    "es": "Muy de vez en cuando",
+    "fr": "Tous les trente-six du mois (tu le trant-six dy mua)",
+    "it": "Ogni morte di papa (on-ni morte di papa)"
+  },
+  {
+    "id": 135,
+    "nivel": 27,
+    "tags": ["tecnico"],
+    "en": "Normal forms and normalization (nórmal forms and normalizéishon)",
+    "jp": "正規形と正規化 (Seikikei to seikika)",
+    "es": "Formas normales y normalización",
+    "fr": "Formes normales et normalisation (form normal e normalizasion)",
+    "it": "Forme normali e normalizzazione (forme normali e normalit-tsat-tsione)"
+  },
+  {
+    "id": 136,
+    "nivel": 28,
+    "tags": ["tecnico"],
+    "en": "Binary search tree (báinari sérch trii)",
+    "jp": "二分探索木 (Nibun tansakuki)",
+    "es": "Árbol de búsqueda binaria",
+    "fr": "Arbre binaire de recherche (arbr biner de reshersh)",
+    "it": "Albero binario di ricerca (albero binario di rikerka)"
+  },
+  {
+    "id": 137,
+    "nivel": 28,
+    "tags": ["negocios"],
+    "en": "Barriers to entry (bárriers tu éntri)",
+    "jp": "参入障壁 (Sannyuu shouheki)",
+    "es": "Barreras de entrada",
+    "fr": "Barrières à l'entrée (barier a lantre)",
+    "it": "Barriere all'entrata (barriere allentrata)"
+  },
+  {
+    "id": 138,
+    "nivel": 28,
+    "tags": ["tecnico"],
+    "en": "Big O notation (big ou notéishon)",
+    "jp": "ランダウの記号 (Randau no kigou)",
+    "es": "Notación Big O",
+    "fr": "Notation Grand O (notasion gran o)",
+    "it": "Notazione O-grande (notat-tsione o-grande)"
+  },
+  {
+    "id": 139,
+    "nivel": 28,
+    "tags": ["literatura"],
+    "en": "To thine own self be true (tu dain oun self bi tru)",
+    "jp": "己に忠実であれ (Onore ni chuujitsu de are)",
+    "es": "Sé fiel a ti mismo",
+    "fr": "Sois fidèle à toi-même (sua fidel a tua-mem)",
+    "it": "Sii fedele a te stesso (sii fedele a te stesso)"
+  },
+  {
+    "id": 140,
+    "nivel": 28,
+    "tags": ["tecnico"],
+    "en": "Dynamic programming (dainámic prougramin)",
+    "jp": "動的計画法 (Douteki keikakuhou)",
+    "es": "Programación dinámica",
+    "fr": "Programmation dynamique (programasion dinamik)",
+    "it": "Programmazione dinamica (programmat-tsione dinamika)"
+  },
+  {
+    "id": 141,
+    "nivel": 29,
+    "tags": ["tecnico"],
+    "en": "Content delivery network (cóntent delíveri netuork)",
+    "jp": "コンテンツ配信ネットワーク (Kontentsu haishin nettowaaku)",
+    "es": "Red de entrega de contenidos",
+    "fr": "Réseau de diffusion de contenu (rezo de difusion de kontny)",
+    "it": "Rete per la consegna di contenuti (rete per la kon-sen-na di contenuti)"
+  },
+  {
+    "id": 142,
+    "nivel": 29,
+    "tags": ["negocios"],
+    "en": "Unique selling point (iuníc sélin point)",
+    "jp": "独自の売り (Dokuji no uri)",
+    "es": "Punto de venta único",
+    "fr": "Argument clé de vente (argyman kle de vant)",
+    "it": "Punto di forza unico (punto di fort-tsa uniko)"
+  },
+  {
+    "id": 143,
+    "nivel": 29,
+    "tags": ["tecnico"],
+    "en": "Edge computing architecture (ech compiutin arkitectiur)",
+    "jp": "エッジコンピューティング (Ejji konpyuutingu)",
+    "es": "Arquitectura de computación en el borde",
+    "fr": "Informatique en périphérie (informatik an periferi)",
+    "it": "Edge computing (ejj kom-piu-tin)"
+  },
+  {
+    "id": 144,
+    "nivel": 29,
+    "tags": ["modismo"],
+    "en": "Take it with a grain of salt (teic it uid a gréin of solt)",
+    "jp": "話半分に聞く (Hanashi hanbun ni kiku)",
+    "es": "Tomárselo con cautela",
+    "fr": "Prendre avec des pincettes (prandr avec de panset)",
+    "it": "Prendere con le pinze (prendere kon le pint-tse)"
+  },
+  {
+    "id": 145,
+    "nivel": 29,
+    "tags": ["tecnico"],
+    "en": "Static site generation (státic sait cheneréishon)",
+    "jp": "静的サイト生成 (Seiteki saito seisei)",
+    "es": "Generación de sitios estáticos",
+    "fr": "Génération de site statique (zhenerasion de sit statik)",
+    "it": "Generazione di siti statici (jenerat-tsione di siti statichi)"
+  },
+  {
+    "id": 146,
+    "nivel": 30,
+    "tags": ["tecnico"],
+    "en": "Progressive web apps (prougrésiv ueb aps)",
+    "jp": "プログレッシブウェブアプリ (Puroguresshibu uebu apuri)",
+    "es": "Aplicaciones web progresivas",
+    "fr": "Applications web progressives (aplikasion ueb progresiv)",
+    "it": "Applicazioni web progressive (applikat-tsioni ueb progressive)"
+  },
+  {
+    "id": 147,
+    "nivel": 30,
+    "tags": ["negocios"],
+    "en": "Customer churn rate (cástomer chérn reit)",
+    "jp": "顧客離脱率 (Kokyaku ridatsuritsu)",
+    "es": "Tasa de abandono de clientes",
+    "fr": "Taux d'attrition client (to datrision klian)",
+    "it": "Tasso de abbandono dei clienti (tasso de abbandono dei klienti)"
+  },
+  {
+    "id": 148,
+    "nivel": 30,
+    "tags": ["tecnico"],
+    "en": "Service worker lifecycle (sérvis uórker láif-saicol)",
+    "jp": "サービスワーカーのライフサイクル (Saabisu waakaa no raifusaikuru)",
+    "es": "Ciclo de vida del service worker",
+    "fr": "Cycle de vie du service worker (sikl de vi dy servis uorker)",
+    "it": "Ciclo di vita del service worker (chiklo di vita del servis uorker)"
+  },
+  {
+    "id": 149,
+    "nivel": 30,
+    "tags": ["filosofia"],
+    "en": "Beyond good and evil (bi-iónd gud and ívil)",
+    "jp": "善悪の彼岸 (Zen-aku no higan)",
+    "es": "Más allá del bien y del mal",
+    "fr": "Par-delà le bien et le mal (par-dela le bian e le mal)",
+    "it": "Al di là del bene e del male (al di la del bene e del male)"
+  },
+  {
+    "id": 150,
+    "nivel": 30,
+    "tags": ["tecnico"],
+    "en": "Application manifest file (aplicquéishon mánifest fáil)",
+    "jp": "アプリケーションマニフェスト (Apurikeeshon manifesuto)",
+    "es": "Archivo de manifiesto de aplicación",
+    "fr": "Fichier manifeste d'application (fishie manifest daplikasion)",
+    "it": "File manifest dell'applicazione (fail manifest dell-applikat-tsione)"
+  },
+  {
+    "id": 151,
+    "nivel": 31,
+    "tags": ["tecnico"],
+    "en": "Abstract Syntax Tree (ábstract síntax trii)",
+    "jp": "抽象構文木 (Chuushou koubunki)",
+    "es": "Árbol de sintaxis abstracta",
+    "fr": "Arbre de syntaxe abstraite (arbr de santaks abstrai)",
+    "it": "Albero della sintassi astratta (albero della sintassi astratta)"
+  },
+  {
+    "id": 152,
+    "nivel": 31,
+    "tags": ["negocios"],
+    "en": "Return on Investment (ritérn on invéstment)",
+    "jp": "投資利益率 (Toushi riekiritsu)",
+    "es": "Retorno de la inversión",
+    "fr": "Retour sur investissement (retur syr anvestisman)",
+    "it": "Ritorno sull'investimento (ritorno sull-investimento)"
+  },
+  {
+    "id": 153,
+    "nivel": 31,
+    "tags": ["tecnico"],
+    "en": "Lexical scoping (léksical scóupin)",
+    "jp": "静的スコープ (Seiteki sukoopu)",
+    "es": "Alcance léxico",
+    "fr": "Portée lexicale (porte leksikal)",
+    "it": "Scopo lessicale (skopo lessikale)"
+  },
+  {
+    "id": 154,
+    "nivel": 31,
+    "tags": ["literatura"],
+    "en": "All the world's a stage (ol de uorlds a steich)",
+    "jp": "この世はすべて舞台 (Kono yo wa subete butai)",
+    "es": "Todo el mundo es un escenario",
+    "fr": "Le monde entier est un théâtre (le mond antie et-un teatr)",
+    "it": "Tutto il mondo è un palcoscenico (tutto il mondo e un palkosheniko)"
+  },
+  {
+    "id": 155,
+    "nivel": 31,
+    "tags": ["tecnico"],
+    "en": "Memory management unit (mémori mánach-ment iunit)",
+    "jp": "メモリ管理ユニット (Memori kanri yunitto)",
+    "es": "Unidad de gestión de memoria",
+    "fr": "Unité de gestion mémoire (ynite de zhestion memuar)",
+    "it": "Unità di gestione della memoria (unita di jestione della memoria)"
+  },
+  {
+    "id": 156,
+    "nivel": 32,
+    "tags": ["tecnico"],
+    "en": "Garbage-first collector (gárbeich-férst coléctor)",
+    "jp": "G1ガベージコレクタ (Ji-uan gabeeji korekuta)",
+    "es": "Recolector de basura prioritario",
+    "fr": "Collecteur G1 (kolekter zhe-un)",
+    "it": "Garbage-first collector (garbeich-ferst kollektor)"
+  },
+  {
+    "id": 157,
+    "nivel": 32,
+    "tags": ["negocios"],
+    "en": "Market segmentation (market segmentéishon)",
+    "jp": "市場細分化 (Shijou saibunka)",
+    "es": "Segmentación de mercado",
+    "fr": "Segmentation du marché (segmentasion dy marshe)",
+    "it": "Segmentazione del mercato (segmentat-tsione del merkato)"
+  },
+  {
+    "id": 158,
+    "nivel": 32,
+    "tags": ["tecnico"],
+    "en": "Just-in-time compilation (chast-in-taim compiléishon)",
+    "jp": "実行時コンパイル (Jikkouji konpairu)",
+    "es": "Compilación justo a tiempo",
+    "fr": "Compilation à la volée (konpilasion a la vole)",
+    "it": "Compilazione just-in-time (kompilat-tsione jast-in-taim)"
+  },
+  {
+    "id": 159,
+    "nivel": 32,
+    "tags": ["modismo"],
+    "en": "Elephant in the room (élefant in de ruum)",
+    "jp": "見て見ぬふりをされている大きな問題 (Mite minu furi wo sarete iru ookina mondai)",
+    "es": "El problema obvio que nadie menciona",
+    "fr": "L'éléphant dans la pièce (lelefan dan la pies)",
+    "it": "L'elefante nella stanza (lelefante nella stant-tsa)"
+  },
+  {
+    "id": 160,
+    "nivel": 32,
+    "tags": ["tecnico"],
+    "en": "Concurrency vs parallelism (cancárrensi vérsus páralelism)",
+    "jp": "並行性と並列性 (Heikousei to heiretsusei)",
+    "es": "Concurrencia frente a paralelismo",
+    "fr": "Concurrence vs parallélisme (konkyrans ve-es paralelism)",
+    "it": "Concorrenza vs parallelismo (konkorrent-tsa ve-es parallelismo)"
+  },
+  {
+    "id": 161,
+    "nivel": 33,
+    "tags": ["tecnico"],
+    "en": "Denormalized data (dinórmalaisd deita)",
+    "jp": "非正規化データ (Hiseikika deeta)",
+    "es": "Datos desnormalizados",
+    "fr": "Données dénormalisées (done denormalize)",
+    "it": "Dati denormalizzati (dati denormalit-tsati)"
+  },
+  {
+    "id": 162,
+    "nivel": 33,
+    "tags": ["filosofia"],
+    "en": "Existential angst (éksisténshal angst)",
+    "jp": "実存的不安 (Jitsuzonteki fuan)",
+    "es": "Angustia existencial",
+    "fr": "Angoisse existentielle (anguas ekzistansiel)",
+    "it": "Angoscia esistenziale (angosha esistentsiale)"
+  },
+  {
+    "id": 163,
+    "nivel": 33,
+    "tags": ["tecnico"],
+    "en": "Database sharding (deitabeis shárdin)",
+    "jp": "データベース・シャーディング (Deetabeesu shaadingu)",
+    "es": "Fragmentación de base de datos",
+    "fr": "Sharding de base de données (shardin de bas de done)",
+    "it": "Sharding del database (shardin del deitabeis)"
+  },
+  {
+    "id": 164,
+    "nivel": 33,
+    "tags": ["negocios"],
+    "en": "Scalability bottleneck (skeilabiliti bóttelnec)",
+    "jp": "拡張性のボトルネック (Kakuchousei no boturunekku)",
+    "es": "Cuello de botella de escalabilidad",
+    "fr": "Goulot d'étranglement de l'évolutivité (gulo detrangl-man de levolutivite)",
+    "it": "Collo di bottiglia della scalabilità (kollo di bottilia della skalabilita)"
+  },
+  {
+    "id": 165,
+    "nivel": 33,
+    "tags": ["tecnico"],
+    "en": "Consistency models (consístensi mődels)",
+    "jp": "一貫性モデル (Ikkansei moderu)",
+    "es": "Modelos de consistencia",
+    "fr": "Modèles de cohérence (model de koerans)",
+    "it": "Modelli di coerenza (modelli di koerent-tsa)"
+  },
+  {
+    "id": 166,
+    "nivel": 34,
+    "tags": ["tecnico"],
+    "en": "Heuristic analysis (jiurístic análisis)",
+    "jp": "ヒューリスティック分析 (Hyuurisutikku bunseki)",
+    "es": "Análisis heurístico",
+    "fr": "Analyse heuristique (analiz eristik)",
+    "it": "Analisi euristica (analizi euristika)"
+  },
+  {
+    "id": 167,
+    "nivel": 34,
+    "tags": ["negocios"],
+    "en": "Minimum Viable Product (mínimum váiabol próduct)",
+    "jp": "実用最小限の製品 (Jitsuyou saishougen no seihin)",
+    "es": "Producto Mínimo Viable",
+    "fr": "Produit minimum viable (produi minimym viabl)",
+    "it": "Prodotto minimo funzionante (prodotto minimo fun-tsionante)"
+  },
+  {
+    "id": 168,
+    "nivel": 34,
+    "tags": ["tecnico"],
+    "en": "Cyclomatic complexity (saiclomátic compléksiti)",
+    "jp": "循環的複雑度 (Junkanteki fukuzatsudo)",
+    "es": "Complejidad ciclomática",
+    "fr": "Complexité cyclomatique (konpleksite siklomatik)",
+    "it": "Complessità ciclomatica (komplessita chiklomatika)"
+  },
+  {
+    "id": 169,
+    "nivel": 34,
+    "tags": ["modismo"],
+    "en": "Back to the drawing board (bac tu de dró-in bord)",
+    "jp": "計画を練り直す (Keikaku wo nerinaosu)",
+    "es": "Empezar de cero / Volver al tablero",
+    "fr": "Repartir de zéro (repartir de zero)",
+    "it": "Ricominciare da capo (rikominchare da kapo)"
+  },
+  {
+    "id": 170,
+    "nivel": 34,
+    "tags": ["tecnico"],
+    "en": "Static code analysis (státic coud análisis)",
+    "jp": "静的コード解析 (Seiteki koodo kaiseki)",
+    "es": "Análisis estático de código",
+    "fr": "Analyse statique de code (analiz statik de kod)",
+    "it": "Analisi statica del codice (analizi statika del kodiche)"
+  },
+  {
+    "id": 171,
+    "nivel": 35,
+    "tags": ["tecnico"],
+    "en": "Fault injection testing (folt inyéccion téstin)",
+    "jp": "フォールト注入テスト (Fooruto chuunyuu tesuto)",
+    "es": "Pruebas de inyección de fallos",
+    "fr": "Test d'injection de fautes (test danzheksion de fot)",
+    "it": "Test di iniezione di guasti (test di iniet-tsione di guasti)"
+  },
+  {
+    "id": 172,
+    "nivel": 35,
+    "tags": ["negocios"],
+    "en": "Early adopters (érli adópters)",
+    "jp": "アーリーアダプター (Aarii adaputaa)",
+    "es": "Adoptantes tempranos",
+    "fr": "Adopteurs précoces (adopter prekos)",
+    "it": "Primi utilizzatori (primi utilit-tsatori)"
+  },
+  {
+    "id": 173,
+    "nivel": 35,
+    "tags": ["tecnico"],
+    "en": "Semantic versioning (semántic vérshonin)",
+    "jp": "セマンティックバージョニング (Semantikku baajoningu)",
+    "es": "Versionado semántico",
+    "fr": "Gestion sémantique de version (zhestion semantik de verson)",
+    "it": "Versionamento semantico (vershonamento semantiko)"
+  },
+  {
+    "id": 174,
+    "nivel": 35,
+    "tags": ["literatura"],
+    "en": "Parting is such sweet sorrow (pártin is sach suíit sorrou)",
+    "jp": "別れはこれほど辛く甘いもの (Wakare wa kore hodo tsuraku amai mono)",
+    "es": "Partir es un dolor tan dulce",
+    "fr": "Partir est une si douce douleur (partir et-un si dus duler)",
+    "it": "Partire è un dolore così dolce (partire e un dolore kozi dolche)"
+  },
+  {
+    "id": 175,
+    "nivel": 35,
+    "tags": ["tecnico"],
+    "en": "Distributed ledger (distritiuted lécher)",
+    "jp": "分散型台帳 (Bunsangata daichou)",
+    "es": "Libro mayor distribuido",
+    "fr": "Registre distribué (rezhistr distribye)",
+    "it": "Registro distribuito (rejistro distribuito)"
+  },
+  {
+    "id": 176,
+    "nivel": 36,
+    "tags": ["tecnico"],
+    "en": "Byzantine fault tolerance (bizantín folt tólerans)",
+    "jp": "ビザンチン故障耐性 (Bizanchin koshou taisei)",
+    "es": "Tolerancia a fallas bizantinas",
+    "fr": "Tolérance aux pannes byzantines (tolerans o pan bizantin)",
+    "it": "Tolleranza ai guasti bizantini (tollerant-tsa ai guasti bid-zantini)"
+  },
+  {
+    "id": 177,
+    "nivel": 36,
+    "tags": ["negocios"],
+    "en": "Synergy effect (sínerchi eféct)",
+    "jp": "相乗効果 (Soujou kouka)",
+    "es": "Efecto de sinergia",
+    "fr": "Effet de synergie (efe de sinerzhi)",
+    "it": "Effetto sinergico (effetto sinerjiko)"
+  },
+  {
+    "id": 178,
+    "nivel": 36,
+    "tags": ["tecnico"],
+    "en": "Consensus algorithm (consénsus álgorid-m)",
+    "jp": "合意アルゴリズム (Goui arugorizumu)",
+    "es": "Algoritmo de consenso",
+    "fr": "Algorithme de consensus (algoritm de konsansys)",
+    "it": "Algoritmo di consenso (algoritmo di konsenso)"
+  },
+  {
+    "id": 179,
+    "nivel": 36,
+    "tags": ["modismo"],
+    "en": "Steep learning curve (stiip lérnin cérv)",
+    "jp": "習得が非常に難しい (Shuutoku ga hijou ni muzukashii)",
+    "es": "Curva de aprendizaje pronunciada",
+    "fr": "Courbe d'apprentissage abrupte (kurb daprantisazh abrypt)",
+    "it": "Curva di apprendimento ripida (kurva di apprendimento ripida)"
+  },
+  {
+    "id": 180,
+    "nivel": 36,
+    "tags": ["tecnico"],
+    "en": "Proof of work vs stake (pruf of uork vérsus steic)",
+    "jp": "プルーフ・オブ・ワーク対ステーク (Puruufu obu waaku tai suteeku)",
+    "es": "Prueba de trabajo frente a participación",
+    "fr": "Preuve de travail vs enjeu (prev de travai ve-es anzhe)",
+    "it": "Proof of work vs stake (pruf of uork ve-es steic)"
+  },
+  {
+    "id": 181,
+    "nivel": 37,
+    "tags": ["tecnico"],
+    "en": "Zero-knowledge proof (sírou-nólech pruf)",
+    "jp": "ゼロ知識証明 (Zero chishiki shoumei)",
+    "es": "Prueba de conocimiento cero",
+    "fr": "Preuve à divulgation nulle de connaissance (prev a divulgasion nyl de konesans)",
+    "it": "Dimostrazione a conoscenza zero (dimostrat-tsione a konoshent-tsa d-zero)"
+  },
+  {
+    "id": 182,
+    "nivel": 37,
+    "tags": ["negocios"],
+    "en": "Value-added services (váliu-áded sérvisis)",
+    "jp": "付加価値サービス (Fukakachi saabisu)",
+    "es": "Servicios de valor añadido",
+    "fr": "Services à valeur ajoutée (servis a valer azhute)",
+    "it": "Servizi a valore aggiunto (servit-tsi a valore ajjun-to)"
+  },
+  {
+    "id": 183,
+    "nivel": 37,
+    "tags": ["tecnico"],
+    "en": "Homomorphic encryption (jomomórfic encrípcion)",
+    "jp": "準同型暗号 (Jun doukei angou)",
+    "es": "Cifrado homomórfico",
+    "fr": "Chiffrement homomorphe (shifreman omomorf)",
+    "it": "Crittografia omomorfica (krittografia omomorfika)"
+  },
+  {
+    "id": 184,
+    "nivel": 37,
+    "tags": ["filosofia"],
+    "en": "Nihilism and absurdity (náijilism and absérditi)",
+    "jp": "ニヒリズムと不条理 (Nihirizumu to fujouri)",
+    "es": "Nihilismo y absurdidad",
+    "fr": "Nihilisme et absurdité (ni-ilism e absyrdite)",
+    "it": "Nichilismo e assurdità (nikilismo e assurdita)"
+  },
+  {
+    "id": 185,
+    "nivel": 37,
+    "tags": ["tecnico"],
+    "en": "Quantum supremacy (cuántum suprémasi)",
+    "jp": "量子超越性 (Ryoushi chouetsusei)",
+    "es": "Supremacía cuántica",
+    "fr": "Suprématie quantique (sypremasi kantik)",
+    "it": "Supremazia quantistica (supre-mat-tsia kuantistika)"
+  },
+  {
+    "id": 186,
+    "nivel": 38,
+    "tags": ["tecnico"],
+    "en": "Post-quantum cryptography (poust-cuántum criptógrafi)",
+    "jp": "耐量子計算機暗号 (Tairyoushi keisanki angou)",
+    "es": "Criptografía post-cuántica",
+    "fr": "Cryptographie post-quantique (kriptografi post-kantik)",
+    "it": "Crittografia post-quantistica (krittografia post-kuantistika)"
+  },
+  {
+    "id": 187,
+    "nivel": 38,
+    "tags": ["negocios"],
+    "en": "Market volatility (market volatíliti)",
+    "jp": "市場の変動性 (Shijou no hendousei)",
+    "es": "Volatilidad de mercado",
+    "fr": "Volatilité du marché (volatilite dy marshe)",
+    "it": "Volatilità del mercato (volatilita del merkato)"
+  },
+  {
+    "id": 188,
+    "nivel": 38,
+    "tags": ["tecnico"],
+    "en": "Decentralized autonomous organization (diséntralaisd outónomos organiséishon)",
+    "jp": "自律分散型組織 (Jiritsu bunsangata soshiki)",
+    "es": "Organización autónoma descentralizada",
+    "fr": "Organisation autonome décentralisée (organizasion otonom desantralize)",
+    "it": "Organizzazione autonoma decentralizzata (organiz-zat-tsione autonoma dechentralit-tsata)"
+  },
+  {
+    "id": 189,
+    "nivel": 38,
+    "tags": ["modismo"],
+    "en": "Don't count your chickens before they hatch (dount caunt iuar chíquens bifór dei jatch)",
+    "jp": "取らぬ狸の皮算用 (Toranu tanuki no kawazanyou)",
+    "es": "No cantes victoria antes de tiempo",
+    "fr": "Il ne faut pas vendre la peau de l'ours (il ne fo pas vandr la po de lurs)",
+    "it": "Non dire gatto se non ce l'hai nel sacco (non dire gatto se non che lai nel sakko)"
+  },
+  {
+    "id": 190,
+    "nivel": 38,
+    "tags": ["tecnico"],
+    "en": "Smart contract security (smart cóntract siquiúriti)",
+    "jp": "スマートコントラクトのセキュリティ (Smaato kontorakuto no sekyuriti)",
+    "es": "Seguridad de contratos inteligentes",
+    "fr": "Sécurité des contrats intelligents (sekyrite de kontra antelizhan)",
+    "it": "Sicurezza degli smart contract (sikurett-tsa delli smart kontract)"
+  },
+  {
+    "id": 191,
+    "nivel": 39,
+    "tags": ["tecnico"],
+    "en": "Hyperledger blockchain (jáiper-lécher blókchein)",
+    "jp": "ハイパーレジャー・ブロックチェーン (Haipaa rejaa burokkuchein)",
+    "es": "Blockchain de Hyperledger",
+    "fr": "Blockchain Hyperledger (blok-chein iper-le-zher)",
+    "it": "Blockchain Hyperledger (blok-chein aiper-lej-jer)"
+  },
+  {
+    "id": 192,
+    "nivel": 39,
+    "tags": ["negocios"],
+    "en": "Mergers and acquisitions (mérchers and acuishishons)",
+    "jp": "合併と買収 (Gappei to baishuu)",
+    "es": "Fusiones y adquisiciones",
+    "fr": "Fusions et acquisitions (fyzion e akizision)",
+    "it": "Fusioni e acquisizioni (fuzioni e akkuizit-tsioni)"
+  },
+  {
+    "id": 193,
+    "nivel": 39,
+    "tags": ["tecnico"],
+    "en": "Interoperability standards (intéroperabiliti stándards)",
+    "jp": "相互運用性標準 (Sougo unyousei hyoujun)",
+    "es": "Estándares de interoperabilidad",
+    "fr": "Normes d'interopérabilité (norm dante-roperabilite)",
+    "it": "Standard di interoperabilità (standard di interoperabilita)"
+  },
+  {
+    "id": 194,
+    "nivel": 39,
+    "tags": ["literatura"],
+    "en": "The unexamined life (di un-eksamind laif)",
+    "jp": "吟味されない人生 (Ginmi sarenai jinsei)",
+    "es": "La vida no examinada",
+    "fr": "Une vie sans examen (un vi sans-ekzaman)",
+    "it": "Una vita senza ricerca (una vita sent-tsa rikerka)"
+  },
+  {
+    "id": 195,
+    "nivel": 39,
+    "tags": ["tecnico"],
+    "en": "Oracle network (óracol nétuork)",
+    "jp": "オラクルネットワーク (Orakuru nettowaaku)",
+    "es": "Red de oráculos",
+    "fr": "Réseau d'oracles (rezo dorakl)",
+    "it": "Rete di oracoli (rete di orakoli)"
+  },
+  {
+    "id": 196,
+    "nivel": 40,
+    "tags": ["tecnico"],
+    "en": "Sidechain integration (sáidchein integréishon)",
+    "jp": "サイドチェーンの統合 (Saidocheen no tougou)",
+    "es": "Integración de cadena lateral",
+    "fr": "Intégration de chaîne latérale (antegrasion de shen lateral)",
+    "it": "Integrazione sidechain (integrat-tsione said-chein)"
+  },
+  {
+    "id": 197,
+    "nivel": 40,
+    "tags": ["negocios"],
+    "en": "Venture capital (vénchur cápital)",
+    "jp": "ベンチャーキャピタル (Benchaa kyapitaru)",
+    "es": "Capital de riesgo",
+    "fr": "Capital-risque (kapital-risk)",
+    "it": "Capitale di rischio (kapitale di riskio)"
+  },
+  {
+    "id": 198,
+    "nivel": 40,
+    "tags": ["tecnico"],
+    "en": "Atomic swaps (atómic suáps)",
+    "jp": "アトミックスワップ (Atomikku suwappu)",
+    "es": "Intercambios atómicos",
+    "fr": "Swaps atomiques (suaps atomik)",
+    "it": "Atomic swaps (atomic suaps)"
+  },
+  {
+    "id": 199,
+    "nivel": 40,
+    "tags": ["filosofia"],
+    "en": "The myth of Sisyphus (de miz of sísifus)",
+    "jp": "シーシュポスの神話 (Shiishuposu no shinwa)",
+    "es": "El mito de Sísifo",
+    "fr": "Le mythe de Sisyphe (le mit de sizif)",
+    "it": "Il mito di Sisifo (il mito di sizifo)"
+  },
+  {
+    "id": 200,
+    "nivel": 40,
+    "tags": ["tecnico"],
+    "en": "Zero-day vulnerability (sírou-dei valnerabiliti)",
+    "jp": "ゼロデイ脆弱性 (Zerodei zeijakusei)",
+    "es": "Vulnerabilidad de día cero",
+    "fr": "Vulnérabilité jour zéro (vylnerabilite zhur zero)",
+    "it": "Vulnerabilità zero-day (vulnerabilita d-zero-dei)"
+  },
+  {
+    "id": 201,
+    "nivel": 41,
+    "tags": ["tecnico"],
+    "en": "Quantum entanglement (cuántum entánguel-ment)",
+    "jp": "量子絡み合い (Ryoushi karamiai)",
+    "es": "Entrelazamiento cuántico",
+    "fr": "Intrication quantique (antrikasion kantik)",
+    "it": "Entanglement quantistico (entanguél-ment kuantistiko)"
+  },
+  {
+    "id": 202,
+    "nivel": 41,
+    "tags": ["negocios"],
+    "en": "Scalable business model (skeilabol bísnis mődel)",
+    "jp": "拡張性のあるビジネスモデル (Kakuchousei no aru bijinesu moderu)",
+    "es": "Modelo de negocio escalable",
+    "fr": "Modèle d'affaires évolutif (model dafer evolutif)",
+    "it": "Modello di business scalabile (modello di bísnis skalabile)"
+  },
+  {
+    "id": 203,
+    "nivel": 41,
+    "tags": ["tecnico"],
+    "en": "Turing completeness (tiúrin complíit-nes)",
+    "jp": "チューリング完全 (Chuuringu kanzen)",
+    "es": "Completitud de Turing",
+    "fr": "Complétude de Turing (konpletityd de tiurin)",
+    "it": "Turing completezza (tiurin komplett-tsa)"
+  },
+  {
+    "id": 204,
+    "nivel": 41,
+    "tags": ["literatura"],
+    "en": "The call of the wild (de col of de uaild)",
+    "jp": "野性の呼び声 (Yasei no yobigoe)",
+    "es": "La llamada de lo salvaje",
+    "fr": "L'appel de la forêt (lapel de la fore)",
+    "it": "Il richiamo della foresta (il rikiamo della foresta)"
+  },
+  {
+    "id": 205,
+    "nivel": 41,
+    "tags": ["tecnico"],
+    "en": "Non-deterministic polynomial (non-diterminístic polinomial)",
+    "jp": "非決定性多項式 (Hiketteisei takoushiki)",
+    "es": "Polinómico no determinante (NP)",
+    "fr": "Polynomiale non déterministe (polinomial non determinist)",
+    "it": "Polinomiale non deterministico (polinomiale non deterministiko)"
+  },
+  {
+    "id": 206,
+    "nivel": 42,
+    "tags": ["tecnico"],
+    "en": "Kernel panic error (kérnel pánic érror)",
+    "jp": "カーネルパニック (Kaaneru panikku)",
+    "es": "Error de pánico del núcleo",
+    "fr": "Erreur de panique du noyau (erer de panik dy nuayo)",
+    "it": "Errore kernel panic (errore kernel panik)"
+  },
+  {
+    "id": 207,
+    "nivel": 42,
+    "tags": ["negocios"],
+    "en": "Angel investor (éinchel invéstor)",
+    "jp": "エンジェル投資家 (Enjeru toushika)",
+    "es": "Inversor ángel",
+    "fr": "Investisseur providentiel (anvestiser providansiel)",
+    "it": "Investitore angelo (investitore anjelo)"
+  },
+  {
+    "id": 208,
+    "nivel": 42,
+    "tags": ["tecnico"],
+    "en": "Runtime environment (rántaim enváironment)",
+    "jp": "実行環境 (Jikkou kankyou)",
+    "es": "Entorno de ejecución",
+    "fr": "Environnement d'exécution (anviron-man dekzekusion)",
+    "it": "Ambiente di runtime (ambiente di rántaim)"
+  },
+  {
+    "id": 209,
+    "nivel": 42,
+    "tags": ["modismo"],
+    "en": "Throw in the towel (zrou in de táuel)",
+    "jp": "さじを投げる (Saji wo nageru)",
+    "es": "Tirar la toalla",
+    "fr": "Jeter l'éponge (zhete leponzh)",
+    "it": "Gettare la spugna (jettare la spun-nia)"
+  },
+  {
+    "id": 210,
+    "nivel": 42,
+    "tags": ["tecnico"],
+    "en": "Memory address space (mémori ádres spéis)",
+    "jp": "メモリアドレス空間 (Memori adoresu kuukan)",
+    "es": "Espacio de direcciones de memoria",
+    "fr": "Espace d'adressage mémoire (espas dadresazh memuar)",
+    "it": "Spazio di indirizzamento della memoria (spat-tsio di indiritt-tsamento della memoria)"
+  },
+  {
+    "id": 211,
+    "nivel": 43,
+    "tags": ["tecnico"],
+    "en": "Big data analytics (big deita análitics)",
+    "jp": "ビッグデータ分析 (Biggu deeta bunseki)",
+    "es": "Analítica de grandes datos",
+    "fr": "Analyse de mégadonnées (analiz de megadone)",
+    "it": "Analisi dei big data (analizi dei big deita)"
+  },
+  {
+    "id": 212,
+    "nivel": 43,
+    "tags": ["filosofia"],
+    "en": "Will to power (uíl tu páuar)",
+    "jp": "権力への意志 (Kenryoku e no ishi)",
+    "es": "Voluntad de poder",
+    "fr": "Volonté de puissance (volonte de puizans)",
+    "it": "Volontà di potenza (volonta di potentsa)"
+  },
+  {
+    "id": 213,
+    "nivel": 43,
+    "tags": ["tecnico"],
+    "en": "Predictive modeling (predíctiv módelin)",
+    "jp": "予測モデリング (Yosoku moderingu)",
+    "es": "Modelado predictivo",
+    "fr": "Modélisation prédictive (modelizasion prediktiv)",
+    "it": "Modellazione predittiva (modellat-tsione predittiva)"
+  },
+  {
+    "id": 214,
+    "nivel": 43,
+    "tags": ["negocios"],
+    "en": "Cash flow positive (cash flóu pósitiv)",
+    "jp": "キャッシュフローがプラス (Kyasshufuroo ga purasu)",
+    "es": "Flujo de caja positivo",
+    "fr": "Flux de trésorerie positif (fly de trezoreri positif)",
+    "it": "Flusso di cassa positivo (flusso di kassa positivo)"
+  },
+  {
+    "id": 215,
+    "nivel": 43,
+    "tags": ["tecnico"],
+    "en": "Anomaly detection (anómali ditéccion)",
+    "jp": "異常検知 (Ijou kenchi)",
+    "es": "Detección de anomalías",
+    "fr": "Détection d'anomalies (deteksion danomali)",
+    "it": "Rilevamento di anomalie (rilevamento di anomalie)"
+  },
+  {
+    "id": 216,
+    "nivel": 44,
+    "tags": ["tecnico"],
+    "en": "Neural network architecture (niúral nétuork árquitectiur)",
+    "jp": "ニューラルネットワーク構成 (Nyuuraru nettowaaku kousei)",
+    "es": "Arquitectura de redes neuronales",
+    "fr": "Architecture de réseau neuronal (arkitektyr de rezo nuronal)",
+    "it": "Architettura di rete neurale (arkitettura di rete neurale)"
+  },
+  {
+    "id": 217,
+    "nivel": 44,
+    "tags": ["negocios"],
+    "en": "Economies of scale (ecónomis of skéil)",
+    "jp": "規模の経済 (Kibo no keizai)",
+    "es": "Economías de escala",
+    "fr": "Économies d'échelle (ekonomi deshel)",
+    "it": "Economie di scala (ekonomie di skala)"
+  },
+  {
+    "id": 218,
+    "nivel": 44,
+    "tags": ["tecnico"],
+    "en": "Reinforcement learning (riinfórs-ment lérnin)",
+    "jp": "強化学習 (Kyouka gakushuu)",
+    "es": "Aprendizaje por refuerzo",
+    "fr": "Apprentissage par renforcement (apranti-sazh par ranfors-man)",
+    "it": "Apprendimento per rinforzo (apprendimento per rinfort-tso)"
+  },
+  {
+    "id": 219,
+    "nivel": 44,
+    "tags": ["modismo"],
+    "en": "Bite the bullet (bait de búlet)",
+    "jp": "歯を食いしばる (Ha wo kuishibaru)",
+    "es": "Aguantar el tirón / Hacer de tripas corazón",
+    "fr": "Prendre son courage à deux mains (prandr son kurazh a de man)",
+    "it": "Ingoiare il rospo (an-goiare il rospo)"
+  },
+  {
+    "id": 220,
+    "nivel": 44,
+    "tags": ["tecnico"],
+    "en": "Supervised learning (súpervaisd lérnin)",
+    "jp": "教師あり学習 (Kyoushi ari gakushuu)",
+    "es": "Aprendizaje supervisado",
+    "fr": "Apprentissage supervisé (apranti-sazh sypervize)",
+    "it": "Apprendimento supervisionato (apprendimento supervisionato)"
+  },
+  {
+    "id": 221,
+    "nivel": 45,
+    "tags": ["tecnico"],
+    "en": "Natural language processing (náchural lángüich prousesin)",
+    "jp": "自然言語処理 (Shizen gengo shori)",
+    "es": "Procesamiento de lenguaje natural",
+    "fr": "Traitement du langage naturel (tretman dy langazh nalyrel)",
+    "it": "Elaborazione del linguaggio naturale (elaborat-tsione del linguaggio naturale)"
+  },
+  {
+    "id": 222,
+    "nivel": 45,
+    "tags": ["literatura"],
+    "en": "A tale of two cities (a téil of tu sítis)",
+    "jp": "二都物語 (Nito monogatari)",
+    "es": "Historia de dos ciudades",
+    "fr": "Le Conte de deux cités (le kont de de site)",
+    "it": "Racconto di due città (rakkonto di due chitta)"
+  },
+  {
+    "id": 223,
+    "nivel": 45,
+    "tags": ["tecnico"],
+    "en": "Computer vision algorithms (compiúter víshon álgorid-ms)",
+    "jp": "コンピュータビジョンアルゴリズム (Konpyuuta bijon arugorizumu)",
+    "es": "Algoritmos de visión artificial",
+    "fr": "Algorithmes de vision par ordinateur (algoritm de vizion par ordinater)",
+    "it": "Algoritmi di visione artificiale (algoritmi di visione artifichiale)"
+  },
+  {
+    "id": 224,
+    "nivel": 45,
+    "tags": ["negocios"],
+    "en": "Return on assets (ritérn on ásets)",
+    "jp": "総資産利益率 (Soushisan riekiritsu)",
+    "es": "Rentabilidad de los activos",
+    "fr": "Rentabilité des actifs (rantabilite de-zaktif)",
+    "it": "Redditività delle attività (redditivita delle attivita)"
+  },
+  {
+    "id": 225,
+    "nivel": 45,
+    "tags": ["tecnico"],
+    "en": "Sentiment analysis tool (séntiment análisis tuul)",
+    "jp": "感情分析ツール (Kanjou bunseki tsuuru)",
+    "es": "Herramienta de análisis de sentimiento",
+    "fr": "Outil d'analyse de sentiment (uti danaliz de santiman)",
+    "it": "Strumento di analisi del sentiment (strumento di analizi del sentiment)"
+  },
+  {
+    "id": 226,
+    "nivel": 46,
+    "tags": ["tecnico"],
+    "en": "Recursive function call (ricúrsiv fáncshon col)",
+    "jp": "再帰関数の呼び出し (Saiki kansu no yobidashi)",
+    "es": "Llamada a función recursiva",
+    "fr": "Appel de fonction récursive (apel de fonksion rekyrsiv)",
+    "it": "Chiamata di funzione ricorsiva (kiamata di fun-tsione rikorsiva)"
+  },
+  {
+    "id": 227,
+    "nivel": 46,
+    "tags": ["negocios"],
+    "en": "Market capitalization (market cápitaliséishon)",
+    "jp": "時価総額 (Jika sougaku)",
+    "es": "Capitalización de mercado",
+    "fr": "Capitalisation boursière (kapitalizasion bursier)",
+    "it": "Capitalizzazione di mercato (kapitalit-tsat-tsione di merkato)"
+  },
+  {
+    "id": 228,
+    "nivel": 46,
+    "tags": ["tecnico"],
+    "en": "Tail call optimization (téil col optimiséishon)",
+    "jp": "末尾再帰最適化 (Matsubi saiki saitekika)",
+    "es": "Optimización de llamada de cola",
+    "fr": "Optimisation de l'appel terminal (optimizasion de lapel terminal)",
+    "it": "Ottimizzazione della chiamata in coda (ottimitt-tsat-tsione della kiamata in koda)"
+  },
+  {
+    "id": 229,
+    "nivel": 46,
+    "tags": ["filosofia"],
+    "en": "Dialectical materialism (daialéctical matírialism)",
+    "jp": "弁証法的唯物論 (Benshouhouteki yuibutsuron)",
+    "es": "Materialismo dialéctico",
+    "fr": "Matérialisme dialectique (materialism dialektik)",
+    "it": "Materialismo dialettico (materializmo dialettiko)"
+  },
+  {
+    "id": 230,
+    "nivel": 46,
+    "tags": ["tecnico"],
+    "en": "Stack overflow error (stac óuver-flóu érror)",
+    "jp": "スタックオーバーフロー (Sutakku oobafuroo)",
+    "es": "Error de desbordamiento de pila",
+    "fr": "Erreur de dépassement de pile (erer de depasman de pil)",
+    "it": "Errore di stack overflow (errore di stak over-flou)"
+  },
+  {
+    "id": 231,
+    "nivel": 47,
+    "tags": ["tecnico"],
+    "en": "Virtual machine introspection (vérchual mashíin introspéccion)",
+    "jp": "仮想マシンのイントロスペクション (Kasou mashin no intorosupékushon)",
+    "es": "Introspección de máquina virtual",
+    "fr": "Introspection de machine virtuelle (antrospeksion de mashin virtyel)",
+    "it": "Introspezione della macchina virtuale (antrospet-tsione della makkina virtuale)"
+  },
+  {
+    "id": 232,
+    "nivel": 47,
+    "tags": ["negocios"],
+    "en": "Hostile takeover (jóstil téic-óuver)",
+    "jp": "敵対的買収 (Tekitaiteki baishuu)",
+    "es": "Adquisición hostil",
+    "fr": "Offre publique d'achat hostile (ofr pyblik dasha ostil)",
+    "it": "Scalata ostile (skalata ostile)"
+  },
+  {
+    "id": 233,
+    "nivel": 47,
+    "tags": ["tecnico"],
+    "en": "Hypervisor management (jáiper-vaisor mánach-ment)",
+    "jp": "ハイパーバイザ管理 (Haipaabaiza kanri)",
+    "es": "Gestión de hipervisores",
+    "fr": "Gestion de l'hyperviseur (zhestion de lipervizer)",
+    "it": "Gestione dell'hypervisor (jestione dell-aiper-vaisor)"
+  },
+  {
+    "id": 234,
+    "nivel": 47,
+    "tags": ["modismo"],
+    "en": "The best of both worlds (de best of bouz uorlds)",
+    "jp": "両方の良いとこ取り (Ryouhou no yoi toko dori)",
+    "es": "Lo mejor de ambos mundos",
+    "fr": "Le meilleur des deux mondes (le meier de de mond)",
+    "it": "Il meglio dei due mondi (il melio dei due mondi)"
+  },
+  {
+    "id": 235,
+    "nivel": 47,
+    "tags": ["tecnico"],
+    "en": "Bare metal deployment (ber métal deplóuiment)",
+    "jp": "ベアメタルデプロイ (Beametaru depuroi)",
+    "es": "Despliegue en metal desnudo (físico)",
+    "fr": "Déploiement sur serveur nu (depluaman syr server ny)",
+    "it": "Distribuzione bare metal (distribut-tsione ber métal)"
+  },
+  {
+    "id": 236,
+    "nivel": 48,
+    "tags": ["tecnico"],
+    "en": "End-to-end encryption (end-tu-end encrípcion)",
+    "jp": "エンドツーエンド暗号化 (Endotsuuendo angouka)",
+    "es": "Cifrado de extremo a extremo",
+    "fr": "Chiffrement de bout en bout (shifreman de but an but)",
+    "it": "Crittografia end-to-end (krittografia end-tu-end)"
+  },
+  {
+    "id": 237,
+    "nivel": 48,
+    "tags": ["negocios"],
+    "en": "Blue ocean strategy (blu óushan strátechi)",
+    "jp": "ブルーオーシャン戦略 (Buruuooshan senryaku)",
+    "es": "Estrategia de océano azul",
+    "fr": "Stratégie de l'océan bleu (stratezhi de losean ble)",
+    "it": "Strategia oceano blu (stratejia okeano blu)"
+  },
+  {
+    "id": 238,
+    "nivel": 48,
+    "tags": ["tecnico"],
+    "en": "Man-in-the-middle attack (man-in-de-mídol atác)",
+    "jp": "中間者攻撃 (Chuukansha kougeki)",
+    "es": "Ataque de hombre en el medio",
+    "fr": "Attaque de l'homme du milieu (atak de lom dy milie)",
+    "it": "Attacco man-in-the-middle (attakko man-in-de-mídol)"
+  },
+  {
+    "id": 239,
+    "nivel": 48,
+    "tags": ["literatura"],
+    "en": "Brave new world (bréiv niu uorld)",
+    "jp": "素晴らしき新世界 (Subarashiki shinsekai)",
+    "es": "Un mundo feliz",
+    "fr": "Le meilleur des mondes (le meier de mond)",
+    "it": "Il mondo nuovo (il mondo nuovo)"
+  },
+  {
+    "id": 240,
+    "nivel": 48,
+    "tags": ["tecnico"],
+    "en": "Penetration testing lab (penetréishon téstin lab)",
+    "jp": "侵入テストラボ (Shinnyuu tesuto rabo)",
+    "es": "Laboratorio de pruebas de penetración",
+    "fr": "Laboratoire de tests d'intrusion (laboratuar de test dantryzion)",
+    "it": "Laboratorio di penetration test (laboratorio di penetreishon test)"
+  },
+  {
+    "id": 241,
+    "nivel": 49,
+    "tags": ["tecnico"],
+    "en": "Blockchain scalability problem (blókchein skeilabiliti próblem)",
+    "jp": "ブロックチェーンのスケーラビリティ問題 (Burokkuchein no skeerabiriti mondai)",
+    "es": "Problema de escalabilidad de blockchain",
+    "fr": "Problème d'évolutivité de la blockchain (problem devolutivite de la blok-chein)",
+    "it": "Problema di scalabilità della blockchain (problema di skalabilita della blok-chein)"
+  },
+  {
+    "id": 242,
+    "nivel": 49,
+    "tags": ["negocios"],
+    "en": "Exit strategy (éksit strátechi)",
+    "jp": "出口戦略 (Deguchi senryaku)",
+    "es": "Estrategia de salida",
+    "fr": "Stratégie de sortie (stratezhi de sorti)",
+    "it": "Strategia di uscita (stratejia di ushita)"
+  },
+  {
+    "id": 243,
+    "nivel": 49,
+    "tags": ["tecnico"],
+    "en": "Layer two solutions (léier tu solúshons)",
+    "jp": "レイヤー2ソリューション (Reiyaa 2 soryuushon)",
+    "es": "Soluciones de capa dos",
+    "fr": "Solutions de couche deux (solusion de kush de)",
+    "it": "Soluzioni layer two (solut-tsioni léier tu)"
+  },
+  {
+    "id": 244,
+    "nivel": 49,
+    "tags": ["modismo"],
+    "en": "Under the weather (ánder de uéder)",
+    "jp": "体調が悪い (Taichou ga warui)",
+    "es": "Sentirse mal / Indispuesto",
+    "fr": "Ne pas être dans son assiette (ne pas etr dan son asiet)",
+    "it": "Sentirsi poco bene (sentirsi poko bene)"
+  },
+  {
+    "id": 245,
+    "nivel": 49,
+    "tags": ["tecnico"],
+    "en": "Sharding mechanism (shárdin mécanism)",
+    "jp": "シャーディングメカニズム (Shaadingu mekanizumu)",
+    "es": "Mecanismo de fragmentación",
+    "fr": "Mécanisme de sharding (mekanism de shardin)",
+    "it": "Meccanismo di sharding (mekkanismo di shardin)"
+  },
+  {
+    "id": 246,
+    "nivel": 50,
+    "tags": ["tecnico"],
+    "en": "Proof of authority (pruf of ozóriti)",
+    "jp": "権限の証明 (Kengen no shoumei)",
+    "es": "Prueba de autoridad",
+    "fr": "Preuve d'autorité (prev dotorite)",
+    "it": "Proof of authority (pruf of otoriti)"
+  },
+  {
+    "id": 247,
+    "nivel": 50,
+    "tags": ["negocios"],
+    "en": "Return on equity (ritérn on équiti)",
+    "jp": "自己資本利益率 (Jiko shihon riekiritsu)",
+    "es": "Rentabilidad financiera",
+    "fr": "Rentabilité des capitaux propres (rantabilite de kapito propr)",
+    "it": "Redditività del capitale proprio (redditivita del kapitale proprio)"
+  },
+  {
+    "id": 248,
+    "nivel": 50,
+    "tags": ["tecnico"],
+    "en": "Smart contract audit (smart cóntract óudit)",
+    "jp": "スマートコントラクトの監査 (Smaato kontorakuto no kansa)",
+    "es": "Auditoría de contratos inteligentes",
+    "fr": "Audit de contrat intelligent (odit de kontra antelizhan)",
+    "it": "Audit di smart contract (audit di smart kontract)"
+  },
+  {
+    "id": 249,
+    "nivel": 50,
+    "tags": ["filosofia"],
+    "en": "The will to believe (de uíl tu bilíiv)",
+    "jp": "信じる意志 (Shinjiru ishi)",
+    "es": "La voluntad de creer",
+    "fr": "La volonté de croire (la volonte de kruar)",
+    "it": "La volontà di credere (la volonta di kredere)"
+  },
+  {
+    "id": 250,
+    "nivel": 50,
+    "tags": ["tecnico"],
+    "en": "Zero-day exploit (sírou-dei éksploit)",
+    "jp": "ゼロデイ攻撃 (Zerodei kougeki)",
+    "es": "Explotación de día cero",
+    "fr": "Exploitation jour zéro (ekspluatasion zhur zero)",
+    "it": "Exploit zero-day (exploit d-zero-dei)"
+  }
+]

@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-select=no"
+    />
+    <title>LingoStack - Aprende Idiomas</title>
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js"></script>
+    <style>
+      /* Bloqueo estricto de scroll en PC */
+      html,
+      body {
+        height: 100dvh;
+        margin: 0;
+        overflow: hidden;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body class="bg-[#0f172a] text-white p-2 lg:p-4 select-none">
+    <header id="mobile-ui-header" class="lg:hidden w-full max-w-md mx-auto mb-2 shrink-0">
+      <div
+        class="flex flex-col bg-slate-800 rounded-2xl border border-slate-700 shadow-xl overflow-hidden"
+      >
+        <div class="flex justify-between items-center p-3 bg-slate-800/50">
+          <div class="flex flex-col">
+            <h1 class="text-xl font-black text-white tracking-tighter leading-none">
+              <span class="text-sky-400">LINGO</span>STACK
+            </h1>
+            <span
+              id="lang-display-m"
+              class="text-[9px] font-bold text-sky-500 uppercase tracking-widest mt-1"
+            >
+              EN ➔ ES
+            </span>
+          </div>
+
+          <div class="flex gap-2 items-center">
+            <button
+              id="back-to-menu-m"
+              class="w-9 h-9 flex items-center justify-center bg-slate-700 rounded-xl active:bg-red-600 active:scale-90 transition-all border-b-2 border-slate-900"
+            >
+              🏠
+            </button>
+            <button
+              id="pause-btn-m"
+              class="w-9 h-9 flex items-center justify-center bg-slate-700 rounded-xl active:bg-sky-600 active:scale-90 transition-all border-b-2 border-slate-900"
+            >
+              ⏸
+            </button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-4 border-t border-slate-700/50 bg-slate-900/40">
+          <div class="flex flex-col items-center justify-center py-2 border-r border-slate-700/50">
+            <span class="text-[8px] font-black text-slate-500 uppercase tracking-tighter"
+              >Nivel</span
+            >
+            <span id="level-display-m" class="text-xs font-black text-white">1</span>
+          </div>
+          <div class="flex flex-col items-center justify-center py-2 border-r border-slate-700/50">
+            <span class="text-[8px] font-black text-slate-500 uppercase tracking-tighter"
+              >Puntos</span
+            >
+            <span id="score-display-m" class="text-xs font-black text-sky-400">0</span>
+          </div>
+          <div class="flex flex-col items-center justify-center py-2 border-r border-slate-700/50">
+            <span class="text-[8px] font-black text-slate-500 uppercase tracking-tighter"
+              >Vidas</span
+            >
+            <span id="fail-display-m" class="text-xs font-black text-red-400">3</span>
+          </div>
+          <div class="flex flex-col items-center justify-center py-2">
+            <span class="text-[8px] font-black text-slate-500 uppercase tracking-tighter"
+              >Pila</span
+            >
+            <span id="counter-m" class="text-xs font-black text-amber-400">0/5</span>
+          </div>
+        </div>
+
+        <div
+          class="bg-slate-950/50 px-3 py-1.5 border-t border-slate-700/30 flex items-center gap-2"
+        >
+          <span class="text-[9px] font-black text-sky-500 uppercase">Pista:</span>
+          <p id="phrase-hint-m" class="text-[11px] font-medium text-slate-300 italic truncate">
+            Traduce la palabra...
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <div class="flex flex-col lg:flex-row gap-4 w-full max-w-7xl mx-auto flex-1 min-h-0">
+      <aside id="pc-ui-aside" class="hidden lg:flex w-72 flex-col space-y-4 shrink-0">
+        <header class="bg-slate-800 p-4 rounded-2xl border border-slate-700 shadow-xl">
+          <h1 class="text-2xl font-black text-white">
+            <span class="text-sky-400">Lingo</span>Stack
+          </h1>
+          <p class="text-xs text-slate-400">Aprende idiomas apilando frases</p>
+        </header>
+
+        <div
+          class="bg-slate-800/50 p-4 rounded-2xl border border-slate-700 flex justify-between items-center"
+        >
+          <div class="flex items-center gap-2">
+            <p class="text-sm font-bold text-slate-500">PILA:</p>
+            <span id="counter" class="text-3xl font-black text-red-500">0</span>
+          </div>
+          <p
+            id="current-lang"
+            class="text-[10px] font-black text-sky-500 tracking-widest uppercase bg-sky-950 px-2 py-1 rounded-full border border-sky-800"
+          >
+            ---
+          </p>
+        </div>
+
+        <div class="bg-slate-800 p-4 rounded-2xl border border-slate-700 space-y-3 shadow-xl">
+          <div
+            class="flex justify-between items-center p-3 bg-slate-900 rounded-xl border border-slate-700"
+          >
+            <span class="text-slate-400 text-sm font-semibold uppercase tracking-tighter"
+              >Puntos:</span
+            >
+            <span id="score-display" class="text-xl font-extrabold text-sky-400">0</span>
+          </div>
+
+          <div
+            class="flex justify-between items-center p-3 bg-slate-900 rounded-xl border-2 border-red-500/50 shadow-[0_0_10px_rgba(239,68,68,0.2)] animate-pulse"
+          >
+            <span class="text-red-400 text-xs font-black uppercase tracking-widest">Nivel:</span>
+            <span id="level-display" class="text-xl font-black text-white italic">1</span>
+          </div>
+
+          <div class="bg-slate-800/50 p-4 rounded-2xl border border-slate-700">
+            <p class="text-xs text-slate-500 font-black uppercase tracking-widest mb-1">
+              Estado de Red
+            </p>
+            <div class="flex justify-between items-end">
+              <span class="text-sm font-bold text-slate-300">Fallos:</span>
+              <span id="fail-display-pc" class="text-2xl font-black text-red-500">0/5</span>
+            </div>
+          </div>
+
+          <div class="p-3 bg-slate-900 rounded-xl border border-slate-700">
+            <p class="text-xs text-slate-400 font-medium mb-1 uppercase">Próxima frase:</p>
+            <p id="next-phrase" class="text-lg font-bold text-slate-100 truncate">---</p>
+          </div>
+        </div>
+
+        <div class="mt-auto space-y-3">
+          <div class="flex gap-2">
+            <button
+              id="pause-btn"
+              class="flex-1 h-12 bg-slate-700 rounded-xl hover:bg-slate-600 cursor-pointer"
+            >
+              ⏸
+            </button>
+            <button
+              id="back-to-menu"
+              class="flex-1 h-12 bg-slate-700 rounded-xl hover:bg-red-600 active:scale-95 transition-all shadow-lg border-b-4 border-slate-900 cursor-pointer"
+            >
+              🏠
+            </button>
+          </div>
+          <input
+            type="text"
+            id="translation-input"
+            placeholder="Traducción..."
+            class="w-full p-3 rounded-xl bg-slate-900 border-2 border-slate-700 focus:border-sky-400 outline-none text-center"
+            autofocus
+          />
+        </div>
+      </aside>
+
+      <main id="game-main" class="flex-1 relative min-h-0 w-full">
+        <div
+          id="game-container"
+          class="w-full h-full border-4 border-slate-600 rounded-3xl overflow-hidden relative shadow-2xl"
+          style="
+            background-color: #0f172a; /* Color de base oscuro */
+            background-image: url(&quot;src/assets/img/lingo_stack.png&quot;);
+
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-blend-mode: luminosity;
+          "
+        >
+          <div
+            id="game-over-screen"
+            class="hidden absolute inset-0 z-100 flex-col items-center justify-center space-y-6 p-6 bg-slate-950/95 backdrop-blur-sm"
+          >
+            <div class="text-center space-y-2">
+              <h2 class="text-3xl font-black text-white tracking-tighter">¡FIN DE LA PARTIDA!</h2>
+              <p class="text-xs text-slate-400 uppercase font-bold tracking-widest">
+                Puntaje Final
+              </p>
+              <p class="text-6xl font-black text-sky-400" id="final-score">0</p>
+            </div>
+
+            <div class="flex flex-col w-full max-w-60 gap-3">
+              <button
+                id="retry-btn"
+                class="w-full py-4 bg-sky-600 hover:bg-sky-500 text-white font-black rounded-2xl shadow-lg transition-transform active:scale-95 uppercase text-sm"
+              >
+                Reintentar
+              </button>
+
+              <button
+                id="change-lang-btn"
+                class="w-full py-4 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold rounded-2xl border border-slate-700 transition-transform active:scale-95 uppercase text-sm"
+              >
+                Cambiar Idiomas
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer
+      id="mobile-ui-footer"
+      class="hidden flex-col w-full max-w-md mx-auto space-y-1 pb-1 px-2 z-50 mt-auto shrink-0 max-h-[35vh]"
+    >
+      <div
+        id="virtual-display-m"
+        class="w-full h-8 rounded-xl bg-slate-900 border border-slate-700 text-lg text-center text-white font-black shadow-inner flex items-center justify-center mb-1 shrink-0"
+      ></div>
+
+      <div
+        id="virtual-keyboard-m"
+        class="bg-slate-900/40 rounded-2xl border border-slate-800 p-0.5 overflow-y-auto"
+      ></div>
+    </footer>
+
+    <div
+      id="setup-modal"
+      class="fixed inset-0 bg-slate-950/95 z-100 flex items-center justify-center p-4"
+    >
+      <div
+        class="bg-slate-900 border-2 border-red-600 p-6 rounded-3xl max-w-sm w-full shadow-[0_0_20px_rgba(220,38,38,0.3)]"
+      >
+        <h2 class="text-2xl font-black text-white mb-6 text-center tracking-tighter">
+          CONFIGURAR PARTIDA
+        </h2>
+
+        <div class="space-y-4">
+          <div>
+            <label class="text-xs text-slate-400 font-bold uppercase tracking-widest ml-1"
+              >Idioma en Bloque</label
+            >
+            <select
+              id="select-source"
+              class="w-full bg-slate-800 p-3 mt-1 rounded-xl border border-slate-700 text-white outline-none focus:border-red-500 transition-colors cursor-pointer"
+            >
+              <option value="en">Inglés</option>
+              <option value="es">Español</option>
+              <option value="jp">Japonés</option>
+              <option value="it">Italiano</option>
+              <option value="fr">Francés</option>
+            </select>
+          </div>
+
+          <div class="flex justify-center text-red-500 font-bold animate-bounce py-1">
+            ⬇ TRADUCIR A ⬇
+          </div>
+
+          <div>
+            <label class="text-xs text-slate-400 font-bold uppercase tracking-widest ml-1"
+              >Tu Teclado</label
+            >
+            <select
+              id="select-target"
+              class="w-full bg-slate-800 p-3 mt-1 rounded-xl border border-slate-700 text-white outline-none focus:border-red-500 transition-colors cursor-pointer"
+            >
+              <option value="es" selected>Español</option>
+              <option value="en">Inglés</option>
+              <option value="jp">Japonés</option>
+              <option value="it">Italiano</option>
+              <option value="fr">Francés</option>
+            </select>
+          </div>
+
+          <button
+            id="start-game-btn"
+            class="w-full py-4 mt-2 bg-red-600 hover:bg-red-500 text-white font-black rounded-2xl shadow-lg transition-all transform active:scale-95 uppercase tracking-tight cursor-pointer"
+          >
+            INICIAR DESAFÍO
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="quit-modal" class="hidden fixed inset-0 z-200 flex items-center justify-center p-4">
+      <div class="absolute inset-0 bg-slate-950/80 backdrop-blur-sm"></div>
+
+      <div
+        class="relative bg-slate-900 border-2 border-slate-700 w-full max-w-sm rounded-3xl p-6 shadow-2xl transform scale-100 transition-all"
+      >
+        <div class="text-center">
+          <div
+            class="w-16 h-16 bg-red-500/20 text-red-500 rounded-full flex items-center justify-center mx-auto mb-4 border border-red-500/30"
+          >
+            <span class="text-3xl">⚠️</span>
+          </div>
+          <h3 class="text-xl font-black text-white mb-2 uppercase tracking-tight">
+            ¿Salir al Menú?
+          </h3>
+          <p class="text-slate-400 text-sm mb-6">
+            Si sales ahora, perderás el progreso de esta partida y no se guardará el puntaje actual.
+          </p>
+
+          <div class="flex flex-col gap-3">
+            <button
+              id="confirm-quit"
+              class="w-full py-4 bg-red-600 hover:bg-red-500 text-white font-black rounded-2xl transition-all active:scale-95 shadow-[0_4px_0_0_#991b1b] cursor-pointer"
+            >
+              SÍ, SALIR
+            </button>
+            <button
+              id="cancel-quit"
+              class="w-full py-3 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold rounded-2xl transition-all cursor-pointer"
+            >
+              CONTINUAR JUGANDO
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <audio id="snd-hover" src="src/assets/sounds/hover.mp3" preload="auto"></audio>
+    <audio id="snd-click" src="src/assets/sounds/click.mp3" preload="auto"></audio>
+    <audio id="snd-start" src="src/assets/sounds/start.mp3" preload="auto"></audio>
+
+    <script>
+      const s_hover = document.getElementById("snd-hover");
+      const s_click = document.getElementById("snd-click");
+      const s_start = document.getElementById("snd-start");
+
+      const playSfx = (audio) => {
+        audio.currentTime = 0;
+        audio.play().catch(() => {});
+      };
+
+      const stopSfx = (audio) => {
+        audio.pause();
+        audio.currentTime = 0;
+      };
+
+      // 1. Botón "INICIAR DESAFÍO" (Modal de configuración)
+      const startBtn = document.getElementById("start-game-btn");
+      if (startBtn) {
+        startBtn.addEventListener("mouseenter", () => playSfx(s_hover));
+        startBtn.addEventListener("mouseleave", () => stopSfx(s_hover));
+        startBtn.addEventListener("click", () => {
+          stopSfx(s_hover);
+          playSfx(s_start); // Sonido épico al empezar
+        });
+      }
+
+      // 2. Botón "SÍ, SALIR" (Confirmar salida al menú)
+      const confirmQuitBtn = document.getElementById("confirm-quit");
+      if (confirmQuitBtn) {
+        confirmQuitBtn.addEventListener("mouseenter", () => playSfx(s_hover));
+        confirmQuitBtn.addEventListener("mouseleave", () => stopSfx(s_hover));
+        confirmQuitBtn.addEventListener("click", (e) => {
+          e.preventDefault(); // Detenemos la navegación un momento
+          stopSfx(s_hover);
+          playSfx(s_click);
+
+          // Esperamos 300ms para que se escuche el click antes de ir al index
+          setTimeout(() => {
+            window.location.href = "index.html";
+          }, 300);
+        });
+      }
+
+      // 3. Aplicar Hover/Click básico a los demás botones del UI (Opcional)
+      document.querySelectorAll("button:not(#start-game-btn):not(#confirm-quit)").forEach((btn) => {
+        btn.addEventListener("mouseenter", () => playSfx(s_hover));
+        btn.addEventListener("mouseleave", () => stopSfx(s_hover));
+        btn.addEventListener("click", () => playSfx(s_click));
+      });
+    </script>
+
+    <script type="module" src="src/game/main.js"></script>
+  </body>
+</html>

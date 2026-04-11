@@ -1,0 +1,2502 @@
+[
+  {
+    "id": 1,
+    "nivel": 1,
+    "tags": ["alfabeto"],
+    "en": "A (ei)",
+    "jp": "あ (A)",
+    "es": "A",
+    "fr": "A (a)",
+    "it": "A (a)"
+  },
+  {
+    "id": 2,
+    "nivel": 1,
+    "tags": ["alfabeto"],
+    "en": "B (bi)",
+    "jp": "べ (Be)",
+    "es": "B",
+    "fr": "B (be)",
+    "it": "B (bi)"
+  },
+  {
+    "id": 3,
+    "nivel": 1,
+    "tags": ["alfabeto"],
+    "en": "C (si)",
+    "jp": "せ (Se)",
+    "es": "C",
+    "fr": "C (se)",
+    "it": "C (chi)"
+  },
+  {
+    "id": 4,
+    "nivel": 1,
+    "tags": ["alfabeto"],
+    "en": "D (di)",
+    "jp": "で (De)",
+    "es": "D",
+    "fr": "D (de)",
+    "it": "D (di)"
+  },
+  {
+    "id": 5,
+    "nivel": 1,
+    "tags": ["alfabeto"],
+    "en": "E (i)",
+    "jp": "え (E)",
+    "es": "E",
+    "fr": "E (e)",
+    "it": "E (e)"
+  },
+  {
+    "id": 6,
+    "nivel": 2,
+    "tags": ["alfabeto"],
+    "en": "F (ef)",
+    "jp": "ふ (Fu)",
+    "es": "F",
+    "fr": "F (ef)",
+    "it": "F (effe)"
+  },
+  {
+    "id": 7,
+    "nivel": 2,
+    "tags": ["alfabeto"],
+    "en": "G (yi)",
+    "jp": "へ (He)",
+    "es": "G",
+    "fr": "G (ye)",
+    "it": "G (yi)"
+  },
+  {
+    "id": 8,
+    "nivel": 2,
+    "tags": ["alfabeto"],
+    "en": "H (eich)",
+    "jp": "は (Ha)",
+    "es": "H",
+    "fr": "H (ash)",
+    "it": "H (acca)"
+  },
+  {
+    "id": 9,
+    "nivel": 2,
+    "tags": ["alfabeto"],
+    "en": "I (ai)",
+    "jp": "い (I)",
+    "es": "I",
+    "fr": "I (i)",
+    "it": "I (i)"
+  },
+  {
+    "id": 10,
+    "nivel": 2,
+    "tags": ["alfabeto"],
+    "en": "J (yei)",
+    "jp": "じ (Ji)",
+    "es": "J",
+    "fr": "J (yi)",
+    "it": "J (i lunga)"
+  },
+  {
+    "id": 11,
+    "nivel": 3,
+    "tags": ["alfabeto"],
+    "en": "K (kei)",
+    "jp": "か (Ka)",
+    "es": "K",
+    "fr": "K (ka)",
+    "it": "K (cappa)"
+  },
+  {
+    "id": 12,
+    "nivel": 3,
+    "tags": ["alfabeto"],
+    "en": "L (el)",
+    "jp": "れ (Re)",
+    "es": "L",
+    "fr": "L (el)",
+    "it": "L (elle)"
+  },
+  {
+    "id": 13,
+    "nivel": 3,
+    "tags": ["alfabeto"],
+    "en": "M (em)",
+    "jp": "ま (Ma)",
+    "es": "M",
+    "fr": "M (em)",
+    "it": "M (emme)"
+  },
+  {
+    "id": 14,
+    "nivel": 3,
+    "tags": ["alfabeto"],
+    "en": "N (en)",
+    "jp": "な (Na)",
+    "es": "N",
+    "fr": "N (en)",
+    "it": "N (enne)"
+  },
+  {
+    "id": 15,
+    "nivel": 3,
+    "tags": ["alfabeto"],
+    "en": "O (ou)",
+    "jp": "お (O)",
+    "es": "O",
+    "fr": "O (o)",
+    "it": "O (o)"
+  },
+  {
+    "id": 16,
+    "nivel": 4,
+    "tags": ["alfabeto"],
+    "en": "P (pi)",
+    "jp": "ぺ (Pe)",
+    "es": "P",
+    "fr": "P (pe)",
+    "it": "P (pi)"
+  },
+  {
+    "id": 17,
+    "nivel": 4,
+    "tags": ["alfabeto"],
+    "en": "Q (kiu)",
+    "jp": "く (Ku)",
+    "es": "Q",
+    "fr": "Q (ky)",
+    "it": "Q (ku)"
+  },
+  {
+    "id": 18,
+    "nivel": 4,
+    "tags": ["alfabeto"],
+    "en": "R (ar)",
+    "jp": "ら (Ra)",
+    "es": "R",
+    "fr": "R (er)",
+    "it": "R (erre)"
+  },
+  {
+    "id": 19,
+    "nivel": 4,
+    "tags": ["alfabeto"],
+    "en": "S (es)",
+    "jp": "さ (Sa)",
+    "es": "S",
+    "fr": "S (es)",
+    "it": "S (esse)"
+  },
+  {
+    "id": 20,
+    "nivel": 4,
+    "tags": ["alfabeto"],
+    "en": "T (ti)",
+    "jp": "た (Ta)",
+    "es": "T",
+    "fr": "T (te)",
+    "it": "T (ti)"
+  },
+  {
+    "id": 21,
+    "nivel": 5,
+    "tags": ["alfabeto"],
+    "en": "U (iu)",
+    "jp": "う (U)",
+    "es": "U",
+    "fr": "U (y)",
+    "it": "U (u)"
+  },
+  {
+    "id": 22,
+    "nivel": 5,
+    "tags": ["alfabeto"],
+    "en": "V (vi)",
+    "jp": "び (Bi)",
+    "es": "V",
+    "fr": "V (ve)",
+    "it": "V (vu/vi)"
+  },
+  {
+    "id": 23,
+    "nivel": 5,
+    "tags": ["alfabeto"],
+    "en": "W (dabliu)",
+    "jp": "わ (Wa)",
+    "es": "W",
+    "fr": "W (double ve)",
+    "it": "W (doppia vu)"
+  },
+  {
+    "id": 24,
+    "nivel": 5,
+    "tags": ["alfabeto"],
+    "en": "X (eks)",
+    "jp": "き (Ki)",
+    "es": "X",
+    "fr": "X (iks)",
+    "it": "X (ics)"
+  },
+  {
+    "id": 25,
+    "nivel": 5,
+    "tags": ["alfabeto"],
+    "en": "Y (uai)",
+    "jp": "や (Ya)",
+    "es": "Y",
+    "fr": "Y (igrek)",
+    "it": "Y (ipsilon)"
+  },
+  {
+    "id": 26,
+    "nivel": 6,
+    "tags": ["alfabeto"],
+    "en": "Z (zi)",
+    "jp": "ん (N)",
+    "es": "Z",
+    "fr": "Z (zed)",
+    "it": "Z (zeta)"
+  },
+  {
+    "id": 27,
+    "nivel": 6,
+    "tags": ["numeros"],
+    "en": "One (uan)",
+    "jp": "一 (Ichi)",
+    "es": "Uno",
+    "fr": "Un (un)",
+    "it": "Uno (uno)"
+  },
+  {
+    "id": 28,
+    "nivel": 6,
+    "tags": ["numeros"],
+    "en": "Two (tu)",
+    "jp": "二 (Ni)",
+    "es": "Dos",
+    "fr": "Deux (dø)",
+    "it": "Due (due)"
+  },
+  {
+    "id": 29,
+    "nivel": 6,
+    "tags": ["numeros"],
+    "en": "Three (zri)",
+    "jp": "三 (San)",
+    "es": "Tres",
+    "fr": "Trois (trua)",
+    "it": "Tre (tre)"
+  },
+  {
+    "id": 30,
+    "nivel": 6,
+    "tags": ["numeros"],
+    "en": "Four (for)",
+    "jp": "四 (Yon)",
+    "es": "Cuatro",
+    "fr": "Quatre (katr)",
+    "it": "Cuattro (kuattro)"
+  },
+  {
+    "id": 31,
+    "nivel": 7,
+    "tags": ["numeros"],
+    "en": "Five (faiv)",
+    "jp": "五 (Go)",
+    "es": "Cinco",
+    "fr": "Cinq (sɛ̃k)",
+    "it": "Cinque (chinkue)"
+  },
+  {
+    "id": 32,
+    "nivel": 7,
+    "tags": ["numeros"],
+    "en": "Six (siks)",
+    "jp": "六 (Roku)",
+    "es": "Seis",
+    "fr": "Six (sis)",
+    "it": "Sei (sei)"
+  },
+  {
+    "id": 33,
+    "nivel": 7,
+    "tags": ["numeros"],
+    "en": "Seven (sevn)",
+    "jp": "七 (Nana)",
+    "es": "Siete",
+    "fr": "Sept (set)",
+    "it": "Sette (sette)"
+  },
+  {
+    "id": 34,
+    "nivel": 7,
+    "tags": ["numeros"],
+    "en": "Eight (eit)",
+    "jp": "八 (Hachi)",
+    "es": "Ocho",
+    "fr": "Huit (uit)",
+    "it": "Otto (otto)"
+  },
+  {
+    "id": 35,
+    "nivel": 7,
+    "tags": ["numeros"],
+    "en": "Nine (nain)",
+    "jp": "九 (Kyuu)",
+    "es": "Nueve",
+    "fr": "Neuf (nœf)",
+    "it": "Nove (nove)"
+  },
+  {
+    "id": 36,
+    "nivel": 8,
+    "tags": ["numeros"],
+    "en": "Ten (ten)",
+    "jp": "十 (Juu)",
+    "es": "Diez",
+    "fr": "Dix (dis)",
+    "it": "Dieci (diechi)"
+  },
+  {
+    "id": 37,
+    "nivel": 8,
+    "tags": ["numeros"],
+    "en": "Eleven (ilevn)",
+    "jp": "十一 (Juunichi)",
+    "es": "Once",
+    "fr": "Onze (õz)",
+    "it": "Undici (undichi)"
+  },
+  {
+    "id": 38,
+    "nivel": 8,
+    "tags": ["numeros"],
+    "en": "Twelve (tuelf)",
+    "jp": "十二 (Juuni)",
+    "es": "Doce",
+    "fr": "Douze (duz)",
+    "it": "Dodici (dodichi)"
+  },
+  {
+    "id": 39,
+    "nivel": 8,
+    "tags": ["numeros"],
+    "en": "Thirteen (zertin)",
+    "jp": "十三 (Juusan)",
+    "es": "Trece",
+    "fr": "Treize (trez)",
+    "it": "Tredici (tredichi)"
+  },
+  {
+    "id": 40,
+    "nivel": 8,
+    "tags": ["numeros"],
+    "en": "Fourteen (fortin)",
+    "jp": "十四 (Juuyon)",
+    "es": "Catorce",
+    "fr": "Quatorze (katorz)",
+    "it": "Quattordici (kuattordichi)"
+  },
+  {
+    "id": 41,
+    "nivel": 9,
+    "tags": ["numeros"],
+    "en": "Fifteen (fiftin)",
+    "jp": "十五 (Juugo)",
+    "es": "Quince",
+    "fr": "Quinze (kɛ̃z)",
+    "it": "Quindici (kuindichi)"
+  },
+  {
+    "id": 42,
+    "nivel": 9,
+    "tags": ["numeros"],
+    "en": "Sixteen (sikstin)",
+    "jp": "十六 (Juuroku)",
+    "es": "Dieciséis",
+    "fr": "Seize (sez)",
+    "it": "Sedici (sedichi)"
+  },
+  {
+    "id": 43,
+    "nivel": 9,
+    "tags": ["numeros"],
+    "en": "Seventeen (seventin)",
+    "jp": "十七 (Juunana)",
+    "es": "Diecisiete",
+    "fr": "Dix-sept (dis-set)",
+    "it": "Diciassette (dichiassette)"
+  },
+  {
+    "id": 44,
+    "nivel": 9,
+    "tags": ["numeros"],
+    "en": "Eighteen (eitin)",
+    "jp": "十八 (Juuhachi)",
+    "es": "Dieciocho",
+    "fr": "Dix-huit (dis-uit)",
+    "it": "Diciotto (dichiotto)"
+  },
+  {
+    "id": 45,
+    "nivel": 9,
+    "tags": ["numeros"],
+    "en": "Nineteen (naintin)",
+    "jp": "十九 (Juukyuu)",
+    "es": "Diecinueve",
+    "fr": "Dix-neuf (dis-nœf)",
+    "it": "Diciannove (dichiannove)"
+  },
+  {
+    "id": 46,
+    "nivel": 10,
+    "tags": ["numeros"],
+    "en": "Twenty (tuenti)",
+    "jp": "二十 (Nijuu)",
+    "es": "Veinte",
+    "fr": "Vingt (vɛ̃)",
+    "it": "Venti (venti)"
+  },
+  {
+    "id": 47,
+    "nivel": 10,
+    "tags": ["colores"],
+    "en": "Red (red)",
+    "jp": "赤 (Aka)",
+    "es": "Rojo",
+    "fr": "Rouge (ruy)",
+    "it": "Rosso (rosso)"
+  },
+  {
+    "id": 48,
+    "nivel": 10,
+    "tags": ["colores"],
+    "en": "Blue (blu)",
+    "jp": "青 (Ao)",
+    "es": "Azul",
+    "fr": "Bleu (blø)",
+    "it": "Blu (blu)"
+  },
+  {
+    "id": 49,
+    "nivel": 10,
+    "tags": ["colores"],
+    "en": "Green (grin)",
+    "jp": "緑 (Midori)",
+    "es": "Verde",
+    "fr": "Vert (ver)",
+    "it": "Verde (verde)"
+  },
+  {
+    "id": 50,
+    "nivel": 10,
+    "tags": ["colores"],
+    "en": "Yellow (ielou)",
+    "jp": "黄色 (Kiiro)",
+    "es": "Amarillo",
+    "fr": "Jaune (yon)",
+    "it": "Giallo (yallo)"
+  },
+  {
+    "id": 51,
+    "nivel": 11,
+    "tags": ["colores"],
+    "en": "White (uait)",
+    "jp": "白 (Shiro)",
+    "es": "Blanco",
+    "fr": "Blanc (blan)",
+    "it": "Bianco (bianko)"
+  },
+  {
+    "id": 52,
+    "nivel": 11,
+    "tags": ["colores"],
+    "en": "Black (blak)",
+    "jp": "黒 (Kuro)",
+    "es": "Negro",
+    "fr": "Noir (nuar)",
+    "it": "Nero (nero)"
+  },
+  {
+    "id": 53,
+    "nivel": 11,
+    "tags": ["colores"],
+    "en": "Orange (orench)",
+    "jp": "オレンジ (Orenji)",
+    "es": "Naranja",
+    "fr": "Orange (oranzh)",
+    "it": "Arancione (aranchone)"
+  },
+  {
+    "id": 54,
+    "nivel": 11,
+    "tags": ["colores"],
+    "en": "Pink (pink)",
+    "jp": "ピンク (Pinku)",
+    "es": "Rosa",
+    "fr": "Rose (roz)",
+    "it": "Rosa (rosa)"
+  },
+  {
+    "id": 55,
+    "nivel": 11,
+    "tags": ["colores"],
+    "en": "Purple (perpl)",
+    "jp": "紫 (Murasaki)",
+    "es": "Morado",
+    "fr": "Violet (viole)",
+    "it": "Viola (viola)"
+  },
+  {
+    "id": 56,
+    "nivel": 12,
+    "tags": ["pronombres"],
+    "en": "I (ai)",
+    "jp": "私 (Watashi)",
+    "es": "Yo",
+    "fr": "Je (zhe)",
+    "it": "Io (io)"
+  },
+  {
+    "id": 57,
+    "nivel": 12,
+    "tags": ["pronombres"],
+    "en": "You (iu)",
+    "jp": "あなた (Anata)",
+    "es": "Tú",
+    "fr": "Tu (ty)",
+    "it": "Tu (tu)"
+  },
+  {
+    "id": 58,
+    "nivel": 12,
+    "tags": ["pronombres"],
+    "en": "He (ji)",
+    "jp": "彼 (Kare)",
+    "es": "Él",
+    "fr": "Il (il)",
+    "it": "Lui (lui)"
+  },
+  {
+    "id": 59,
+    "nivel": 12,
+    "tags": ["pronombres"],
+    "en": "She (shi)",
+    "jp": "彼女 (Kanojo)",
+    "es": "Ella",
+    "fr": "Elle (el)",
+    "it": "Lei (lei)"
+  },
+  {
+    "id": 60,
+    "nivel": 12,
+    "tags": ["pronombres"],
+    "en": "We (ui)",
+    "jp": "私たち (Watashitachi)",
+    "es": "Nosotros",
+    "fr": "Nous (nu)",
+    "it": "Noi (noi)"
+  },
+  {
+    "id": 61,
+    "nivel": 13,
+    "tags": ["pronombres"],
+    "en": "They (dei)",
+    "jp": "彼ら (Karera)",
+    "es": "Ellos",
+    "fr": "Ils (il)",
+    "it": "Loro (loro)"
+  },
+  {
+    "id": 62,
+    "nivel": 13,
+    "tags": ["familia"],
+    "en": "Father (fader)",
+    "jp": "父 (Chichi)",
+    "es": "Padre",
+    "fr": "Père (per)",
+    "it": "Padre (padre)"
+  },
+  {
+    "id": 63,
+    "nivel": 13,
+    "tags": ["familia"],
+    "en": "Mother (mader)",
+    "jp": "母 (Haha)",
+    "es": "Madre",
+    "fr": "Mère (mer)",
+    "it": "Madre (madre)"
+  },
+  {
+    "id": 64,
+    "nivel": 13,
+    "tags": ["familia"],
+    "en": "Brother (brader)",
+    "jp": "兄 (Ani)",
+    "es": "Hermano",
+    "fr": "Frère (frer)",
+    "it": "Fratello (fratello)"
+  },
+  {
+    "id": 65,
+    "nivel": 13,
+    "tags": ["familia"],
+    "en": "Sister (sister)",
+    "jp": "姉 (Ane)",
+    "es": "Hermana",
+    "fr": "Sœur (ser)",
+    "it": "Sorella (sorella)"
+  },
+  {
+    "id": 66,
+    "nivel": 14,
+    "tags": ["familia"],
+    "en": "Son (san)",
+    "jp": "息子 (Musuko)",
+    "es": "Hijo",
+    "fr": "Fils (fis)",
+    "it": "Figlio (filyo)"
+  },
+  {
+    "id": 67,
+    "nivel": 14,
+    "tags": ["familia"],
+    "en": "Daughter (doter)",
+    "jp": "娘 (Musume)",
+    "es": "Hija",
+    "fr": "Fille (fiy)",
+    "it": "Figlia (filya)"
+  },
+  {
+    "id": 68,
+    "nivel": 14,
+    "tags": ["saludos"],
+    "en": "Hello (jelou)",
+    "jp": "こんにちは (Konnichiwa)",
+    "es": "Hola",
+    "fr": "Bonjour (bonzhur)",
+    "it": "Ciao (chao)"
+  },
+  {
+    "id": 69,
+    "nivel": 14,
+    "tags": ["saludos"],
+    "en": "Goodbye (gudbai)",
+    "jp": "さようなら (Sayounara)",
+    "es": "Adiós",
+    "fr": "Au revoir (o revuar)",
+    "it": "Addio (addio)"
+  },
+  {
+    "id": 70,
+    "nivel": 14,
+    "tags": ["saludos"],
+    "en": "Good morning (gud morning)",
+    "jp": "おはよう (Ohayou)",
+    "es": "Buenos días",
+    "fr": "Bon matin (bon matan)",
+    "it": "Buongiorno (buon yorno)"
+  },
+  {
+    "id": 71,
+    "nivel": 15,
+    "tags": ["saludos"],
+    "en": "Good night (gud nait)",
+    "jp": "おやすみ (Oyasumi)",
+    "es": "Buenas noches",
+    "fr": "Bonne nuit (bon nui)",
+    "it": "Buonanotte (buonanotte)"
+  },
+  {
+    "id": 72,
+    "nivel": 15,
+    "tags": ["saludos"],
+    "en": "Please (plis)",
+    "jp": "お願いします (Onegaishimasu)",
+    "es": "Por favor",
+    "fr": "S'il vous plaît (sil vu ple)",
+    "it": "Per favore (per favore)"
+  },
+  {
+    "id": 73,
+    "nivel": 15,
+    "tags": ["saludos"],
+    "en": "Thank you (zenkiu)",
+    "jp": "ありがとう (Arigatou)",
+    "es": "Gracias",
+    "fr": "Merci (mersi)",
+    "it": "Grazie (gratzie)"
+  },
+  {
+    "id": 74,
+    "nivel": 15,
+    "tags": ["cuerpo"],
+    "en": "Head (jed)",
+    "jp": "頭 (Atama)",
+    "es": "Cabeza",
+    "fr": "Tête (tet)",
+    "it": "Testa (testa)"
+  },
+  {
+    "id": 75,
+    "nivel": 15,
+    "tags": ["cuerpo"],
+    "en": "Face (feis)",
+    "jp": "顔 (Kao)",
+    "es": "Cara",
+    "fr": "Visage (vizazh)",
+    "it": "Viso (vizo)"
+  },
+  {
+    "id": 76,
+    "nivel": 16,
+    "tags": ["cuerpo"],
+    "en": "Eye (ai)",
+    "jp": "目 (Me)",
+    "es": "Ojo",
+    "fr": "Œil (ey)",
+    "it": "Occhio (okkio)"
+  },
+  {
+    "id": 77,
+    "nivel": 16,
+    "tags": ["cuerpo"],
+    "en": "Nose (nous)",
+    "jp": "鼻 (Hana)",
+    "es": "Nariz",
+    "fr": "Nez (ne)",
+    "it": "Naso (nazo)"
+  },
+  {
+    "id": 78,
+    "nivel": 16,
+    "tags": ["cuerpo"],
+    "en": "Mouth (mauz)",
+    "jp": "口 (Kuchi)",
+    "es": "Boca",
+    "fr": "Bouche (bush)",
+    "it": "Bocca (bokka)"
+  },
+  {
+    "id": 79,
+    "nivel": 16,
+    "tags": ["cuerpo"],
+    "en": "Ear (iar)",
+    "jp": "耳 (Mimi)",
+    "es": "Oreja",
+    "fr": "Oreille (orey)",
+    "it": "Orecchio (orekkio)"
+  },
+  {
+    "id": 80,
+    "nivel": 16,
+    "tags": ["cuerpo"],
+    "en": "Hand (jand)",
+    "jp": "手 (Te)",
+    "es": "Mano",
+    "fr": "Main (man)",
+    "it": "Mano (mano)"
+  },
+  {
+    "id": 81,
+    "nivel": 17,
+    "tags": ["cuerpo"],
+    "en": "Arm (arm)",
+    "jp": "腕 (Ude)",
+    "es": "Brazo",
+    "fr": "Bras (bra)",
+    "it": "Braccio (bratcho)"
+  },
+  {
+    "id": 82,
+    "nivel": 17,
+    "tags": ["cuerpo"],
+    "en": "Leg (leg)",
+    "jp": "脚 (Ashi)",
+    "es": "Pierna",
+    "fr": "Jambe (zhamb)",
+    "it": "Gamba (gamba)"
+  },
+  {
+    "id": 83,
+    "nivel": 17,
+    "tags": ["cuerpo"],
+    "en": "Foot (fut)",
+    "jp": "足 (Ashi)",
+    "es": "Pie",
+    "fr": "Pied (pie)",
+    "it": "Piede (piede)"
+  },
+  {
+    "id": 84,
+    "nivel": 17,
+    "tags": ["tiempo"],
+    "en": "Sun (san)",
+    "jp": "太陽 (Taiyou)",
+    "es": "Sol",
+    "fr": "Soleil (soley)",
+    "it": "Sole (sole)"
+  },
+  {
+    "id": 85,
+    "nivel": 17,
+    "tags": ["tiempo"],
+    "en": "Moon (mun)",
+    "jp": "月 (Tsuki)",
+    "es": "Luna",
+    "fr": "Lune (lyn)",
+    "it": "Luna (luna)"
+  },
+  {
+    "id": 86,
+    "nivel": 18,
+    "tags": ["tiempo"],
+    "en": "Star (star)",
+    "jp": "星 (Hoshi)",
+    "es": "Estrella",
+    "fr": "Étoile (etual)",
+    "it": "Stella (stella)"
+  },
+  {
+    "id": 87,
+    "nivel": 18,
+    "tags": ["tiempo"],
+    "en": "Day (dei)",
+    "jp": "日 (Hi)",
+    "es": "Día",
+    "fr": "Jour (zhur)",
+    "it": "Giorno (yorno)"
+  },
+  {
+    "id": 88,
+    "nivel": 18,
+    "tags": ["tiempo"],
+    "en": "Night (nait)",
+    "jp": "夜 (Yoru)",
+    "es": "Noche",
+    "fr": "Nuit (nui)",
+    "it": "Notte (notte)"
+  },
+  {
+    "id": 89,
+    "nivel": 18,
+    "tags": ["tiempo"],
+    "en": "Time (taim)",
+    "jp": "時間 (Jikan)",
+    "es": "Tiempo",
+    "fr": "Temps (tan)",
+    "it": "Tempo (tempo)"
+  },
+  {
+    "id": 90,
+    "nivel": 18,
+    "tags": ["objetos"],
+    "en": "Book (buk)",
+    "jp": "本 (Hon)",
+    "es": "Libro",
+    "fr": "Livre (livr)",
+    "it": "Libro (libro)"
+  },
+  {
+    "id": 91,
+    "nivel": 19,
+    "tags": ["objetos"],
+    "en": "Pen (pen)",
+    "jp": "ペン (Pen)",
+    "es": "Bolígrafo",
+    "fr": "Stylo (stilo)",
+    "it": "Penna (penna)"
+  },
+  {
+    "id": 92,
+    "nivel": 19,
+    "tags": ["objetos"],
+    "en": "Chair (cher)",
+    "jp": "椅子 (Isu)",
+    "es": "Silla",
+    "fr": "Chaise (shez)",
+    "it": "Sedia (sedia)"
+  },
+  {
+    "id": 93,
+    "nivel": 19,
+    "tags": ["objetos"],
+    "en": "Table (teibl)",
+    "jp": "机 (Tsukue)",
+    "es": "Mesa",
+    "fr": "Table (tabl)",
+    "it": "Tavolo (tavolo)"
+  },
+  {
+    "id": 94,
+    "nivel": 19,
+    "tags": ["objetos"],
+    "en": "Door (dor)",
+    "jp": "ドア (Doa)",
+    "es": "Puerta",
+    "fr": "Porte (port)",
+    "it": "Porta (porta)"
+  },
+  {
+    "id": 95,
+    "nivel": 19,
+    "tags": ["objetos"],
+    "en": "Window (uindou)",
+    "jp": "窓 (Mado)",
+    "es": "Ventana",
+    "fr": "Fenêtre (fenetr)",
+    "it": "Finestra (finestra)"
+  },
+  {
+    "id": 96,
+    "nivel": 20,
+    "tags": ["objetos"],
+    "en": "Phone (foun)",
+    "jp": "電話 (Denwa)",
+    "es": "Teléfono",
+    "fr": "Téléphone (telefon)",
+    "it": "Telefono (telefono)"
+  },
+  {
+    "id": 97,
+    "nivel": 20,
+    "tags": ["objetos"],
+    "en": "Computer (compiuter)",
+    "jp": "コンピュータ (Konpyuuta)",
+    "es": "Computadora",
+    "fr": "Ordinateur (ordinater)",
+    "it": "Computer (kompiuter)"
+  },
+  {
+    "id": 98,
+    "nivel": 20,
+    "tags": ["objetos"],
+    "en": "Key (ki)",
+    "jp": "鍵 (Kagi)",
+    "es": "Llave",
+    "fr": "Clé (kle)",
+    "it": "Chiave (kiave)"
+  },
+  {
+    "id": 99,
+    "nivel": 20,
+    "tags": ["objetos"],
+    "en": "Car (car)",
+    "jp": "車 (Kuruma)",
+    "es": "Carro",
+    "fr": "Voiture (vuatyr)",
+    "it": "Macchina (makkina)"
+  },
+  {
+    "id": 100,
+    "nivel": 20,
+    "tags": ["objetos"],
+    "en": "Bag (bag)",
+    "jp": "鞄 (Kaban)",
+    "es": "Bolso",
+    "fr": "Sac (sak)",
+    "it": "Borsa (borsa)"
+  },
+  {
+    "id": 101,
+    "nivel": 21,
+    "tags": ["objetos"],
+    "en": "Table (teibl)",
+    "jp": "机 (Tsukue)",
+    "es": "Mesa",
+    "fr": "Table (tabl)",
+    "it": "Tavolo (tavolo)"
+  },
+  {
+    "id": 102,
+    "nivel": 21,
+    "tags": ["objetos"],
+    "en": "Bed (bed)",
+    "jp": "ベッド (Beddo)",
+    "es": "Cama",
+    "fr": "Lit (li)",
+    "it": "Letto (letto)"
+  },
+  {
+    "id": 103,
+    "nivel": 21,
+    "tags": ["objetos"],
+    "en": "Mirror (miror)",
+    "jp": "鏡 (Kagami)",
+    "es": "Espejo",
+    "fr": "Miroir (miruar)",
+    "it": "Specchio (spekkio)"
+  },
+  {
+    "id": 104,
+    "nivel": 21,
+    "tags": ["objetos"],
+    "en": "Clock (clok)",
+    "jp": "時計 (Tokei)",
+    "es": "Reloj",
+    "fr": "Horloge (orlozh)",
+    "it": "Orologio (orolojo)"
+  },
+  {
+    "id": 105,
+    "nivel": 21,
+    "tags": ["ropa"],
+    "en": "Shirt (shert)",
+    "jp": "シャツ (Shatsu)",
+    "es": "Camisa",
+    "fr": "Chemise (shemiz)",
+    "it": "Camicia (kamicha)"
+  },
+  {
+    "id": 106,
+    "nivel": 22,
+    "tags": ["ropa"],
+    "en": "Pants (pants)",
+    "jp": "ズボン (Zubon)",
+    "es": "Pantalones",
+    "fr": "Pantalon (pantalon)",
+    "it": "Pantaloni (pantaloni)"
+  },
+  {
+    "id": 107,
+    "nivel": 22,
+    "tags": ["ropa"],
+    "en": "Shoes (shus)",
+    "jp": "靴 (Kutsu)",
+    "es": "Zapatos",
+    "fr": "Chaussures (shosur)",
+    "it": "Scarpe (skarpe)"
+  },
+  {
+    "id": 108,
+    "nivel": 22,
+    "tags": ["ropa"],
+    "en": "Hat (jat)",
+    "jp": "帽子 (Boushi)",
+    "es": "Sombrero",
+    "fr": "Chapeau (shapo)",
+    "it": "Cappello (kappello)"
+  },
+  {
+    "id": 109,
+    "nivel": 22,
+    "tags": ["ropa"],
+    "en": "Dress (dres)",
+    "jp": "ドレス (Doresu)",
+    "es": "Vestido",
+    "fr": "Robe (rob)",
+    "it": "Vestito (vestito)"
+  },
+  {
+    "id": 110,
+    "nivel": 22,
+    "tags": ["lugares"],
+    "en": "School (scul)",
+    "jp": "学校 (Gakkou)",
+    "es": "Escuela",
+    "fr": "École (ekol)",
+    "it": "Scuola (skuola)"
+  },
+  {
+    "id": 111,
+    "nivel": 23,
+    "tags": ["lugares"],
+    "en": "Hospital (jospital)",
+    "jp": "病院 (Byouin)",
+    "es": "Hospital",
+    "fr": "Hôpital (opital)",
+    "it": "Ospedale (ospedale)"
+  },
+  {
+    "id": 112,
+    "nivel": 23,
+    "tags": ["lugares"],
+    "en": "Park (park)",
+    "jp": "公園 (Kouen)",
+    "es": "Parque",
+    "fr": "Parc (park)",
+    "it": "Parco (parko)"
+  },
+  {
+    "id": 113,
+    "nivel": 23,
+    "tags": ["lugares"],
+    "en": "Store (stor)",
+    "jp": "店 (Mise)",
+    "es": "Tienda",
+    "fr": "Magasin (magazan)",
+    "it": "Negozio (negotsio)"
+  },
+  {
+    "id": 114,
+    "nivel": 23,
+    "tags": ["lugares"],
+    "en": "Beach (biich)",
+    "jp": "海辺 (Umibe)",
+    "es": "Playa",
+    "fr": "Plage (plazh)",
+    "it": "Spiaggia (spiadjia)"
+  },
+  {
+    "id": 115,
+    "nivel": 23,
+    "tags": ["verbos"],
+    "en": "To eat (tu iit)",
+    "jp": "食べる (Taberu)",
+    "es": "Comer",
+    "fr": "Manger (manzhe)",
+    "it": "Mangiare (manjare)"
+  },
+  {
+    "id": 116,
+    "nivel": 24,
+    "tags": ["verbos"],
+    "en": "To drink (tu drink)",
+    "jp": "飲む (Nomu)",
+    "es": "Beber",
+    "fr": "Boire (buar)",
+    "it": "Bere (bere)"
+  },
+  {
+    "id": 117,
+    "nivel": 24,
+    "tags": ["verbos"],
+    "en": "To sleep (tu sliip)",
+    "jp": "寝る (Neru)",
+    "es": "Dormir",
+    "fr": "Dormir (dormir)",
+    "it": "Dormire (dormire)"
+  },
+  {
+    "id": 118,
+    "nivel": 24,
+    "tags": ["verbos"],
+    "en": "To run (tu ran)",
+    "jp": "走る (Hashiru)",
+    "es": "Correr",
+    "fr": "Courir (kurir)",
+    "it": "Correre (korrere)"
+  },
+  {
+    "id": 119,
+    "nivel": 24,
+    "tags": ["verbos"],
+    "en": "To walk (tu uoak)",
+    "jp": "歩く (Aruku)",
+    "es": "Caminar",
+    "fr": "Marcher (marshe)",
+    "it": "Camminare (kamminare)"
+  },
+  {
+    "id": 120,
+    "nivel": 24,
+    "tags": ["verbos"],
+    "en": "To read (tu riid)",
+    "jp": "読む (Yomu)",
+    "es": "Leer",
+    "fr": "Lire (lir)",
+    "it": "Leggere (ledjere)"
+  },
+  {
+    "id": 121,
+    "nivel": 25,
+    "tags": ["verbos"],
+    "en": "To write (tu rait)",
+    "jp": "書く (Kaku)",
+    "es": "Escribir",
+    "fr": "Écrire (ekrir)",
+    "it": "Scrivere (skrivere)"
+  },
+  {
+    "id": 122,
+    "nivel": 25,
+    "tags": ["verbos"],
+    "en": "To see (tu sii)",
+    "jp": "見る (Miru)",
+    "es": "Ver",
+    "fr": "Voir (vuar)",
+    "it": "Vedere (vedere)"
+  },
+  {
+    "id": 123,
+    "nivel": 25,
+    "tags": ["verbos"],
+    "en": "To hear (tu iar)",
+    "jp": "聞く (Kiku)",
+    "es": "Oír",
+    "fr": "Entendre (antandr)",
+    "it": "Sentire (sentire)"
+  },
+  {
+    "id": 124,
+    "nivel": 25,
+    "tags": ["verbos"],
+    "en": "To speak (tu spiik)",
+    "jp": "話す (Hanasu)",
+    "es": "Hablar",
+    "fr": "Parler (parle)",
+    "it": "Parlare (parlare)"
+  },
+  {
+    "id": 125,
+    "nivel": 25,
+    "tags": ["adjetivos"],
+    "en": "Big (big)",
+    "jp": "大きい (Ookii)",
+    "es": "Grande",
+    "fr": "Grand (gran)",
+    "it": "Grande (grande)"
+  },
+  {
+    "id": 126,
+    "nivel": 26,
+    "tags": ["adjetivos"],
+    "en": "Small (smol)",
+    "jp": "小さい (Chiisai)",
+    "es": "Pequeño",
+    "fr": "Petit (peti)",
+    "it": "Piccolo (pikkolo)"
+  },
+  {
+    "id": 127,
+    "nivel": 26,
+    "tags": ["adjetivos"],
+    "en": "Happy (japi)",
+    "jp": "嬉しい (Ureshii)",
+    "es": "Feliz",
+    "fr": "Heureux (erø)",
+    "it": "Felice (feliche)"
+  },
+  {
+    "id": 128,
+    "nivel": 26,
+    "tags": ["adjetivos"],
+    "en": "Sad (sad)",
+    "jp": "悲しい (Kanashii)",
+    "es": "Triste",
+    "fr": "Triste (trist)",
+    "it": "Triste (triste)"
+  },
+  {
+    "id": 129,
+    "nivel": 26,
+    "tags": ["adjetivos"],
+    "en": "Good (gud)",
+    "jp": "良い (Yoi)",
+    "es": "Bueno",
+    "fr": "Bon (bon)",
+    "it": "Buono (buono)"
+  },
+  {
+    "id": 130,
+    "nivel": 26,
+    "tags": ["adjetivos"],
+    "en": "Bad (bad)",
+    "jp": "悪い (Warui)",
+    "es": "Malo",
+    "fr": "Mauvais (move)",
+    "it": "Cattivo (kattivo)"
+  },
+  {
+    "id": 131,
+    "nivel": 27,
+    "tags": ["adjetivos"],
+    "en": "Hot (jot)",
+    "jp": "暑い (Atsui)",
+    "es": "Caliente",
+    "fr": "Chaud (sho)",
+    "it": "Caldo (kaldo)"
+  },
+  {
+    "id": 132,
+    "nivel": 27,
+    "tags": ["adjetivos"],
+    "en": "Cold (could)",
+    "jp": "寒い (Samui)",
+    "es": "Frío",
+    "fr": "Froid (frua)",
+    "it": "Freddo (freddo)"
+  },
+  {
+    "id": 133,
+    "nivel": 27,
+    "tags": ["adjetivos"],
+    "en": "Fast (fast)",
+    "jp": "速い (Hayai)",
+    "es": "Rápido",
+    "fr": "Rapide (rapid)",
+    "it": "Veloce (veloche)"
+  },
+  {
+    "id": 134,
+    "nivel": 27,
+    "tags": ["adjetivos"],
+    "en": "Slow (slou)",
+    "jp": "遅い (Osoi)",
+    "es": "Lento",
+    "fr": "Lent (lan)",
+    "it": "Lento (lento)"
+  },
+  {
+    "id": 135,
+    "nivel": 27,
+    "tags": ["adjetivos"],
+    "en": "Beautiful (biutiful)",
+    "jp": "美しい (Utsukushii)",
+    "es": "Hermoso",
+    "fr": "Beau (bo)",
+    "it": "Bello (bello)"
+  },
+  {
+    "id": 136,
+    "nivel": 28,
+    "tags": ["comida"],
+    "en": "Apple (apl)",
+    "jp": "林檎 (Ringo)",
+    "es": "Manzana",
+    "fr": "Pomme (pom)",
+    "it": "Mela (mela)"
+  },
+  {
+    "id": 137,
+    "nivel": 28,
+    "tags": ["comida"],
+    "en": "Bread (bred)",
+    "jp": "パン (Pan)",
+    "es": "Pan",
+    "fr": "Pain (pan)",
+    "it": "Pane (pane)"
+  },
+  {
+    "id": 138,
+    "nivel": 28,
+    "tags": ["comida"],
+    "en": "Milk (milk)",
+    "jp": "牛乳 (Gyuunyuu)",
+    "es": "Leche",
+    "fr": "Lait (le)",
+    "it": "Latte (latte)"
+  },
+  {
+    "id": 139,
+    "nivel": 28,
+    "tags": ["comida"],
+    "en": "Meat (miit)",
+    "jp": "肉 (Niku)",
+    "es": "Carne",
+    "fr": "Viande (viand)",
+    "it": "Carne (karne)"
+  },
+  {
+    "id": 140,
+    "nivel": 28,
+    "tags": ["comida"],
+    "en": "Rice (rais)",
+    "jp": "米 (Kome)",
+    "es": "Arroz",
+    "fr": "Riz (ri)",
+    "it": "Riso (rizo)"
+  },
+  {
+    "id": 141,
+    "nivel": 29,
+    "tags": ["naturaleza"],
+    "en": "Tree (trii)",
+    "jp": "木 (Ki)",
+    "es": "Árbol",
+    "fr": "Arbre (arbr)",
+    "it": "Albero (albero)"
+  },
+  {
+    "id": 142,
+    "nivel": 29,
+    "tags": ["naturaleza"],
+    "en": "Flower (flauer)",
+    "jp": "花 (Hana)",
+    "es": "Flor",
+    "fr": "Fleur (fler)",
+    "it": "Fiore (fiore)"
+  },
+  {
+    "id": 143,
+    "nivel": 29,
+    "tags": ["naturaleza"],
+    "en": "River (river)",
+    "jp": "川 (Kawa)",
+    "es": "Río",
+    "fr": "Rivière (rivier)",
+    "it": "Fiume (fiume)"
+  },
+  {
+    "id": 144,
+    "nivel": 29,
+    "tags": ["naturaleza"],
+    "en": "Mountain (maunten)",
+    "jp": "山 (Yama)",
+    "es": "Montaña",
+    "fr": "Montagne (montany)",
+    "it": "Montagna (montanya)"
+  },
+  {
+    "id": 145,
+    "nivel": 29,
+    "tags": ["naturaleza"],
+    "en": "Sky (skai)",
+    "jp": "空 (Sora)",
+    "es": "Cielo",
+    "fr": "Ciel (siel)",
+    "it": "Cielo (chielo)"
+  },
+  {
+    "id": 146,
+    "nivel": 30,
+    "tags": ["transporte"],
+    "en": "Plane (plein)",
+    "jp": "飛行機 (Hikouki)",
+    "es": "Avión",
+    "fr": "Avion (avion)",
+    "it": "Aereo (aereo)"
+  },
+  {
+    "id": 147,
+    "nivel": 30,
+    "tags": ["transporte"],
+    "en": "Train (trein)",
+    "jp": "電車 (Densha)",
+    "es": "Tren",
+    "fr": "Train (tran)",
+    "it": "Treno (treno)"
+  },
+  {
+    "id": 148,
+    "nivel": 30,
+    "tags": ["transporte"],
+    "en": "Bicycle (baisikl)",
+    "jp": "自転車 (Jitensha)",
+    "es": "Bicicleta",
+    "fr": "Vélo (velo)",
+    "it": "Bicicletta (bichikletta)"
+  },
+  {
+    "id": 149,
+    "nivel": 30,
+    "tags": ["transporte"],
+    "en": "Boat (bout)",
+    "jp": "船 (Fune)",
+    "es": "Barco",
+    "fr": "Bateau (bato)",
+    "it": "Barca (barka)"
+  },
+  {
+    "id": 150,
+    "nivel": 30,
+    "tags": ["transporte"],
+    "en": "Bus (bas)",
+    "jp": "バス (Basu)",
+    "es": "Autobús",
+    "fr": "Bus (bys)",
+    "it": "Autobus (autobus)"
+  },
+  {
+    "id": 151,
+    "nivel": 31,
+    "tags": ["comida"],
+    "en": "Banana (banana)",
+    "jp": "バナナ (Banana)",
+    "es": "Banana",
+    "fr": "Banane (banan)",
+    "it": "Banana (banana)"
+  },
+  {
+    "id": 152,
+    "nivel": 31,
+    "tags": ["comida"],
+    "en": "Orange (orench)",
+    "jp": "オレンジ (Orenji)",
+    "es": "Naranja",
+    "fr": "Orange (oranzh)",
+    "it": "Arancia (arancha)"
+  },
+  {
+    "id": 153,
+    "nivel": 31,
+    "tags": ["comida"],
+    "en": "Watermelon (uatermelon)",
+    "jp": "西瓜 (Suika)",
+    "es": "Sandía",
+    "fr": "Pastèque (pastek)",
+    "it": "Anguria (anguria)"
+  },
+  {
+    "id": 154,
+    "nivel": 31,
+    "tags": ["comida"],
+    "en": "Potato (poteito)",
+    "jp": "じゃがいも (Jagaimo)",
+    "es": "Papa",
+    "fr": "Pomme de terre (pom de ter)",
+    "it": "Patata (patata)"
+  },
+  {
+    "id": 155,
+    "nivel": 31,
+    "tags": ["comida"],
+    "en": "Tomato (tomeito)",
+    "jp": "トマト (Tomato)",
+    "es": "Tomate",
+    "fr": "Tomate (tomat)",
+    "it": "Pomodoro (pomodoro)"
+  },
+  {
+    "id": 156,
+    "nivel": 32,
+    "tags": ["animales"],
+    "en": "Cat (cat)",
+    "jp": "猫 (Neko)",
+    "es": "Gato",
+    "fr": "Chat (sha)",
+    "it": "Gatto (gatto)"
+  },
+  {
+    "id": 157,
+    "nivel": 32,
+    "tags": ["animales"],
+    "en": "Dog (dog)",
+    "jp": "犬 (Inu)",
+    "es": "Perro",
+    "fr": "Chien (shian)",
+    "it": "Cane (kane)"
+  },
+  {
+    "id": 158,
+    "nivel": 32,
+    "tags": ["animales"],
+    "en": "Bird (berd)",
+    "jp": "鳥 (Tori)",
+    "es": "Pájaro",
+    "fr": "Oiseau (uazo)",
+    "it": "Uccello (uchello)"
+  },
+  {
+    "id": 159,
+    "nivel": 32,
+    "tags": ["animales"],
+    "en": "Fish (fish)",
+    "jp": "魚 (Sakana)",
+    "es": "Pez",
+    "fr": "Poisson (puason)",
+    "it": "Pesce (peshe)"
+  },
+  {
+    "id": 160,
+    "nivel": 32,
+    "tags": ["animales"],
+    "en": "Horse (jors)",
+    "jp": "馬 (Uma)",
+    "es": "Caballo",
+    "fr": "Cheval (sheval)",
+    "it": "Cavallo (kavallo)"
+  },
+  {
+    "id": 161,
+    "nivel": 33,
+    "tags": ["animales"],
+    "en": "Cow (cau)",
+    "jp": "牛 (Ushi)",
+    "es": "Vaca",
+    "fr": "Vache (vash)",
+    "it": "Mucca (mukka)"
+  },
+  {
+    "id": 162,
+    "nivel": 33,
+    "tags": ["animales"],
+    "en": "Pig (pig)",
+    "jp": "豚 (Buta)",
+    "es": "Cerdo",
+    "fr": "Cochon (koshon)",
+    "it": "Maiale (maiale)"
+  },
+  {
+    "id": 163,
+    "nivel": 33,
+    "tags": ["animales"],
+    "en": "Lion (laion)",
+    "jp": "ライオン (Raion)",
+    "es": "León",
+    "fr": "Lion (lion)",
+    "it": "Leone (leone)"
+  },
+  {
+    "id": 164,
+    "nivel": 33,
+    "tags": ["animales"],
+    "en": "Elephant (elefant)",
+    "jp": "象 (Zou)",
+    "es": "Elefante",
+    "fr": "Éléphant (elefan)",
+    "it": "Elefante (elefante)"
+  },
+  {
+    "id": 165,
+    "nivel": 33,
+    "tags": ["animales"],
+    "en": "Monkey (monki)",
+    "jp": "猿 (Saru)",
+    "es": "Mono",
+    "fr": "Singe (sanzh)",
+    "it": "Scimmia (shimmia)"
+  },
+  {
+    "id": 166,
+    "nivel": 34,
+    "tags": ["clima"],
+    "en": "Rain (rein)",
+    "jp": "雨 (Ame)",
+    "es": "Lluvia",
+    "fr": "Pluie (plui)",
+    "it": "Pioggia (pioddia)"
+  },
+  {
+    "id": 167,
+    "nivel": 34,
+    "tags": ["clima"],
+    "en": "Snow (snou)",
+    "jp": "雪 (Yuki)",
+    "es": "Nieve",
+    "fr": "Neige (nezh)",
+    "it": "Neve (neve)"
+  },
+  {
+    "id": 168,
+    "nivel": 34,
+    "tags": ["clima"],
+    "en": "Wind (uind)",
+    "jp": "風 (Kaze)",
+    "es": "Viento",
+    "fr": "Vent (van)",
+    "it": "Vento (vento)"
+  },
+  {
+    "id": 169,
+    "nivel": 34,
+    "tags": ["clima"],
+    "en": "Cloud (claud)",
+    "jp": "雲 (Kumo)",
+    "es": "Nube",
+    "fr": "Nuage (nuazh)",
+    "it": "Nuvola (nuvola)"
+  },
+  {
+    "id": 170,
+    "nivel": 34,
+    "tags": ["clima"],
+    "en": "Storm (storm)",
+    "jp": "嵐 (Arashi)",
+    "es": "Tormenta",
+    "fr": "Orage (orazh)",
+    "it": "Tempesta (tempesta)"
+  },
+  {
+    "id": 171,
+    "nivel": 35,
+    "tags": ["profesiones"],
+    "en": "Teacher (ticher)",
+    "jp": "先生 (Sensei)",
+    "es": "Profesor",
+    "fr": "Professeur (profeser)",
+    "it": "Insegnante (insenyante)"
+  },
+  {
+    "id": 172,
+    "nivel": 35,
+    "tags": ["profesiones"],
+    "en": "Doctor (doctor)",
+    "jp": "医者 (Isha)",
+    "es": "Médico",
+    "fr": "Médecin (medsan)",
+    "it": "Medico (mediko)"
+  },
+  {
+    "id": 173,
+    "nivel": 35,
+    "tags": ["profesiones"],
+    "en": "Nurse (ners)",
+    "jp": "看護師 (Kangoshi)",
+    "es": "Enfermera",
+    "fr": "Infirmière (anfirmier)",
+    "it": "Infermiera (anfirmiera)"
+  },
+  {
+    "id": 174,
+    "nivel": 35,
+    "tags": ["profesiones"],
+    "en": "Student (student)",
+    "jp": "学生 (Gakusei)",
+    "es": "Estudiante",
+    "fr": "Étudiant (etudian)",
+    "it": "Studente (studente)"
+  },
+  {
+    "id": 175,
+    "nivel": 35,
+    "tags": ["profesiones"],
+    "en": "Engineer (enyinir)",
+    "jp": "エンジニア (Enjinia)",
+    "es": "Ingeniero",
+    "fr": "Ingénieur (anzhenier)",
+    "it": "Ingegnere (anyeniere)"
+  },
+  {
+    "id": 176,
+    "nivel": 36,
+    "tags": ["profesiones"],
+    "en": "Chef (shef)",
+    "jp": "料理人 (Ryourinin)",
+    "es": "Cocinero",
+    "fr": "Chef (shef)",
+    "it": "Cuoco (kuoko)"
+  },
+  {
+    "id": 177,
+    "nivel": 36,
+    "tags": ["profesiones"],
+    "en": "Pilot (pailot)",
+    "jp": "パイロット (Pairoto)",
+    "es": "Piloto",
+    "fr": "Pilote (pilot)",
+    "it": "Pilota (pilota)"
+  },
+  {
+    "id": 178,
+    "nivel": 36,
+    "tags": ["profesiones"],
+    "en": "Artist (artist)",
+    "jp": "芸術家 (Geijutsuka)",
+    "es": "Artista",
+    "fr": "Artiste (artist)",
+    "it": "Artista (artista)"
+  },
+  {
+    "id": 179,
+    "nivel": 36,
+    "tags": ["profesiones"],
+    "en": "Writer (raiter)",
+    "jp": "作家 (Sakka)",
+    "es": "Escritor",
+    "fr": "Écrivain (ekrivan)",
+    "it": "Scrittore (skrittore)"
+  },
+  {
+    "id": 180,
+    "nivel": 36,
+    "tags": ["profesiones"],
+    "en": "Lawyer (loier)",
+    "jp": "弁護士 (Bengoshi)",
+    "es": "Abogado",
+    "fr": "Avocat (avoka)",
+    "it": "Avvocato (avvokato)"
+  },
+  {
+    "id": 181,
+    "nivel": 37,
+    "tags": ["hogar"],
+    "en": "Kitchen (kitchen)",
+    "jp": "台所 (Daidokoro)",
+    "es": "Cocina",
+    "fr": "Cuisine (kuizin)",
+    "it": "Cucina (kuchina)"
+  },
+  {
+    "id": 182,
+    "nivel": 37,
+    "tags": ["hogar"],
+    "en": "Bathroom (bazrum)",
+    "jp": "浴室 (Yokushitsu)",
+    "es": "Baño",
+    "fr": "Salle de bain (sal de ban)",
+    "it": "Bagno (banyo)"
+  },
+  {
+    "id": 183,
+    "nivel": 37,
+    "tags": ["hogar"],
+    "en": "Bedroom (bedrum)",
+    "jp": "寝室 (Shinshitsu)",
+    "es": "Dormitorio",
+    "fr": "Chambre (shambr)",
+    "it": "Camera da letto (kamera da letto)"
+  },
+  {
+    "id": 184,
+    "nivel": 37,
+    "tags": ["hogar"],
+    "en": "Living room (living rum)",
+    "jp": "居間 (Ima)",
+    "es": "Sala",
+    "fr": "Salon (salon)",
+    "it": "Soggiorno (soyiorno)"
+  },
+  {
+    "id": 185,
+    "nivel": 37,
+    "tags": ["hogar"],
+    "en": "Garden (garden)",
+    "jp": "庭 (Niwa)",
+    "es": "Jardín",
+    "fr": "Jardin (zhardan)",
+    "it": "Giardino (jardino)"
+  },
+  {
+    "id": 186,
+    "nivel": 38,
+    "tags": ["sentimientos"],
+    "en": "Love (lav)",
+    "jp": "愛 (Ai)",
+    "es": "Amor",
+    "fr": "Amour (amur)",
+    "it": "Amore (amore)"
+  },
+  {
+    "id": 187,
+    "nivel": 38,
+    "tags": ["sentimientos"],
+    "en": "Fear (fiar)",
+    "jp": "恐怖 (Kyoufu)",
+    "es": "Miedo",
+    "fr": "Peur (per)",
+    "it": "Paura (paura)"
+  },
+  {
+    "id": 188,
+    "nivel": 38,
+    "tags": ["sentimientos"],
+    "en": "Anger (anguer)",
+    "jp": "怒り (Ikari)",
+    "es": "Ira",
+    "fr": "Colère (koler)",
+    "it": "Rabbia (rabbia)"
+  },
+  {
+    "id": 189,
+    "nivel": 38,
+    "tags": ["sentimientos"],
+    "en": "Surprise (serprais)",
+    "jp": "驚き (Odoroki)",
+    "es": "Sorpresa",
+    "fr": "Surprise (syrpriz)",
+    "it": "Sorpresa (sorpreza)"
+  },
+  {
+    "id": 190,
+    "nivel": 38,
+    "tags": ["sentimientos"],
+    "en": "Hope (joup)",
+    "jp": "希望 (Kibou)",
+    "es": "Esperanza",
+    "fr": "Espoir (espuar)",
+    "it": "Speranza (sperantsa)"
+  },
+  {
+    "id": 191,
+    "nivel": 39,
+    "tags": ["tiempo"],
+    "en": "Spring (spring)",
+    "jp": "春 (Haru)",
+    "es": "Primavera",
+    "fr": "Printemps (prantan)",
+    "it": "Primavera (primavera)"
+  },
+  {
+    "id": 192,
+    "nivel": 39,
+    "tags": ["tiempo"],
+    "en": "Summer (samer)",
+    "jp": "夏 (Natsu)",
+    "es": "Verano",
+    "fr": "Été (ete)",
+    "it": "Estate (estate)"
+  },
+  {
+    "id": 193,
+    "nivel": 39,
+    "tags": ["tiempo"],
+    "en": "Autumn (otom)",
+    "jp": "秋 (Aki)",
+    "es": "Otoño",
+    "fr": "Automne (otom)",
+    "it": "Autunno (autunno)"
+  },
+  {
+    "id": 194,
+    "nivel": 39,
+    "tags": ["tiempo"],
+    "en": "Winter (uinter)",
+    "jp": "冬 (Fuyu)",
+    "es": "Invierno",
+    "fr": "Hiver (iver)",
+    "it": "Inverno (inverno)"
+  },
+  {
+    "id": 195,
+    "nivel": 39,
+    "tags": ["tiempo"],
+    "en": "Month (manz)",
+    "jp": "月 (Tsuki)",
+    "es": "Mes",
+    "fr": "Mois (mua)",
+    "it": "Mese (meze)"
+  },
+  {
+    "id": 196,
+    "nivel": 40,
+    "tags": ["tiempo"],
+    "en": "Year (iar)",
+    "jp": "年 (Toshi)",
+    "es": "Año",
+    "fr": "An (an)",
+    "it": "Anno (anno)"
+  },
+  {
+    "id": 197,
+    "nivel": 40,
+    "tags": ["herramientas"],
+    "en": "Hammer (jamer)",
+    "jp": "金槌 (Kanazuchi)",
+    "es": "Martillo",
+    "fr": "Marteau (marto)",
+    "it": "Martello (martello)"
+  },
+  {
+    "id": 198,
+    "nivel": 40,
+    "tags": ["herramientas"],
+    "en": "Scissors (sisors)",
+    "jp": "鋏 (Hasami)",
+    "es": "Tijeras",
+    "fr": "Ciseaux (sizo)",
+    "it": "Forbici (forbichi)"
+  },
+  {
+    "id": 199,
+    "nivel": 40,
+    "tags": ["herramientas"],
+    "en": "Screw (scru)",
+    "jp": "ネジ (Neji)",
+    "es": "Tornillo",
+    "fr": "Vis (vis)",
+    "it": "Vite (vite)"
+  },
+  {
+    "id": 200,
+    "nivel": 40,
+    "tags": ["herramientas"],
+    "en": "Saw (so)",
+    "jp": "鋸 (Nokogiri)",
+    "es": "Sierra",
+    "fr": "Scie (si)",
+    "it": "Sega (sega)"
+  },
+  {
+    "id": 201,
+    "nivel": 41,
+    "tags": ["hogar"],
+    "en": "Plate (pleit)",
+    "jp": "皿 (Sara)",
+    "es": "Plato",
+    "fr": "Assiette (asiet)",
+    "it": "Piatto (piatto)"
+  },
+  {
+    "id": 202,
+    "nivel": 41,
+    "tags": ["hogar"],
+    "en": "Glass (glas)",
+    "jp": "コップ (Koppu)",
+    "es": "Vaso",
+    "fr": "Verre (ver)",
+    "it": "Bicchiere (bikkiere)"
+  },
+  {
+    "id": 203,
+    "nivel": 41,
+    "tags": ["hogar"],
+    "en": "Fork (fork)",
+    "jp": "フォーク (Fooku)",
+    "es": "Tenedor",
+    "fr": "Fourchette (furshet)",
+    "it": "Forchetta (forketta)"
+  },
+  {
+    "id": 204,
+    "nivel": 41,
+    "tags": ["hogar"],
+    "en": "Spoon (spun)",
+    "jp": "スプーン (Supuun)",
+    "es": "Cuchara",
+    "fr": "Cuillère (kuier)",
+    "it": "Cucchiaio (kukkiaio)"
+  },
+  {
+    "id": 205,
+    "nivel": 41,
+    "tags": ["hogar"],
+    "en": "Knife (naif)",
+    "jp": "ナイフ (Naifu)",
+    "es": "Cuchillo",
+    "fr": "Couteau (kuto)",
+    "it": "Coltello (koltello)"
+  },
+  {
+    "id": 206,
+    "nivel": 42,
+    "tags": ["comida"],
+    "en": "Egg (eg)",
+    "jp": "卵 (Tamago)",
+    "es": "Huevo",
+    "fr": "Œuf (ef)",
+    "it": "Uovo (uovo)"
+  },
+  {
+    "id": 207,
+    "nivel": 42,
+    "tags": ["comida"],
+    "en": "Cheese (chiis)",
+    "jp": "チーズ (Chiizu)",
+    "es": "Queso",
+    "fr": "Fromage (fromazh)",
+    "it": "Formaggio (formadjio)"
+  },
+  {
+    "id": 208,
+    "nivel": 42,
+    "tags": ["comida"],
+    "en": "Sugar (shugar)",
+    "jp": "砂糖 (Satou)",
+    "es": "Azúcar",
+    "fr": "Sucre (sykr)",
+    "it": "Zucchero (tsekkero)"
+  },
+  {
+    "id": 209,
+    "nivel": 42,
+    "tags": ["comida"],
+    "en": "Salt (solt)",
+    "jp": "塩 (Shio)",
+    "es": "Sal",
+    "fr": "Sel (sel)",
+    "it": "Sale (sale)"
+  },
+  {
+    "id": 210,
+    "nivel": 42,
+    "tags": ["comida"],
+    "en": "Water (uater)",
+    "jp": "水 (Mizu)",
+    "es": "Agua",
+    "fr": "Eau (o)",
+    "it": "Acqua (akkua)"
+  },
+  {
+    "id": 211,
+    "nivel": 43,
+    "tags": ["naturaleza"],
+    "en": "Sea (sii)",
+    "jp": "海 (Umi)",
+    "es": "Mar",
+    "fr": "Mer (mer)",
+    "it": "Mare (mare)"
+  },
+  {
+    "id": 212,
+    "nivel": 43,
+    "tags": ["naturaleza"],
+    "en": "Cloud (claud)",
+    "jp": "雲 (Kumo)",
+    "es": "Nube",
+    "fr": "Nuage (nuazh)",
+    "it": "Nuvola (nuvola)"
+  },
+  {
+    "id": 213,
+    "nivel": 43,
+    "tags": ["naturaleza"],
+    "en": "Earth (erz)",
+    "jp": "地球 (Chikyuu)",
+    "es": "Tierra",
+    "fr": "Terre (ter)",
+    "it": "Terra (terra)"
+  },
+  {
+    "id": 214,
+    "nivel": 43,
+    "tags": ["naturaleza"],
+    "en": "Wind (uind)",
+    "jp": "風 (Kaze)",
+    "es": "Viento",
+    "fr": "Vent (van)",
+    "it": "Vento (vento)"
+  },
+  {
+    "id": 215,
+    "nivel": 43,
+    "tags": ["naturaleza"],
+    "en": "Fire (faiar)",
+    "jp": "火 (Hi)",
+    "es": "Fuego",
+    "fr": "Feu (fe)",
+    "it": "Fuoco (fuoko)"
+  },
+  {
+    "id": 216,
+    "nivel": 44,
+    "tags": ["adjetivos"],
+    "en": "New (niu)",
+    "jp": "新しい (Atarashii)",
+    "es": "Nuevo",
+    "fr": "Nouveau (nuvo)",
+    "it": "Nuovo (nuovo)"
+  },
+  {
+    "id": 217,
+    "nivel": 44,
+    "tags": ["adjetivos"],
+    "en": "Old (ould)",
+    "jp": "古い (Furui)",
+    "es": "Viejo",
+    "fr": "Vieux (vie)",
+    "it": "Vecchio (vekkio)"
+  },
+  {
+    "id": 218,
+    "nivel": 44,
+    "tags": ["adjetivos"],
+    "en": "Easy (iisi)",
+    "jp": "簡単 (Kantan)",
+    "es": "Fácil",
+    "fr": "Facile (fasil)",
+    "it": "Facile (fachile)"
+  },
+  {
+    "id": 219,
+    "nivel": 44,
+    "tags": ["adjetivos"],
+    "en": "Difficult (dificult)",
+    "jp": "難しい (Muzukashii)",
+    "es": "Difícil",
+    "fr": "Difficile (difisil)",
+    "it": "Difficile (diffichile)"
+  },
+  {
+    "id": 220,
+    "nivel": 44,
+    "tags": ["adjetivos"],
+    "en": "Rich (rich)",
+    "jp": "金持ち (Kanemochi)",
+    "es": "Rico",
+    "fr": "Riche (rish)",
+    "it": "Ricco (rikko)"
+  },
+  {
+    "id": 221,
+    "nivel": 45,
+    "tags": ["adjetivos"],
+    "en": "Poor (puar)",
+    "jp": "貧乏 (Binbou)",
+    "es": "Pobre",
+    "fr": "Pauvre (povr)",
+    "it": "Povero (povero)"
+  },
+  {
+    "id": 222,
+    "nivel": 45,
+    "tags": ["adjetivos"],
+    "en": "Clean (cliin)",
+    "jp": "綺麗 (Kirei)",
+    "es": "Limpio",
+    "fr": "Propre (propr)",
+    "it": "Pulito (pulito)"
+  },
+  {
+    "id": 223,
+    "nivel": 45,
+    "tags": ["adjetivos"],
+    "en": "Dirty (derti)",
+    "jp": "汚い (Kitanai)",
+    "es": "Sucio",
+    "fr": "Sale (sal)",
+    "it": "Sporco (sporko)"
+  },
+  {
+    "id": 224,
+    "nivel": 45,
+    "tags": ["adjetivos"],
+    "en": "Strong (strong)",
+    "jp": "強い (Tsuyoi)",
+    "es": "Fuerte",
+    "fr": "Fort (for)",
+    "it": "Forte (forte)"
+  },
+  {
+    "id": 225,
+    "nivel": 45,
+    "tags": ["adjetivos"],
+    "en": "Weak (uiik)",
+    "jp": "弱い (Yowai)",
+    "es": "Débil",
+    "fr": "Faible (febl)",
+    "it": "Debole (debole)"
+  },
+  {
+    "id": 226,
+    "nivel": 46,
+    "tags": ["verbos"],
+    "en": "To work (tu uork)",
+    "jp": "働く (Hataraku)",
+    "es": "Trabajar",
+    "fr": "Travailler (travaie)",
+    "it": "Lavorare (lavorare)"
+  },
+  {
+    "id": 227,
+    "nivel": 46,
+    "tags": ["verbos"],
+    "en": "To play (tu plei)",
+    "jp": "遊ぶ (Asobu)",
+    "es": "Jugar",
+    "fr": "Jouer (zhue)",
+    "it": "Giocare (jiokare)"
+  },
+  {
+    "id": 228,
+    "nivel": 46,
+    "tags": ["verbos"],
+    "en": "To buy (tu bai)",
+    "jp": "買う (Kau)",
+    "es": "Comprar",
+    "fr": "Acheter (ashte)",
+    "it": "Comprare (komprare)"
+  },
+  {
+    "id": 229,
+    "nivel": 46,
+    "tags": ["verbos"],
+    "en": "To go (tu gou)",
+    "jp": "行く (Iku)",
+    "es": "Ir",
+    "fr": "Aller (ale)",
+    "it": "Andare (andare)"
+  },
+  {
+    "id": 230,
+    "nivel": 46,
+    "tags": ["verbos"],
+    "en": "To come (tu cam)",
+    "jp": "来る (Kuru)",
+    "es": "Venir",
+    "fr": "Venir (venir)",
+    "it": "Venire (venire)"
+  },
+  {
+    "id": 231,
+    "nivel": 47,
+    "tags": ["verbos"],
+    "en": "To give (tu giv)",
+    "jp": "与える (Ataeru)",
+    "es": "Dar",
+    "fr": "Donner (done)",
+    "it": "Dare (dare)"
+  },
+  {
+    "id": 232,
+    "nivel": 47,
+    "tags": ["verbos"],
+    "en": "To take (tu teik)",
+    "jp": "取る (Toru)",
+    "es": "Tomar",
+    "fr": "Prendre (prandr)",
+    "it": "Prendere (prendere)"
+  },
+  {
+    "id": 233,
+    "nivel": 47,
+    "tags": ["verbos"],
+    "en": "To make (tu meik)",
+    "jp": "作る (Tsukuru)",
+    "es": "Hacer",
+    "fr": "Faire (fer)",
+    "it": "Fare (fare)"
+  },
+  {
+    "id": 234,
+    "nivel": 47,
+    "tags": ["verbos"],
+    "en": "To sleep (tu sliip)",
+    "jp": "眠る (Nemuru)",
+    "es": "Dormir",
+    "fr": "Dormir (dormir)",
+    "it": "Dormire (dormire)"
+  },
+  {
+    "id": 235,
+    "nivel": 47,
+    "tags": ["verbos"],
+    "en": "To open (tu oupen)",
+    "jp": "開ける (Akeru)",
+    "es": "Abrir",
+    "fr": "Ouvrir (uvrir)",
+    "it": "Aprire (aprire)"
+  },
+  {
+    "id": 236,
+    "nivel": 48,
+    "tags": ["adverbios"],
+    "en": "Always (olueis)",
+    "jp": "いつも (Itsumo)",
+    "es": "Siempre",
+    "fr": "Toujours (tuzhur)",
+    "it": "Sempre (sempre)"
+  },
+  {
+    "id": 237,
+    "nivel": 48,
+    "tags": ["adverbios"],
+    "en": "Never (never)",
+    "jp": "決して (Kesshite)",
+    "es": "Nunca",
+    "fr": "Jamais (zhame)",
+    "it": "Mai (mai)"
+  },
+  {
+    "id": 238,
+    "nivel": 48,
+    "tags": ["adverbios"],
+    "en": "Sometimes (samtaims)",
+    "jp": "時々 (Tokidoki)",
+    "es": "A veces",
+    "fr": "Parfois (parfua)",
+    "it": "A volte (a volte)"
+  },
+  {
+    "id": 239,
+    "nivel": 48,
+    "tags": ["adverbios"],
+    "en": "Often (often)",
+    "jp": "しばしば (Shibashiba)",
+    "es": "A menudo",
+    "fr": "Souvent (suvan)",
+    "it": "Spesso (spesso)"
+  },
+  {
+    "id": 240,
+    "nivel": 48,
+    "tags": ["adverbios"],
+    "en": "Very (veri)",
+    "jp": "とても (Totemo)",
+    "es": "Muy",
+    "fr": "Très (tre)",
+    "it": "Molto (molto)"
+  },
+  {
+    "id": 241,
+    "nivel": 49,
+    "tags": ["adverbios"],
+    "en": "Well (uel)",
+    "jp": "よく (Yoku)",
+    "es": "Bien",
+    "fr": "Bien (bian)",
+    "it": "Bene (bene)"
+  },
+  {
+    "id": 242,
+    "nivel": 49,
+    "tags": ["adverbios"],
+    "en": "Slowly (slouli)",
+    "jp": "ゆっくり (Yukkuri)",
+    "es": "Lentamente",
+    "fr": "Lentement (lantman)",
+    "it": "Lentamente (lentamente)"
+  },
+  {
+    "id": 243,
+    "nivel": 49,
+    "tags": ["adverbios"],
+    "en": "Maybe (meibi)",
+    "jp": "多分 (Tabun)",
+    "es": "Tal vez",
+    "fr": "Peut-être (pet-etr)",
+    "it": "Forse (forse)"
+  },
+  {
+    "id": 244,
+    "nivel": 49,
+    "tags": ["adverbios"],
+    "en": "Again (aguen)",
+    "jp": "また (Mata)",
+    "es": "Otra vez",
+    "fr": "Encore (ankor)",
+    "it": "Ancora (ankora)"
+  },
+  {
+    "id": 245,
+    "nivel": 49,
+    "tags": ["adverbios"],
+    "en": "Now (nau)",
+    "jp": "今 (Ima)",
+    "es": "Ahora",
+    "fr": "Maintenant (mantnan)",
+    "it": "Ora (ora)"
+  },
+  {
+    "id": 246,
+    "nivel": 50,
+    "tags": ["saludos"],
+    "en": "Excuse me (eksius mi)",
+    "jp": "すみません (Sumimasen)",
+    "es": "Disculpe",
+    "fr": "Excusez-moi (ekskyze-mua)",
+    "it": "Scusi (skuzi)"
+  },
+  {
+    "id": 247,
+    "nivel": 50,
+    "tags": ["saludos"],
+    "en": "How are you? (jau ar iu?)",
+    "jp": "お元気ですか (Ogenki desu ka)",
+    "es": "¿Cómo estás?",
+    "fr": "Comment ça va? (koman sa va?)",
+    "it": "Come stai? (kome stai?)"
+  },
+  {
+    "id": 248,
+    "nivel": 50,
+    "tags": ["saludos"],
+    "en": "I am fine (ai am fain)",
+    "jp": "元気です (Genki desu)",
+    "es": "Estoy bien",
+    "fr": "Ça va bien (sa va bian)",
+    "it": "Sto bene (sto bene)"
+  },
+  {
+    "id": 249,
+    "nivel": 50,
+    "tags": ["saludos"],
+    "en": "See you later (sii iu leiter)",
+    "jp": "また後で (Mata ato de)",
+    "es": "Hasta luego",
+    "fr": "À plus tard (a ply tar)",
+    "it": "A dopo (a dopo)"
+  },
+  {
+    "id": 250,
+    "nivel": 50,
+    "tags": ["saludos"],
+    "en": "I'm sorry (aim sori)",
+    "jp": "ごめんなさい (Gomennasai)",
+    "es": "Lo siento",
+    "fr": "Je suis désolé (zhe sui dezole)",
+    "it": "Mi dispiace (mi dispiache)"
+  }
+]

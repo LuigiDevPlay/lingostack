@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LingoStack - Menú</title>
+    <link rel="stylesheet" href="src/css/styles.css" />
+  </head>
+  <body class="bg-[#0f172a] text-white min-h-screen flex flex-col items-center p-6 select-none">
+    <div class="text-center mb-8 md:mb-16 relative">
+      <h1
+        class="text-[14vw] sm:text-7xl md:text-9xl font-black text-sky-400 tracking-tighter drop-shadow-[0_0_20px_rgba(56,189,248,0.6)] animate-pulse leading-none select-none italic transform -skew-x-6"
+      >
+        LINGO<span class="text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]">STACK</span>
+      </h1>
+
+      <div class="flex flex-col items-center justify-center gap-2 mt-2 md:mt-4">
+        <p
+          class="text-yellow-500 text-[10px] md:text-xs font-black tracking-[0.3em] uppercase opacity-80"
+        >
+          Mejor Puntuación
+        </p>
+        <div
+          class="flex items-center gap-3 bg-slate-900/50 backdrop-blur-md px-4 py-2 rounded-2xl border border-yellow-500/30 shadow-[0_0_20px_rgba(234,179,8,0.1)]"
+        >
+          <span class="text-yellow-500">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 md:h-6 md:w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="Refuerzo: M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-7.714 2.143L11 21l-2.286-6.857L1 12l7.714-2.143L11 3z"
+              />
+            </svg>
+          </span>
+          <span
+            id="high-score"
+            class="text-2xl md:text-3xl font-black text-yellow-400 tabular-nums"
+          >
+            0
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-4 w-full max-w-sm px-4 md:px-0">
+      <a
+        href="game.html"
+        class="w-full bg-sky-500 hover:bg-sky-400 text-white text-center py-5 rounded-2xl font-black text-2xl transition-all active:translate-y-1 active:shadow-[0_4px_0_0_#0369a1] shadow-[0_8px_0_0_#0369a1] border-2 border-sky-300/20 uppercase tracking-tight"
+      >
+        INICIAR PARTIDA
+      </a>
+
+      <button
+        id="btn-ranking"
+        class="w-full bg-slate-800 hover:bg-slate-700 text-white py-4 rounded-2xl font-bold text-lg transition-all active:scale-95 border-2 border-slate-700 shadow-xl flex items-center justify-center gap-2 cursor-pointer"
+      >
+        <span>🏆</span> MEJORES PUNTAJES
+      </button>
+
+      <div class="w-full mt-2">
+        <label
+          class="text-[10px] text-sky-500 font-black uppercase tracking-[0.2em] ml-2 mb-1 block"
+        >
+          MODO DE JUEGO
+        </label>
+        <div class="relative">
+          <select
+            id="select-difficulty"
+            class="w-full bg-slate-900 text-white py-4 px-4 rounded-2xl font-bold border-2 border-slate-800 appearance-none focus:border-sky-500 outline-none cursor-pointer transition-colors text-sm"
+          >
+            <option value="basico">BÁSICO (Vidas ∞)</option>
+            <option value="normal" selected>NORMAL (5 Vidas)</option>
+            <option value="dificil">DIFÍCIL (Pausa Penaliza)</option>
+            <option value="experto">EXPERTO (3 Vidas)</option>
+          </select>
+          <div
+            class="absolute inset-y-0 right-4 flex items-center pointer-events-none text-sky-500"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="3"
+                d="M19 9l-7 7-7-7"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-center mb-2">
+        <button
+          id="btn-volume"
+          class="flex items-center gap-2 bg-slate-800/50 hover:bg-slate-700 text-sky-500 py-2 px-6 rounded-full border border-slate-700 transition-all active:scale-95 cursor-pointer"
+        >
+          <span id="vol-icon">🔊</span>
+          <span class="text-[10px] font-black uppercase tracking-widest text-white"
+            >Música: <span id="vol-status" class="text-sky-400">ON</span></span
+          >
+        </button>
+      </div>
+    </div>
+
+    <footer class="w-full mt-auto py-6 border-t border-slate-800 bg-slate-900/50 backdrop-blur-md">
+      <div class="max-w-4xl mx-auto px-4 flex flex-col items-center gap-4">
+        <div class="text-center">
+          <p class="text-slate-500 text-xs uppercase tracking-[0.2em] mb-1">Creado por</p>
+          <h3 class="text-white font-black text-xl tracking-tighter italic">
+            LUIGI<span class="text-sky-400">DEVPLAY</span>
+          </h3>
+        </div>
+
+        <div class="flex gap-6 items-center">
+          <a
+            href="https://github.com/LuigiDevPlay"
+            target="_blank"
+            class="text-slate-400 hover:text-white transition-colors"
+          >
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.041-1.416-4.041-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+              />
+            </svg>
+          </a>
+
+          <a
+            href="https://www.youtube.com/@luigiDevPlay"
+            target="_blank"
+            class="text-slate-400 hover:text-red-500 transition-colors"
+          >
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+              />
+            </svg>
+          </a>
+
+          <a
+            href="https://www.twitch.tv/luigidevplay"
+            target="_blank"
+            class="text-slate-400 hover:text-purple-500 transition-colors"
+          >
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M11.571 4.714h1.715v5.143H11.571zm4.715 0h1.714v5.143h-1.714zM4.714 0 1.714 3v16.286h5.143V24l4.286-4.714h3.428L22.286 12V0zm15.857 11.143-3 3H13.43L10.286 18v-3.857H7.286V1.714h13.285z"
+              />
+            </svg>
+          </a>
+
+          <a
+            href="https://www.instagram.com/luigidevplay/"
+            target="_blank"
+            class="text-slate-400 hover:text-pink-500 transition-colors"
+          >
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <p class="text-slate-600 text-[10px] font-medium uppercase tracking-widest text-center">
+          &copy; 2026 Todos los derechos reservados
+        </p>
+      </div>
+    </footer>
+
+    <div id="ranking-modal" class="hidden fixed inset-0 z-200 flex items-center justify-center p-4">
+      <div class="absolute inset-0 bg-slate-950/90 backdrop-blur-md"></div>
+
+      <div
+        class="relative bg-slate-900 border-2 border-slate-700 w-full max-w-sm rounded-3xl p-6 shadow-2xl"
+      >
+        <div class="text-center mb-6">
+          <span class="text-4xl">🏆</span>
+          <h3 class="text-2xl font-black text-white uppercase tracking-tighter mt-2">
+            Salón de la Fama
+          </h3>
+          <p class="text-slate-400 text-xs font-bold uppercase tracking-widest">
+            Tus mejores marcas
+          </p>
+        </div>
+
+        <div
+          id="ranking-list"
+          class="space-y-3 mb-6 max-h-60 overflow-y-auto pr-2 custom-scrollbar"
+        ></div>
+
+        <button
+          id="close-ranking"
+          class="w-full py-4 bg-slate-800 hover:bg-slate-700 text-white font-bold rounded-2xl transition-all border-2 border-slate-700 cursor-pointer"
+        >
+          VOLVER
+        </button>
+      </div>
+    </div>
+
+    <audio id="snd-hover" src="src/assets/sounds/hover.mp3" preload="auto"></audio>
+    <audio id="snd-click" src="src/assets/sounds/click.mp3" preload="auto"></audio>
+    <audio id="snd-start" src="src/assets/sounds/start.mp3" preload="auto"></audio>
+    <audio id="bgm-menu" src="src/assets/sounds/bgm_menu.mp3" loop preload="auto"></audio>
+
+    <script>
+      // --- REFERENCIAS DE AUDIO Y ELEMENTOS ---
+      const sndHover = document.getElementById("snd-hover");
+      const sndClick = document.getElementById("snd-click");
+      const sndStart = document.getElementById("snd-start");
+      const bgmMenu = document.getElementById("bgm-menu");
+
+      const btnVolume = document.getElementById("btn-volume");
+      const volIcon = document.getElementById("vol-icon");
+      const volStatus = document.getElementById("vol-status");
+
+      const selectDifficulty = document.getElementById("select-difficulty");
+      const highScoreDisplay = document.getElementById("high-score");
+      const btnRanking = document.getElementById("btn-ranking");
+      const rankingModal = document.getElementById("ranking-modal");
+      const rankingList = document.getElementById("ranking-list");
+
+      // --- LÓGICA DE VOLUMEN ---
+      let isMuted = localStorage.getItem("lingo_muted") === "true";
+
+      const applyVolumeSettings = () => {
+        if (isMuted) {
+          bgmMenu.volume = 0;
+          volIcon.innerText = "🔇";
+          volStatus.innerText = "OFF";
+          volStatus.classList.replace("text-sky-400", "text-slate-500");
+        } else {
+          bgmMenu.volume = 0.4;
+          volIcon.innerText = "🔊";
+          volStatus.innerText = "ON";
+          volStatus.classList.replace("text-slate-500", "text-sky-400");
+        }
+      };
+
+      btnVolume.addEventListener("click", () => {
+        isMuted = !isMuted;
+        localStorage.setItem("lingo_muted", isMuted);
+        applyVolumeSettings();
+        if (!isMuted && bgmMenu.paused) {
+          bgmMenu.play().catch(() => {});
+        }
+      });
+
+      // --- LÓGICA DE SONIDOS ---
+      const playSnd = (audio) => {
+        audio.currentTime = 0;
+        audio.play().catch(() => {});
+      };
+
+      const stopSnd = (audio) => {
+        audio.pause();
+        audio.currentTime = 0;
+      };
+
+      const startMenuMusic = () => {
+        applyVolumeSettings();
+        if (!isMuted) {
+          bgmMenu.play().catch(() => console.log("Esperando interacción..."));
+        }
+        document.removeEventListener("click", startMenuMusic);
+      };
+      document.addEventListener("click", startMenuMusic);
+
+      document.querySelectorAll("button, a, select").forEach((el) => {
+        el.addEventListener("mouseenter", () => playSnd(sndHover));
+        el.addEventListener("mouseleave", () => stopSnd(sndHover));
+
+        el.addEventListener("click", (e) => {
+          stopSnd(sndHover);
+
+          if (el.innerText.includes("INICIAR") || el.getAttribute("href") === "game.html") {
+            e.preventDefault();
+            playSnd(sndStart);
+
+            const fadeInterval = setInterval(() => {
+              if (bgmMenu.volume > 0.05) {
+                bgmMenu.volume -= 0.05;
+              } else {
+                bgmMenu.pause();
+                clearInterval(fadeInterval);
+              }
+            }, 50);
+
+            setTimeout(() => {
+              window.location.href = el.getAttribute("href") || "game.html";
+            }, 1000);
+          } else if (el.id !== "btn-volume") {
+            playSnd(sndClick);
+          }
+        });
+      });
+
+      // --- LÓGICA DE DATOS (RECORDS Y RANKING) ---
+      document.addEventListener("DOMContentLoaded", () => {
+        applyVolumeSettings();
+        const savedRecord = localStorage.getItem("lingo_high_score") || 0;
+        if (highScoreDisplay) highScoreDisplay.innerText = savedRecord;
+
+        const lastDifficulty = localStorage.getItem("selectedDifficulty");
+        if (lastDifficulty && selectDifficulty) {
+          selectDifficulty.value = lastDifficulty;
+        }
+      });
+
+      selectDifficulty.addEventListener("change", () => {
+        localStorage.setItem("selectedDifficulty", selectDifficulty.value);
+      });
+
+      btnRanking.addEventListener("click", () => {
+        let history = [];
+        try {
+          history = JSON.parse(localStorage.getItem("lingo_score_history")) || [];
+        } catch (e) {
+          history = [];
+        }
+
+        rankingList.innerHTML = "";
+        if (history.length === 0) {
+          rankingList.innerHTML = `<p class="text-center text-slate-500 py-4 italic">No hay puntajes aún.</p>`;
+        } else {
+          history.slice(0, 5).forEach((score, index) => {
+            const medal = index === 0 ? "🥇" : index === 1 ? "🥈" : index === 2 ? "🥉" : "🎮";
+            const div = document.createElement("div");
+            div.className =
+              "flex items-center justify-between bg-slate-800/50 p-4 rounded-2xl border border-slate-700 mb-2";
+            div.innerHTML = `
+          <div class="flex items-center gap-3">
+            <span>${medal}</span>
+            <span class="font-bold text-slate-400">TOP ${index + 1}</span>
+          </div>
+          <span class="font-black text-sky-400">${score}</span>
+        `;
+            rankingList.appendChild(div);
+          });
+        }
+        rankingModal.classList.remove("hidden");
+      });
+
+      document.getElementById("close-ranking").onclick = () => {
+        rankingModal.classList.add("hidden");
+      };
+    </script>
+  </body>
+</html>

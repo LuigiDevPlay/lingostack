@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "nivel": 1,
+    "tags": ["basico"],
+    "en": "Red",
+    "jp": "あか (Aka)",
+    "es": "Rojo",
+    "it": "Rosso",
+    "fr": "Rouge"
+  },
+  {
+    "id": 2,
+    "nivel": 1,
+    "tags": ["basico"],
+    "en": "Blue",
+    "jp": "あお (Ao)",
+    "es": "Azul",
+    "it": "Blu",
+    "fr": "Bleu"
+  },
+  {
+    "id": 3,
+    "nivel": 2,
+    "tags": ["basico"],
+    "en": "One",
+    "jp": "いち (Ichi)",
+    "es": "Uno",
+    "it": "Uno",
+    "fr": "Un"
+  },
+  {
+    "id": 4,
+    "nivel": 2,
+    "tags": ["basico"],
+    "en": "Two",
+    "jp": "に (Ni)",
+    "es": "Dos",
+    "it": "Due",
+    "fr": "Deux"
+  },
+  {
+    "id": 5,
+    "nivel": 3,
+    "tags": ["basico"],
+    "en": "Cat",
+    "jp": "ねこ (Neko)",
+    "es": "Gato",
+    "it": "Gatto",
+    "fr": "Chat"
+  },
+  {
+    "id": 6,
+    "nivel": 3,
+    "tags": ["basico"],
+    "en": "Dog",
+    "jp": "いぬ (Inu)",
+    "es": "Perro",
+    "it": "Cane",
+    "fr": "Chien"
+  },
+  {
+    "id": 7,
+    "nivel": 4,
+    "tags": ["basico"],
+    "en": "Mom",
+    "jp": "おかあさん (Okaasan)",
+    "es": "Mamá",
+    "it": "Mamma",
+    "fr": "Maman"
+  },
+  {
+    "id": 8,
+    "nivel": 4,
+    "tags": ["basico"],
+    "en": "Dad",
+    "jp": "おとうさん (Otousan)",
+    "es": "Papá",
+    "it": "Papà",
+    "fr": "Papa"
+  },
+  {
+    "id": 9,
+    "nivel": 5,
+    "tags": ["basico"],
+    "en": "Sun",
+    "jp": "たいよう (Taiyou)",
+    "es": "Sol",
+    "it": "Sole",
+    "fr": "Soleil"
+  },
+  {
+    "id": 10,
+    "nivel": 5,
+    "tags": ["basico"],
+    "en": "Moon",
+    "jp": "つき (Tsuki)",
+    "es": "Luna",
+    "it": "Luna",
+    "fr": "Lune"
+  },
+  {
+    "id": 11,
+    "nivel": 6,
+    "tags": ["basico"],
+    "en": "Milk",
+    "jp": "ぎゅうにゅう (Gyuunyuu)",
+    "es": "Leche",
+    "it": "Latte",
+    "fr": "Lait"
+  },
+  {
+    "id": 12,
+    "nivel": 7,
+    "tags": ["basico"],
+    "en": "Book",
+    "jp": "ほん (Hon)",
+    "es": "Libro",
+    "it": "Libro",
+    "fr": "Livre"
+  },
+  {
+    "id": 13,
+    "nivel": 8,
+    "tags": ["basico"],
+    "en": "School",
+    "jp": "がっこう (Gakkou)",
+    "es": "Escuela",
+    "it": "Scuola",
+    "fr": "École"
+  },
+  {
+    "id": 14,
+    "nivel": 9,
+    "tags": ["basico"],
+    "en": "Big",
+    "jp": "おおきい (Ookii)",
+    "es": "Grande",
+    "it": "Grande",
+    "fr": "Grand"
+  },
+  {
+    "id": 15,
+    "nivel": 10,
+    "tags": ["basico"],
+    "en": "Small",
+    "jp": "ちいさい (Chiisai)",
+    "es": "Pequeño",
+    "it": "Piccolo",
+    "fr": "Petit"
+  },
+  {
+    "id": 16,
+    "nivel": 11,
+    "tags": ["basico"],
+    "en": "Yellow",
+    "jp": "きいろ (Kiiro)",
+    "es": "Amarillo",
+    "it": "Giallo",
+    "fr": "Jaune"
+  },
+  {
+    "id": 17,
+    "nivel": 12,
+    "tags": ["basico"],
+    "en": "Green",
+    "jp": "みどり (Midori)",
+    "es": "Verde",
+    "it": "Verde",
+    "fr": "Vert"
+  },
+  {
+    "id": 18,
+    "nivel": 13,
+    "tags": ["basico"],
+    "en": "Apple",
+    "jp": "りんご (Ringo)",
+    "es": "Manzana",
+    "it": "Mela",
+    "fr": "Pomme"
+  },
+  {
+    "id": 19,
+    "nivel": 14,
+    "tags": ["basico"],
+    "en": "Banana",
+    "jp": "バナナ (Banana)",
+    "es": "Cambur",
+    "it": "Banana",
+    "fr": "Banane"
+  },
+  {
+    "id": 20,
+    "nivel": 15,
+    "tags": ["basico"],
+    "en": "Water",
+    "jp": "みず (Mizu)",
+    "es": "Agua",
+    "it": "Acqua",
+    "fr": "Eau"
+  },
+  {
+    "id": 21,
+    "nivel": 16,
+    "tags": ["basico"],
+    "en": "Hand",
+    "jp": "て (Te)",
+    "es": "Mano",
+    "it": "Mano",
+    "fr": "Main"
+  },
+  {
+    "id": 22,
+    "nivel": 17,
+    "tags": ["basico"],
+    "en": "Head",
+    "jp": "あたま (Atama)",
+    "es": "Cabeza",
+    "it": "Testa",
+    "fr": "Tête"
+  },
+  {
+    "id": 23,
+    "nivel": 18,
+    "tags": ["basico"],
+    "en": "Happy",
+    "jp": "うれしい (Ureshii)",
+    "es": "Feliz",
+    "it": "Felice",
+    "fr": "Heureux"
+  },
+  {
+    "id": 24,
+    "nivel": 19,
+    "tags": ["basico"],
+    "en": "Sad",
+    "jp": "かなしい (Kanashii)",
+    "es": "Triste",
+    "it": "Triste",
+    "fr": "Triste"
+  },
+  {
+    "id": 25,
+    "nivel": 20,
+    "tags": ["basico"],
+    "en": "House",
+    "jp": "いえ (Ie)",
+    "es": "Casa",
+    "it": "Casa",
+    "fr": "Maison"
+  },
+  {
+    "id": 26,
+    "nivel": 21,
+    "tags": ["basico"],
+    "en": "Car",
+    "jp": "くるま (Kuruma)",
+    "es": "Carro",
+    "it": "Auto",
+    "fr": "Voiture"
+  },
+  {
+    "id": 27,
+    "nivel": 22,
+    "tags": ["basico"],
+    "en": "Boy",
+    "jp": "おとこのこ (Otokonoko)",
+    "es": "Niño",
+    "it": "Ragazzo",
+    "fr": "Garçon"
+  },
+  {
+    "id": 28,
+    "nivel": 23,
+    "tags": ["basico"],
+    "en": "Girl",
+    "jp": "おんなのこ (Onnanoko)",
+    "es": "Niña",
+    "it": "Ragazza",
+    "fr": "Fille"
+  },
+  {
+    "id": 29,
+    "nivel": 24,
+    "tags": ["basico"],
+    "en": "Bird",
+    "jp": "とり (Tori)",
+    "es": "Pájaro",
+    "it": "Uccello",
+    "fr": "Oiseau"
+  },
+  {
+    "id": 30,
+    "nivel": 25,
+    "tags": ["basico"],
+    "en": "Fish",
+    "jp": "さかな (Sakana)",
+    "es": "Pez",
+    "it": "Pesce",
+    "fr": "Poisson"
+  },
+  {
+    "id": 31,
+    "nivel": 26,
+    "tags": ["basico"],
+    "en": "Hot",
+    "jp": "あつい (Atsui)",
+    "es": "Caliente",
+    "it": "Caldo",
+    "fr": "Chaud"
+  },
+  {
+    "id": 32,
+    "nivel": 27,
+    "tags": ["basico"],
+    "en": "Cold",
+    "jp": "つめたい (Tsumetai)",
+    "es": "Frío",
+    "it": "Freddo",
+    "fr": "Froid"
+  },
+  {
+    "id": 33,
+    "nivel": 28,
+    "tags": ["basico"],
+    "en": "Rain",
+    "jp": "あめ (Ame)",
+    "es": "Lluvia",
+    "it": "Pioggia",
+    "fr": "Pluie"
+  },
+  {
+    "id": 34,
+    "nivel": 29,
+    "tags": ["basico"],
+    "en": "Bread",
+    "jp": "パン (Pan)",
+    "es": "Pan",
+    "it": "Pane",
+    "fr": "Pain"
+  },
+  {
+    "id": 35,
+    "nivel": 30,
+    "tags": ["basico"],
+    "en": "I sleep",
+    "jp": "ねます (Nemasu)",
+    "es": "Duermo",
+    "it": "Dormo",
+    "fr": "Je dors"
+  }
+]

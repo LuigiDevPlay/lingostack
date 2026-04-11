@@ -1,0 +1,46 @@
+<---------------------------------------------------->
+
+🟢 basico_100.json (Nivel Inicial)
+De 0 a 50 niveles (250 frases esenciales)
+
+Niveles 1-10: Cimientos. Alfabeto, números del 1 al 10 y colores básicos.
+
+Niveles 11-20: Entorno Cercano. La familia, partes del cuerpo y animales comunes.
+
+Niveles 21-30: Vida Cotidiana. Alimentos, bebidas y objetos de la casa.
+
+Niveles 31-40: Acciones y Naturaleza. Verbos básicos (comer, correr, dormir) y el clima.
+
+Niveles 41-50: Interacción Social. Cortesía básica, saludos sencillos y emociones.
+
+<---------------------------------------------------->
+
+🟡 normal_100.json (Nivel Intermedio)
+De 0 a 50 niveles (250 frases de fluidez)
+
+Niveles 1-10: Protocolo y Socialización. Presentaciones formales y frases de cortesía avanzada.
+
+Niveles 11-20: Estudios y Rutina. Vida universitaria, exámenes, horarios y hábitos diarios.
+
+Niveles 21-30: Ciudad y Direcciones. Cómo ubicarse, transporte público y descripción de lugares.
+
+Niveles 31-40: Trabajo y Bienestar. Entrevistas laborales, profesiones y términos de salud.
+
+Niveles 41-50: Viajes y Planes. Aeropuertos, reservas de hotel y hablar del futuro.
+
+<---------------------------------------------------->
+
+🔴 pro_100.json (Nivel Experto)
+De 0 a 50 niveles (250 frases técnicas/avanzadas)
+
+Niveles 1-10: Tech & Dev. Optimización de código, bases de datos y modismos de oficina.
+
+Niveles 11-20: Web & Agilidad. Desarrollo de APIs, despliegue (Cloud) y gestión de proyectos.
+
+Niveles 21-30: Arquitectura y Lógica. Criptografía, algoritmos, memoria y estructuras de datos.
+
+Niveles 31-40: Seguridad y Citas. Blockchain, ciberseguridad y frases célebres literarias.
+
+Niveles 41-50: Ciencia y Vanguardia. IA, computación cuántica, astrofísica y estrategia empresarial.
+
+<---------------------------------------------------->
