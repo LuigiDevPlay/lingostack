@@ -5,7 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LingoStack - Menú</title>
     <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#38bdf8">
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js')
+            .then(reg => console.log('LingoStack PWA Activa', reg))
+            .catch(err => console.log('Error al registrar PWA', err));
+        });
+      }
+    </script>
   </head>
+
   <body class="bg-[#0f172a] text-white min-h-screen flex flex-col items-center p-6 select-none">
     <div class="text-center mb-8 md:mb-16 relative">
       <h1
