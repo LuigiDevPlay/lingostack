@@ -40,7 +40,14 @@ export default class GameScene extends Phaser.Scene {
   }
 
   init() {
-    // Leemos todo de una vez y lo guardamos en variables locales de la escena
+    this.score = 0;
+    this.fails = 0;
+    this.currentLevel = 1;
+    this.phrasesInStack = [];
+    this.isGameOver = false;
+    this.isPaused = true;
+
+    // Leemos todo de una vez y lo guardamos en memoria RAM
     this.sourceLang = localStorage.getItem("sourceLang") || "en";
     this.targetLang = localStorage.getItem("targetLang") || "es";
     this.gameMode = localStorage.getItem("selectedDifficulty") || "normal";
@@ -50,10 +57,10 @@ export default class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    // 1. Carga del JSON según dificultad
+    // 1. Carga del JSON según dificultad (Leído desde init)
     let fileName = "normal_100.json";
     if (this.gameMode === "basico") fileName = "basico_100.json";
-    if (this.gameMode === "dificil" || this.gameMode === "experto") fileName = "pro_100.json";
+    else if (this.gameMode === "dificil" || this.gameMode === "experto") fileName = "pro_100.json";
 
     this.load.json("phrasesData", `src/data/${fileName}`);
 
@@ -64,7 +71,6 @@ export default class GameScene extends Phaser.Scene {
     this.load.audio("s_gameover", "src/assets/sounds/gameover.mp3");
 
     // 3. Música de Fondo (BGM)
-    // Usamos los nombres de los archivos que tienes
     this.load.audio(
       "bgm_menu",
       "src/assets/audio/viacheslavstarostin-game-gaming-video-game-music-471936.mp3",
@@ -76,40 +82,35 @@ export default class GameScene extends Phaser.Scene {
     const isMobile = this.scale.width < 1024;
     this.showUI(isMobile);
 
+    // Guardar referencia a los inputs para evitar buscarlos en el update
+    this.uiInput = document.getElementById(isMobile ? "answer-input" : "translation-input");
+    this.uiBtn = document.getElementById(isMobile ? "send-btn" : "submit-btn"); // Ajusta según tus IDs
+
     this.allPhrases = this.cache.json.get("phrasesData");
     this.phrasesData = this.allPhrases.filter((p) => p.nivel === this.currentLevel);
-
-    this.score = 0;
-    this.fails = 0;
-    this.phrasesInStack = [];
-    this.isGameOver = false;
-    this.isPaused = true;
 
     this.updateLayoutSettings();
     this.setupModalEvents();
     this.setupControlButtons();
 
-    // Crear objetos de sonido
+    // Sonidos y Música
     this.sndCorrect = this.sound.add("s_correct");
     this.sndError = this.sound.add("s_error");
     this.sndThud = this.sound.add("s_thud");
     this.sndGameOver = this.sound.add("s_gameover");
-    // Configurar música
     this.menuBgm = this.sound.add("bgm_menu", { volume: 0.3, loop: true });
     this.gameBgm = this.sound.add("bgm_game", { volume: 0.1, loop: true });
 
-    // Iniciar música de menú inmediatamente
     this.menuBgm.play();
-    this.currentLevel = 1;
     this.updateLevelUI();
 
-    // Actualización de idioma
+    // UI de Idiomas
     this.updateDualUI(
       "current-lang",
       `${this.sourceLang.toUpperCase()} ➔ ${this.targetLang.toUpperCase()}`,
     );
 
-    // Lógica de vidas
+    // Lógica de vidas visual
     const failContainerM = document.getElementById("fail-display-m")?.closest(".flex-1");
     if (this.gameMode === "basico") {
       if (failContainerM) failContainerM.style.visibility = "hidden";
@@ -119,29 +120,16 @@ export default class GameScene extends Phaser.Scene {
       this.updateDualUI("fail-display", `0/${this.MAX_FAILS}`);
     }
 
-    // Configuración de Input inicial
+    // Configuración de Input y Resize
     this.initInputMethod(isMobile);
+    this.setupFastInput(); // Tu función de eventos optimizada
 
     this.scale.on("resize", () => {
       const nowMobile = this.scale.width < 1024;
       this.showUI(nowMobile);
-      this.initInputMethod(nowMobile); // Re-configura el input al cambiar tamaño
       this.updateLayoutSettings();
       this.repositionElements();
     });
-
-    const pcInput = document.getElementById("translation-input");
-    if (pcInput) {
-      pcInput.replaceWith(pcInput.cloneNode(true));
-      const freshInput = document.getElementById("translation-input");
-      freshInput.addEventListener("keydown", (e) => {
-        if (e.key === "Enter") {
-          this.checkTranslation(freshInput.value);
-        }
-      });
-    }
-
-    this.setupFastInput();
   }
 
   setupFastInput() {
@@ -223,50 +211,38 @@ export default class GameScene extends Phaser.Scene {
   }
 
   update() {
-    // 1. Bloqueo de seguridad: Si no hay frase, está en pausa o terminó el juego, no hacer nada
+    // 1. Bloqueo de seguridad instantáneo
     if (!this.activePhrase || this.isGameOver || this.isPaused) return;
 
-    // 2. Lógica de Velocidad Condicional (Basico no escala)
-    let baseSpeed = this.gameMode === "experto" ? 2.5 : 2.0;
+    // 2. Cálculo de Velocidad (Optimizado)
     let speed;
-
     if (this.gameMode === "basico") {
-      speed = 1.5; // Velocidad fija y amigable para principiantes
+      speed = 1.5;
     } else {
-      // Escala 0.6 por nivel para Normal y Experto
+      let baseSpeed = this.gameMode === "experto" ? 2.5 : 2.0;
       speed = baseSpeed + (this.currentLevel - 1) * 0.6;
     }
 
     this.activePhrase.y += speed;
 
-    // 3. Cálculo del punto de parada en la pila
+    // 3. Punto de parada
     let currentStopPoint = this.GROUND_Y - this.phrasesInStack.length * this.PHRASE_HEIGHT;
 
-    // 4. Detección de colisión con el suelo o la pila
+    // 4. Colisión
     if (this.activePhrase.y >= currentStopPoint) {
       this.activePhrase.y = currentStopPoint;
 
-      // REPRODUCIR SONIDO DE CAÍDA (Añadido)
-      if (this.sndThud) {
-        this.sndThud.play({ volume: 0.4 });
-      }
+      if (this.sndThud) this.sndThud.play({ volume: 0.4 });
 
-      // Guardamos en la pila
       this.phrasesInStack.push(this.activePhrase);
-      const lastPhrase = this.activePhrase;
       this.activePhrase = null;
 
-      // Actualizar contadores visuales
       this.updateDualUI("counter", `${this.phrasesInStack.length}/5`);
 
-      // 5. Verificar derrota
       if (this.phrasesInStack.length >= 5) {
         this.triggerGameOver();
       } else {
-        // 6. Generar siguiente frase SOLO si no estamos en medio de una transición de nivel
-        // Usamos un pequeño retraso para que no sea instantáneo
         this.time.delayedCall(300, () => {
-          // IMPORTANTE: Si durante esos 300ms se activó la pausa de nivel, spawnPhrase no hará nada
           if (!this.isPaused && !this.isGameOver) {
             this.spawnPhrase();
           }
