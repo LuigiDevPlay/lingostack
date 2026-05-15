@@ -21,9 +21,25 @@
         display: flex;
         flex-direction: column;
       }
+
+      /* Esto asegura que la altura se calcule bien con el teclado abierto */
+      :root {
+        --vh: 1%;
+      }
+
+      body {
+        height: calc(var(--vh, 1vh) * 100);
+      }
+
+      /* Evitar que el input se haga zoom solo en iOS */
+      @media screen and (max-width: 768px) {
+        input[type="text"] {
+          font-size: 16px; 
+        }
+      }
     </style>
   </head>
-    <body class="bg-[#0f172a] h-dvh text-white p-2 lg:p-4 select-none">
+  <body class="bg-[#0f172a] h-dvh flex flex-col overflow-hidden p-0 m-0">
     <header id="mobile-ui-header" class="lg:hidden w-full max-w-md mx-auto mb-2 shrink-0">
       <div
         class="flex flex-col bg-slate-800 rounded-2xl border border-slate-700 shadow-xl overflow-hidden"
@@ -377,6 +393,14 @@
         btn.addEventListener("mouseleave", () => stopSfx(s_hover));
         btn.addEventListener("click", () => playSfx(s_click));
       });
+
+      function updateHeight() {
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      }
+
+      window.addEventListener('resize', updateHeight);
+      updateHeight();
     </script>
 
     <script type="module" src="src/game/main.js"></script>
