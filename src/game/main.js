@@ -4,13 +4,16 @@ import GameScene from "./scenes/game.js";
 const config = {
   type: Phaser.AUTO,
   parent: "game-container",
-  // 1. Quitamos el color sólido y activamos la transparencia
   transparent: true,
+  fps: {
+    target: 30, // 30 FPS es suficiente para un juego de palabras y ahorra mucha batería/CPU
+    forceSetTimeOut: true,
+  },
   scale: {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
-    width: 700,
-    height: 790,
+    width: window.innerWidth,
+    height: window.innerHeight,
   },
   physics: {
     default: "arcade",

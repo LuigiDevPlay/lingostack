@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>LingoStack - Menú</title>
     <link rel="stylesheet" href="src/css/styles.css" />
     <link rel="manifest" href="manifest.json">
@@ -362,6 +362,30 @@
       document.getElementById("close-ranking").onclick = () => {
         rankingModal.classList.add("hidden");
       };
+    </script>
+
+    <script>
+      // 1. "Calentamiento" de la Voz
+      function warmupVoice() {
+        if ('speechSynthesis' in window) {
+          // Creamos un mensaje vacío y silencioso
+          const utterance = new SpeechSynthesisUtterance('');
+          utterance.volume = 0;
+          window.speechSynthesis.speak(utterance);
+          console.log("Motor de voz preparado.");
+        }
+      }
+
+      // Ejecutar el calentamiento cuando el usuario interactúa con la página por primera vez
+      // (Muchos navegadores bloquean el audio/voz hasta que el usuario hace un clic)
+      window.addEventListener('click', warmupVoice, { once: true });
+      window.addEventListener('touchstart', warmupVoice, { once: true });
+
+      // 2. Mejora de respuesta táctil
+      // Evita el retraso de 300ms que tienen algunos navegadores móviles al hacer clic
+      document.querySelectorAll('button, select').forEach(element => {
+        element.style.touchAction = 'manipulation';
+      });
     </script>
   </body>
 </html>

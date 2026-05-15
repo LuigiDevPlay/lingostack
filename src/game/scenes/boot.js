@@ -4,56 +4,63 @@ export default class BootScene extends Phaser.Scene {
   }
 
   preload() {
-    // 1. Carga de Imágenes
-    // Asegúrate de que "logo" y "bg" existan.
-    // Si tu archivo se llama diferente, cámbialo aquí.
-    // this.load.image("logo", "src/assets/img/lingo_stack.png");
+    // --- 1. ELEMENTOS VISUALES DE CARGA ---
+    const width = this.cameras.main.width;
+    const height = this.cameras.main.height;
 
-    // Si tu GameScene usa un fondo, cárgalo aquí para que no de error
-    // this.load.image("bg", "src/assets/img/tu_unica_imagen.png");
+    // Texto de "Cargando..."
+    const loadingText = this.make
+      .text({
+        x: width / 2,
+        y: height / 2 - 50,
+        text: "Cargando LingoStack...",
+        style: { font: "20px monospace", fill: "#38bdf8" },
+      })
+      .setOrigin(0.5);
 
-    // 2. Efectos de Sonido (SFX)
+    // Barra de progreso (fondo)
+    const progressBar = this.add.graphics();
+    const progressBox = this.add.graphics();
+    progressBox.fillStyle(0x1e293b, 0.8);
+    progressBox.fillRect(width / 2 - 160, height / 2, 320, 30);
+
+    // --- 2. CARGA DE RECURSOS (Tu código original) ---
     this.load.audio("s_correct", "src/assets/sounds/correct.mp3");
     this.load.audio("s_error", "src/assets/sounds/error.mp3");
     this.load.audio("s_thud", "src/assets/sounds/thud.mp3");
     this.load.audio("s_gameover", "src/assets/sounds/gameover.mp3");
-
-    // 3. Música de Fondo (BGM)
-    // Importante: Verifica que las extensiones sean .mp3
     this.load.audio("bgm_menu", "src/assets/sounds/bgm_menu.mp3");
     this.load.audio("bgm_game", "src/assets/sounds/bgm_game.mp3");
 
-    // 4. Lógica de carga del JSON según dificultad
-    // Esto es crítico: debe coincidir con el valor del select en index.html
     const gameMode = localStorage.getItem("selectedDifficulty") || "normal";
-    let fileName = "normal_100.json";
-
-    if (gameMode === "basico") {
-      fileName = "basico_100.json";
-    } else if (gameMode === "dificil" || gameMode === "experto") {
-      fileName = "pro_100.json";
-    }
-
-    console.log(`Cargando modo: ${gameMode} -> Archivo: ${fileName}`);
+    let fileName =
+      gameMode === "basico"
+        ? "basico_100.json"
+        : gameMode === "dificil" || gameMode === "experto"
+          ? "pro_100.json"
+          : "normal_100.json";
 
     this.load.json("phrasesData", `src/data/${fileName}`);
 
-    // Feedback de carga
+    // --- 3. LOGICA DE LA BARRA DE PROGRESO ---
     this.load.on("progress", (value) => {
-      // Aquí podrías actualizar una barra de carga visual si quisieras
+      progressBar.clear();
+      progressBar.fillStyle(0x38bdf8, 1);
+      progressBar.fillRect(width / 2 - 150, height / 2 + 5, 300 * value, 20);
     });
 
     this.load.on("complete", () => {
-      console.log("Todos los recursos se han descargado correctamente.");
+      progressBar.destroy();
+      progressBox.destroy();
+      loadingText.destroy();
+      console.log("Carga completa");
     });
   }
 
   create() {
-    // Verificamos que el JSON se cargó bien antes de pasar a la siguiente escena
     if (!this.cache.json.exists("phrasesData")) {
-      console.error("ERROR: No se pudo cargar el archivo JSON de frases.");
+      console.error("ERROR: No se pudo cargar el JSON.");
     }
-
     this.scene.start("GameScene");
   }
 }

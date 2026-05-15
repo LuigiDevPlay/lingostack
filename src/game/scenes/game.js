@@ -39,6 +39,16 @@ export default class GameScene extends Phaser.Scene {
     this.fails = 0;
   }
 
+  init() {
+    // Leemos todo de una vez y lo guardamos en variables locales de la escena
+    this.sourceLang = localStorage.getItem("sourceLang") || "en";
+    this.targetLang = localStorage.getItem("targetLang") || "es";
+    this.gameMode = localStorage.getItem("selectedDifficulty") || "normal";
+
+    // Configura fallos según el modo una sola vez
+    this.MAX_FAILS = this.gameMode === "experto" ? 3 : this.gameMode === "basico" ? 999 : 5;
+  }
+
   preload() {
     // 1. Carga del JSON según dificultad
     let fileName = "normal_100.json";
@@ -128,6 +138,25 @@ export default class GameScene extends Phaser.Scene {
         if (e.key === "Enter") {
           this.checkTranslation(freshInput.value);
         }
+      });
+    }
+
+    this.setupFastInput();
+  }
+
+  setupFastInput() {
+    const inputField = document.getElementById("answer-input");
+    const sendBtn = document.getElementById("send-btn");
+
+    if (inputField && sendBtn) {
+      // Quitamos cualquier evento previo para no duplicar
+      sendBtn.replaceWith(sendBtn.cloneNode(true));
+      const newBtn = document.getElementById("send-btn");
+
+      newBtn.addEventListener("click", () => {
+        this.checkUserAnswer(inputField.value);
+        inputField.value = "";
+        inputField.focus(); // Mantiene el teclado abierto en móvil
       });
     }
   }
