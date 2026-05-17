@@ -2,10 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-select=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <title>LingoStack - Aprende Idiomas</title>
     <link rel="stylesheet" href="src/css/styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js"></script>
@@ -20,6 +17,8 @@
       body {
         display: flex;
         flex-direction: column;
+        padding-bottom: env(safe-area-inset-bottom);
+        padding-top: env(safe-area-inset-top);
       }
 
       /* Esto asegura que la altura se calcule bien con el teclado abierto */
@@ -27,8 +26,8 @@
         --vh: 1%;
       }
 
-      body {
-        height: calc(var(--vh, 1vh) * 100);
+      .pb-safe {
+        padding-bottom: calc(env(safe-area-inset-bottom) + 0.5rem);
       }
 
       /* Evitar que el input se haga zoom solo en iOS */
@@ -231,19 +230,20 @@
     </div>
 
     <footer
-      id="mobile-ui-footer"
-      class="hidden flex-col w-full max-w-md mx-auto space-y-1 pb-4 px-2 z-50 mt-auto shrink-0 max-h-[38vh]"
-    >
-      <div
-        id="virtual-display-m"
-        class="w-full h-8 rounded-xl bg-slate-900 border border-slate-700 text-lg text-center text-white font-black shadow-inner flex items-center justify-center shrink-0 mt-2"
-      ></div>
+  id="mobile-ui-footer"
+  class="hidden flex-col w-full max-w-md mx-auto pb-safe px-3 z-50 mt-auto shrink-0 select-none"
+>
+  <div
+    id="virtual-display-m"
+    class="w-full h-10 rounded-xl bg-slate-900 border border-slate-700 text-lg text-center text-white font-black shadow-inner flex items-center justify-center shrink-0 my-2"
+  ></div>
 
-      <div
-        id="virtual-keyboard-m"
-        class="bg-slate-900/40 rounded-2xl border border-slate-800 p-1 overflow-hidden flex flex-col min-h-0"
-      ></div>
-    </footer>
+  <div
+    id="virtual-keyboard-m"
+    class="bg-slate-900/60 backdrop-blur-md rounded-2xl border border-slate-800 p-2 w-full touch-none"
+  >
+    </div>
+</footer>
 
     <div
       id="setup-modal"

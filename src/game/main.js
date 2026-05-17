@@ -5,12 +5,21 @@ const config = {
   type: Phaser.AUTO,
   parent: "game-container",
   transparent: true,
+
+  // OPTIMIZACIÓN CRÍTICA PARA MÓVILES (Evita el lag y ahorra batería)
   fps: {
-    target: 30, // 30 FPS es suficiente para un juego de palabras y ahorra mucha batería/CPU
-    forceSetTimeOut: true,
+    target: 60, // 60 FPS estables o 30 si el teléfono es de gama muy baja
+    forceSetTimeOut: true, // Fuerza a mantener el ritmo sin sobrecargar la CPU
   },
+
+  render: {
+    powerPreference: "high-performance", // Pide rendimiento al procesador gráfico
+    antialias: false, // Desactiva antialias para ganar velocidad de renderizado
+    pixelArt: true, // Si usas textos o bordes afilados, mejora el rendimiento
+  },
+
   scale: {
-    mode: Phaser.Scale.RESIZE,
+    mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
     width: window.innerWidth,
     height: window.innerHeight,
