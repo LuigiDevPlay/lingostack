@@ -26,8 +26,8 @@ const config = {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
     // En móvil forzamos tus valores del viewport. En PC le pasamos el string "100%" en minúsculas.
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: isMobile ? window.innerWidth : "100%",
+    height: isMobile ? window.innerHeight : "100%",
   },
 
   physics: {
