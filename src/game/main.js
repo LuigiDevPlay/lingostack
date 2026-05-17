@@ -1,7 +1,7 @@
 import BootScene from "./scenes/boot.js";
 import GameScene from "./scenes/game.js";
 
-// Detectamos si es un dispositivo móvil (Teléfono o Tablet)
+// Detectamos si es un dispositivo móvil de manera estricta
 const isMobile =
   /Mobi|Android|iPhone|iPad|Macintosh/i.test(navigator.userAgent) && window.innerWidth < 1024;
 
@@ -21,13 +21,13 @@ const config = {
     pixelArt: true,
   },
 
-  // CONFIGURACIÓN DE ESCALA DINÁMICA HÍBRIDA
+  // CONFIGURACIÓN DE ESCALA DINÁMICA CORREGIDA
   scale: {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
-    // Si es móvil usa los valores en píxeles fijos del Viewport, si es PC usa el 100% del contenedor div
-    width: isMobile ? window.innerWidth : "100%",
-    height: isMobile ? window.innerHeight : "100%",
+    // Forzamos un tamaño base responsivo nativo que Phaser entiende perfectamente
+    width: isMobile ? 360 : "100%",
+    height: isMobile ? 640 : "100%",
   },
 
   physics: {
