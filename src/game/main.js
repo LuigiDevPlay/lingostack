@@ -1,29 +1,35 @@
 import BootScene from "./scenes/boot.js";
 import GameScene from "./scenes/game.js";
 
+// Detectamos si es un dispositivo móvil (Teléfono o Tablet)
+const isMobile =
+  /Mobi|Android|iPhone|iPad|Macintosh/i.test(navigator.userAgent) && window.innerWidth < 1024;
+
 const config = {
   type: Phaser.AUTO,
   parent: "game-container",
   transparent: true,
 
-  // OPTIMIZACIÓN CRÍTICA PARA MÓVILES (Evita el lag y ahorra batería)
   fps: {
-    target: 60, // 60 FPS estables o 30 si el teléfono es de gama muy baja
-    forceSetTimeOut: true, // Fuerza a mantener el ritmo sin sobrecargar la CPU
+    target: 60,
+    forceSetTimeOut: true,
   },
 
   render: {
-    powerPreference: "high-performance", // Pide rendimiento al procesador gráfico
-    antialias: false, // Desactiva antialias para ganar velocidad de renderizado
-    pixelArt: true, // Si usas textos o bordes afilados, mejora el rendimiento
+    powerPreference: "high-performance",
+    antialias: false,
+    pixelArt: true,
   },
 
+  // CONFIGURACIÓN DE ESCALA DINÁMICA HÍBRIDA
   scale: {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
-    width: window.innerWidth,
-    height: window.innerHeight,
+    // Si es móvil usa los valores en píxeles fijos del Viewport, si es PC usa el 100% del contenedor div
+    width: isMobile ? window.innerWidth : "100%",
+    height: isMobile ? window.innerHeight : "100%",
   },
+
   physics: {
     default: "arcade",
     arcade: { debug: false },

@@ -24,7 +24,7 @@ export default class BootScene extends Phaser.Scene {
     progressBox.fillStyle(0x1e293b, 0.8);
     progressBox.fillRect(width / 2 - 160, height / 2, 320, 30);
 
-    // --- 2. CARGA DE RECURSOS (Tu código original) ---
+    // --- 2. CARGA DE RECURSOS ---
     this.load.audio("s_correct", "src/assets/sounds/correct.mp3");
     this.load.audio("s_error", "src/assets/sounds/error.mp3");
     this.load.audio("s_thud", "src/assets/sounds/thud.mp3");
@@ -42,7 +42,7 @@ export default class BootScene extends Phaser.Scene {
 
     this.load.json("phrasesData", `src/data/${fileName}`);
 
-    // --- 3. LOGICA DE LA BARRA DE PROGRESO ---
+    // --- 3. LÓGICA DE LA BARRA DE PROGRESO ---
     this.load.on("progress", (value) => {
       progressBar.clear();
       progressBar.fillStyle(0x38bdf8, 1);
@@ -53,7 +53,7 @@ export default class BootScene extends Phaser.Scene {
       progressBar.destroy();
       progressBox.destroy();
       loadingText.destroy();
-      console.log("Carga completa");
+      console.log("Carga completa en Phaser");
     });
   }
 
@@ -61,6 +61,13 @@ export default class BootScene extends Phaser.Scene {
     if (!this.cache.json.exists("phrasesData")) {
       console.error("ERROR: No se pudo cargar el JSON.");
     }
+
+    // --- ENLACE CRÍTICO HTML-PHASER ---
+    // Le avisamos al modal que ya descargamos todo para habilitar el botón "INICIAR"
+    if (typeof window.onGameAssetsLoaded === "function") {
+      window.onGameAssetsLoaded();
+    }
+
     this.scene.start("GameScene");
   }
 }

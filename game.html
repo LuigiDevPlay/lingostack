@@ -38,7 +38,7 @@
       }
     </style>
   </head>
-  <body class="bg-[#0f172a] h-dvh flex flex-col overflow-hidden p-0 m-0">
+  <body class="bg-[#0f172a] h-dvh flex flex-col overflow-hidden p-0 m-0 lg:p-4 lg:text-white">
     <header id="mobile-ui-header" class="lg:hidden w-full max-w-md mx-auto mb-2 shrink-0">
       <div
         class="flex flex-col bg-slate-800 rounded-2xl border border-slate-700 shadow-xl overflow-hidden"
@@ -248,20 +248,29 @@
 
     <div
       id="setup-modal"
-      class="fixed inset-0 bg-slate-950/95 z-100 flex items-center justify-center p-4"
+      class="fixed inset-0 bg-slate-950/95 z-200 flex items-center justify-center p-4 transition-opacity duration-300"
     >
       <div
-        class="bg-slate-900 border-2 border-red-600 p-6 rounded-3xl max-w-sm w-full shadow-[0_0_20px_rgba(220,38,38,0.3)]"
+        class="bg-slate-900 border-2 border-red-600 p-6 rounded-3xl max-w-sm w-full shadow-[0_0_20px_rgba(220,38,38,0.3)] relative overflow-hidden"
       >
+        <div 
+          id="modal-loader" 
+          class="absolute inset-0 bg-slate-900/95 z-50 flex flex-col items-center justify-center space-y-4 p-6 transition-all duration-300"
+        >
+          <div class="w-12 h-12 border-4 border-t-red-600 border-slate-700 rounded-full animate-spin"></div>
+          <div class="text-center">
+            <h3 class="text-white font-black tracking-tight text-lg uppercase">Preparando Juego</h3>
+            <p class="text-xs text-slate-400 font-medium mt-1 animate-pulse">Cargando sonidos y frases...</p>
+          </div>
+        </div>
+
         <h2 class="text-2xl font-black text-white mb-6 text-center tracking-tighter">
           CONFIGURAR PARTIDA
         </h2>
 
         <div class="space-y-4">
           <div>
-            <label class="text-xs text-slate-400 font-bold uppercase tracking-widest ml-1"
-              >Idioma en Bloque</label
-            >
+            <label class="text-xs text-slate-400 font-bold uppercase tracking-widest ml-1">Idioma en Bloque</label>
             <select
               id="select-source"
               class="w-full bg-slate-800 p-3 mt-1 rounded-xl border border-slate-700 text-white outline-none focus:border-red-500 transition-colors cursor-pointer"
@@ -279,9 +288,7 @@
           </div>
 
           <div>
-            <label class="text-xs text-slate-400 font-bold uppercase tracking-widest ml-1"
-              >Tu Teclado</label
-            >
+            <label class="text-xs text-slate-400 font-bold uppercase tracking-widest ml-1">Tu Teclado</label>
             <select
               id="select-target"
               class="w-full bg-slate-800 p-3 mt-1 rounded-xl border border-slate-700 text-white outline-none focus:border-red-500 transition-colors cursor-pointer"
@@ -296,9 +303,10 @@
 
           <button
             id="start-game-btn"
-            class="w-full py-4 mt-2 bg-red-600 hover:bg-red-500 text-white font-black rounded-2xl shadow-lg transition-all transform active:scale-95 uppercase tracking-tight cursor-pointer"
+            disabled
+            class="w-full py-4 mt-2 bg-slate-700 text-slate-400 font-black rounded-2xl shadow-lg transition-all transform opacity-50 cursor-not-allowed uppercase tracking-tight"
           >
-            INICIAR DESAFÍO
+            ESPERANDO RECURSOS...
           </button>
         </div>
       </div>
@@ -402,6 +410,25 @@
 
       window.addEventListener('resize', updateHeight);
       updateHeight();
+
+      // Función global que llamará Phaser cuando esté 100% cargado
+      window.onGameAssetsLoaded = function() {
+        const loader = document.getElementById("modal-loader");
+        const startBtn = document.getElementById("start-game-btn");
+
+        if (loader) {
+          // Desvanecer capa de carga suavemente
+          loader.classList.add("opacity-0", "pointer-events-none");
+          setTimeout(() => loader.remove(), 300); // Lo eliminamos para ahorrar memoria
+        }
+
+        if (startBtn) {
+          // Habilitar botón de inicio y restaurar sus estilos interactivos de Tailwind
+          startBtn.disabled = false;
+          startBtn.innerText = "INICIAR DESAFÍO";
+          startBtn.className = "w-full py-4 mt-2 bg-red-600 hover:bg-red-500 text-white font-black rounded-2xl shadow-lg transition-all transform active:scale-95 uppercase tracking-tight cursor-pointer";
+        }
+      };
     </script>
 
     <script type="module" src="src/game/main.js"></script>
