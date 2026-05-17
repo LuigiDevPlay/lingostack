@@ -1,21 +1,29 @@
 import BootScene from "./scenes/boot.js";
 import GameScene from "./scenes/game.js";
 
-// Detectamos de forma estricta si es un entorno móvil (Teléfono o Tablet)
-const isMobile =
-  /Mobi|Android|iPhone|iPad|Macintosh/i.test(navigator.userAgent) && window.innerWidth < 1024;
+// 1. Obtenemos el elemento físico principal
+const gameMain = document.getElementById("game-main");
 
-// Obtenemos el contenedor HTML real de la PC para saber sus dimensiones exactas
-const container = document.getElementById("game-container");
-const containerWidth = container ? container.clientWidth : 800;
-const containerHeight = container ? container.clientHeight : 600;
+// 2. Variables base de control de tamaño para el motor
+let finalWidth;
+let finalHeight;
+
+// Tu lógica exacta: Si es una pantalla o contenedor de PC (> 768px)
+if (window.innerWidth > 768 && gameMain) {
+  // Calculamos los píxeles reales exactos que tiene tu div estirado por Tailwind
+  finalWidth = gameMain.clientWidth;
+  finalHeight = gameMain.clientHeight;
+} else {
+  // Si es menor o igual a 768px (Móvil), le inyectamos los valores puros del viewport que te funcionan
+  finalWidth = window.innerWidth;
+  finalHeight = window.innerHeight;
+}
 
 const config = {
   type: Phaser.AUTO,
   parent: "game-container",
   transparent: true,
 
-  // OPTIMIZACIÓN CRÍTICA PARA MÓVILES (Evita el lag y ahorra batería)
   fps: {
     target: 60,
     forceSetTimeOut: true,
@@ -27,14 +35,12 @@ const config = {
     pixelArt: true,
   },
 
-  // CONFIGURACIÓN DE ESCALA CONTROLADA POR ENTORNO
   scale: {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
-    // Si es móvil, usa los valores nativos del Viewport (lo que te funcionó a ti)
-    // Si es PC, lee los píxeles reales calculados del contenedor renderizado por CSS
-    width: isMobile ? window.innerWidth : containerWidth,
-    height: isMobile ? window.innerHeight : containerHeight,
+    // Aquí inyectamos los valores numéricos fijos calculados arriba
+    width: finalWidth,
+    height: finalHeight,
   },
 
   physics: {
@@ -44,4 +50,16 @@ const config = {
   scene: [BootScene, GameScene],
 };
 
-new Phaser.Game(config);
+// Inicializamos el juego
+const game = new Phaser.Game(config);
+
+// Truco de respaldo para reajustar si la PC tarda un milisegundo en procesar el layout de Tailwind
+if (window.innerWidth > 768) {
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      if (gameMain) {
+        game.scale.resize(gameMain.clientWidth, gameMain.clientHeight);
+      }
+    }, 150);
+  });
+}
