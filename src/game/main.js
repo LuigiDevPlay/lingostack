@@ -49,6 +49,8 @@ const config = {
 
 const game = new Phaser.Game(config);
 
+window.gameInstance = game;
+
 // Reajuste por si el layout tarda milisegundos en renderizarse por completo en PC
 if (window.innerWidth > 768) {
   window.addEventListener("load", () => {

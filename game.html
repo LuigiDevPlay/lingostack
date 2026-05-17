@@ -429,6 +429,40 @@
           startBtn.className = "w-full py-4 mt-2 bg-red-600 hover:bg-red-500 text-white font-black rounded-2xl shadow-lg transition-all transform active:scale-95 uppercase tracking-tight cursor-pointer";
         }
       };
+
+      // Capturar la tecla Enter en el input de PC
+      const translationInput = document.getElementById("translation-input");
+
+      if (translationInput) {
+        translationInput.addEventListener("keydown", function(event) {
+          if (event.key === "Enter") {
+            event.preventDefault(); // Evitar que recargue la página
+            
+            const text = this.value.trim(); // Limpiar espacios extras
+            
+            if (text !== "") {
+              // 1. Verificamos que el juego esté instanciado en window
+              if (window.gameInstance) {
+                // 2. Buscamos la escena activa "GameScene"
+                const gameScene = window.gameInstance.scene.getScene("GameScene");
+                
+                // 3. Si la escena está corriendo y tiene tu método de validar, se lo enviamos
+                // (Asumiendo que tu método en game.js se llama checkTranslation o validarTexto)
+                if (gameScene && typeof gameScene.checkTranslation === "function") {
+                  gameScene.checkTranslation(text);
+                } else if (gameScene && typeof gameScene.validarTexto === "function") {
+                  gameScene.validarTexto(text);
+                } else {
+                  console.warn("No se encontró el método de validación dentro de GameScene.");
+                }
+              }
+              
+              // Limpiamos el input para la siguiente palabra
+              this.value = "";
+            }
+          }
+        });
+      }
     </script>
 
     <script type="module" src="src/game/main.js"></script>
