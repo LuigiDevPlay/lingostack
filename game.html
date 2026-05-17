@@ -192,59 +192,59 @@
         </div>
       </aside>
 
-      <main id="game-main" class="flex-1 relative min-h-0 w-full">
-        <div
-          id="game-container"
-          class="w-full h-full border-4 border-slate-600 rounded-3xl overflow-hidden relative shadow-2xl"
+      <main id="game-main" class="flex-1 relative min-h-0 w-full overflow-hidden flex items-center justify-center">
+  <div
+    id="game-container"
+    class="w-full h-full border-4 border-slate-600 rounded-3xl overflow-hidden relative shadow-2xl bg-slate-950/20"
+  >
+    <div
+      id="game-over-screen"
+      class="hidden absolute inset-0 z-100 flex-col items-center justify-center space-y-6 p-6 bg-slate-950/95 backdrop-blur-sm"
+    >
+      <div class="text-center space-y-2">
+        <h2 class="text-3xl font-black text-white tracking-tighter">¡FIN DE LA PARTIDA!</h2>
+        <p class="text-xs text-slate-400 uppercase font-bold tracking-widest">
+          Puntaje Final
+        </p>
+        <p class="text-6xl font-black text-sky-400" id="final-score">0</p>
+      </div>
+
+      <div class="flex flex-col w-full max-w-60 gap-3">
+        <button
+          id="retry-btn"
+          class="w-full py-4 bg-sky-600 hover:bg-sky-500 text-white font-black rounded-2xl shadow-lg transition-transform active:scale-95 uppercase text-sm cursor-pointer"
         >
-          <div
-            id="game-over-screen"
-            class="hidden absolute inset-0 z-100 flex-col items-center justify-center space-y-6 p-6 bg-slate-950/95 backdrop-blur-sm"
-          >
-            <div class="text-center space-y-2">
-              <h2 class="text-3xl font-black text-white tracking-tighter">¡FIN DE LA PARTIDA!</h2>
-              <p class="text-xs text-slate-400 uppercase font-bold tracking-widest">
-                Puntaje Final
-              </p>
-              <p class="text-6xl font-black text-sky-400" id="final-score">0</p>
-            </div>
+          Reintentar
+        </button>
 
-            <div class="flex flex-col w-full max-w-60 gap-3">
-              <button
-                id="retry-btn"
-                class="w-full py-4 bg-sky-600 hover:bg-sky-500 text-white font-black rounded-2xl shadow-lg transition-transform active:scale-95 uppercase text-sm"
-              >
-                Reintentar
-              </button>
-
-              <button
-                id="change-lang-btn"
-                class="w-full py-4 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold rounded-2xl border border-slate-700 transition-transform active:scale-95 uppercase text-sm"
-              >
-                Cambiar Idiomas
-              </button>
-            </div>
-          </div>
-        </div>
-      </main>
+        <button
+          id="change-lang-btn"
+          class="w-full py-4 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold rounded-2xl border border-slate-700 transition-transform active:scale-95 uppercase text-sm cursor-pointer"
+        >
+          Cambiar Idiomas
+        </button>
+      </div>
+    </div>
+  </div>
+</main>
     </div>
 
     <footer
-  id="mobile-ui-footer"
-  class="hidden flex-col w-full max-w-md mx-auto px-3 z-50 mt-auto shrink-0 select-none"
-  style="padding-bottom: calc(env(safe-area-inset-bottom) + 0.75rem);"
->
-  <div
-    id="virtual-display-m"
-    class="w-full h-10 rounded-xl bg-slate-900 border border-slate-700 text-lg text-center text-white font-black shadow-inner flex items-center justify-center shrink-0 mb-2"
-  ></div>
+      id="mobile-ui-footer"
+      class="hidden flex-col w-full max-w-md mx-auto px-3 z-50 mt-auto shrink-0 select-none"
+      style="padding-bottom: calc(env(safe-area-inset-bottom) + 0.75rem);"
+    >
+      <div
+        id="virtual-display-m"
+        class="w-full h-10 rounded-xl bg-slate-900 border border-slate-700 text-lg text-center text-white font-black shadow-inner flex items-center justify-center shrink-0 mb-2"
+      ></div>
 
-  <div
-    id="virtual-keyboard-m"
-    class="bg-slate-900/70 backdrop-blur-md rounded-2xl border border-slate-800 p-2 flex flex-col gap-1 w-full"
-  >
-    </div>
-</footer>
+      <div
+        id="virtual-keyboard-m"
+        class="bg-slate-900/70 backdrop-blur-md rounded-2xl border border-slate-800 p-2 flex flex-col gap-1 w-full"
+      >
+        </div>
+    </footer>
 
     <div
       id="setup-modal"
