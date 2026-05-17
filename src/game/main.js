@@ -9,7 +9,7 @@ let finalWidth;
 let finalHeight;
 
 // Tu lógica exacta: Si es una pantalla o contenedor de PC (> 768px)
-if (window.innerWidth > 768 && gameMain) {
+if (window.innerWidth > 1024 && gameMain) {
   // Calculamos los píxeles reales exactos que tiene tu div estirado por Tailwind
   finalWidth = gameMain.clientWidth;
   finalHeight = gameMain.clientHeight;
