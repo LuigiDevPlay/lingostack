@@ -386,6 +386,9 @@
   .min-h-\[44px\] {
     min-height: 44px;
   }
+  .min-h-\[48px\] {
+    min-height: 48px;
+  }
   .min-h-screen {
     min-height: 100vh;
   }
@@ -464,6 +467,9 @@
   }
   .cursor-pointer {
     cursor: pointer;
+  }
+  .touch-manipulation {
+    touch-action: manipulation;
   }
   .touch-none {
     touch-action: none;
@@ -719,6 +725,12 @@
       background-color: color-mix(in oklab, var(--color-slate-900) 60%, transparent);
     }
   }
+  .bg-slate-900\/70 {
+    background-color: color-mix(in srgb, oklch(20.8% 0.042 265.755) 70%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-slate-900) 70%, transparent);
+    }
+  }
   .bg-slate-950\/50 {
     background-color: color-mix(in srgb, oklch(12.9% 0.042 264.695) 50%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -805,6 +817,9 @@
   }
   .pt-1\.5 {
     padding-top: calc(var(--spacing) * 1.5);
+  }
+  .pt-2 {
+    padding-top: calc(var(--spacing) * 2);
   }
   .pr-2 {
     padding-right: calc(var(--spacing) * 2);
