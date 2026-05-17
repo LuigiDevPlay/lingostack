@@ -1,15 +1,21 @@
 import BootScene from "./scenes/boot.js";
 import GameScene from "./scenes/game.js";
 
-// Detectamos si es un dispositivo móvil de forma estricta
+// Detectamos de forma estricta si es un entorno móvil (Teléfono o Tablet)
 const isMobile =
   /Mobi|Android|iPhone|iPad|Macintosh/i.test(navigator.userAgent) && window.innerWidth < 1024;
+
+// Obtenemos el contenedor HTML real de la PC para saber sus dimensiones exactas
+const container = document.getElementById("game-container");
+const containerWidth = container ? container.clientWidth : 800;
+const containerHeight = container ? container.clientHeight : 600;
 
 const config = {
   type: Phaser.AUTO,
   parent: "game-container",
   transparent: true,
 
+  // OPTIMIZACIÓN CRÍTICA PARA MÓVILES (Evita el lag y ahorra batería)
   fps: {
     target: 60,
     forceSetTimeOut: true,
@@ -21,13 +27,14 @@ const config = {
     pixelArt: true,
   },
 
-  // CONFIGURACIÓN DE ESCALA DINÁMICA DE PHASER INTEGRADA
+  // CONFIGURACIÓN DE ESCALA CONTROLADA POR ENTORNO
   scale: {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
-    // En móvil forzamos tus valores del viewport. En PC le pasamos el string "100%" en minúsculas.
-    width: isMobile ? window.innerWidth : "100%",
-    height: isMobile ? window.innerHeight : "100%",
+    // Si es móvil, usa los valores nativos del Viewport (lo que te funcionó a ti)
+    // Si es PC, lee los píxeles reales calculados del contenedor renderizado por CSS
+    width: isMobile ? window.innerWidth : containerWidth,
+    height: isMobile ? window.innerHeight : containerHeight,
   },
 
   physics: {
@@ -37,15 +44,4 @@ const config = {
   scene: [BootScene, GameScene],
 };
 
-// Inicializamos el juego
-const game = new Phaser.Game(config);
-
-// TRUCO EXTRA PARA PC: Si es computadora, forzamos un reajuste de tamaño después de 100ms
-// Esto asegura que Tailwind ya haya estirado el div gris antes de que Phaser dibuje el lienzo.
-if (!isMobile) {
-  window.addEventListener("load", () => {
-    setTimeout(() => {
-      game.scale.refresh();
-    }, 100);
-  });
-}
+new Phaser.Game(config);
