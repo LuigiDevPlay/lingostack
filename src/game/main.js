@@ -9,14 +9,18 @@ let finalWidth;
 let finalHeight;
 
 // Tu lógica exacta: Si es una pantalla o contenedor de PC (> 768px)
-if (window.innerWidth > 1024 && gameMain) {
+if (window.innerWidth > 768 && gameMain) {
   // Calculamos los píxeles reales exactos que tiene tu div estirado por Tailwind
-  finalWidth = gameMain.clientWidth;
-  finalHeight = gameMain.clientHeight;
-} else {
-  // Si es menor o igual a 768px (Móvil), le inyectamos los valores puros del viewport que te funcionan
+  // finalWidth = gameMain.clientWidth;
+  // finalHeight = gameMain.clientHeight;
   finalWidth = window.innerWidth;
   finalHeight = window.innerHeight;
+} else {
+  // Si es menor o igual a 768px (Móvil), le inyectamos los valores puros del viewport que te funcionan
+  // finalWidth = window.innerWidth;
+  // finalHeight = window.innerHeight;
+  finalWidth = gameMain.clientWidth;
+  finalHeight = gameMain.clientHeight;
 }
 
 const config = {
