@@ -618,14 +618,15 @@ export default class GameScene extends Phaser.Scene {
 
   addKeyboardControls(container, display, onEnter, onDelete, onSpace) {
     const ctrlRow = document.createElement("div");
-    // Reducimos mt-1 y pt-1 para ganar espacio vertical
-    ctrlRow.className = "flex gap-1 w-full mt-1 pt-1 border-t border-slate-700/30 shrink-0 h-10";
+    // Cambiamos h-10 por h-11 y añadimos min-h-[44px] para asegurar que el sistema operativo no lo colapse
+    ctrlRow.className =
+      "flex gap-1 w-full mt-1.5 pt-1.5 border-t border-slate-700/40 shrink-0 h-11 min-h-[44px]";
 
     // Botón BORRAR
     const delBtn = document.createElement("button");
     delBtn.innerHTML = "⌫";
     delBtn.className =
-      "flex-1 bg-slate-700 text-red-400 rounded-lg border-b-2 border-slate-950 font-bold text-lg active:translate-y-[1px] flex items-center justify-center";
+      "flex-1 bg-slate-700 text-red-400 rounded-xl border-b-2 border-slate-950 font-bold text-xl active:translate-y-[1px] flex items-center justify-center cursor-pointer select-none";
     delBtn.onclick = (e) => {
       e.preventDefault();
       onDelete();
@@ -633,9 +634,9 @@ export default class GameScene extends Phaser.Scene {
 
     // Botón ESPACIO
     const spaceBtn = document.createElement("button");
-    spaceBtn.innerText = "___";
+    spaceBtn.innerText = "ESPACIO"; // Cambiado de "___" a texto real para que sea más intuitivo y ocupe su espacio
     spaceBtn.className =
-      "flex-[1.5] bg-slate-800 text-slate-400 rounded-lg border-b-2 border-slate-950 font-black text-[9px] flex items-center justify-center";
+      "flex-[1.5] bg-slate-800 text-slate-300 rounded-xl border-b-2 border-slate-950 font-black text-xs uppercase tracking-wider active:translate-y-[1px] flex items-center justify-center cursor-pointer select-none";
     spaceBtn.onclick = (e) => {
       e.preventDefault();
       onSpace();
@@ -643,9 +644,9 @@ export default class GameScene extends Phaser.Scene {
 
     // Botón ENVIAR
     const enterBtn = document.createElement("button");
-    enterBtn.innerText = "OK";
+    enterBtn.innerText = "ENVIAR"; // Cambiado "OK" por "ENVIAR" con mejor contraste y tamaño
     enterBtn.className =
-      "flex-[2] bg-sky-600 text-white rounded-lg border-b-2 border-sky-800 font-black text-[10px] flex items-center justify-center";
+      "flex-[2] bg-sky-600 text-white rounded-xl border-b-2 border-sky-800 font-black text-xs uppercase tracking-wider active:translate-y-[1px] flex items-center justify-center cursor-pointer select-none active:bg-sky-500";
     enterBtn.onclick = (e) => {
       e.preventDefault();
       onEnter(display.innerText);
